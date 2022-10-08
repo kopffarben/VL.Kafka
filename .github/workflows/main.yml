@@ -1,0 +1,67 @@
+# This is a basic workflow to help you get started with Actions
+
+name: push_nuget_and_release
+
+# on push on master
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'The version to push'
+        required: false
+        default: 'X.X.X'
+      is_pre:
+        description: 'Is pre release'
+        type: boolean
+      notes:
+        description: 'A description for this release, will be displayed in the Releases section'
+        required: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Git Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.0.2
+
+    - name: Setup Nuget.exe
+      uses: nuget/setup-nuget@v1
+      
+    - name: NBGV
+      uses: dotnet/nbgv@master
+      with:
+        setAllVars: true
+        stamp: version.json
+    - run: echo "$NBGV_SemVer2"
+    - run: echo "$NBGV_NuGetPackageVersion"
+    - run: echo "$NBGV_SimpleVersion"
+    - run: echo "$NBGV_VersionRevision"
+    - run: echo "$NBGV_PrereleaseVersion"
+    
+#    - name: Publish VL Nuget
+#      uses: vvvv/PublishVLNuget@1.0.41
+#      with:
+#        csproj: src/Whatever/Whatever.csproj
+#        nuspec: deployment/GithubPackageTest.nuspec
+#        version: ${{ github.event.inputs.version }}
+#        nuget-key: ${{ secrets.NUGET_KEY }}
+  
+#    - name: Create Tag
+#      uses: negz/create-tag@v1
+#      with:
+#        version: ${{ github.event.inputs.version }}
+#        message: ${{ github.event.inputs.notes }}
+#        token: ${{ secrets.GITHUB_TOKEN }}
+        
+#    - name: Release
+#      uses: softprops/action-gh-release@v1
+#      with:
+#        body: ${{ github.event.inputs.notes }}
+#        tag_name: ${{ github.event.inputs.version }}
+#        files: ./*.nupkg
+#        token: ${{ secrets.GITHUB_TOKEN }}
