@@ -15,7 +15,6 @@
 	<license type="expression">LGPL-3.0-only</license>
     <dependencies>
       <dependency id="Confluent.Kafka" version="1.9.2" />
-      <dependency id="VL.Core" version="2022.5.0-0258-g07680ccc6f" />
     </dependencies>
   </metadata>
   <files>
