@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Kafka</id>
-    <version>0.1.0-preview</version>
+    <version>0.1.1-preview</version>
     <title>VL.Kafka</title>
     <authors>Johannes Schmidt</authors>
     <owners>kopffarben</owners>
@@ -20,6 +20,8 @@
   <files>
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
-	<file src="..\src\VL.Kafka.Helper\bin\Release\net6.0\VL.Kafka.Helper.dll" target="lib\net6.0" exclude="" /> 
+	<file src="..\src\VL.Kafka.Helper\bin\Release\net6.0\VL.Kafka.Helper.dll" target="lib\net6.0" exclude="" />
+	<file src="..\src\VL.Kafka.Helper\VL.Kafka.Helper.csproj" target="src\VL.Kafka.Helper\" exclude="" />
+	<file src="..\src\VL.Kafka.Helper\*.cs" target="src\VL.Kafka.Helper\" exclude="" />
   </files>
 </package>
