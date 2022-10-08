@@ -5,6 +5,11 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VL.Kafka.Helper", "VL.Kafka.Helper\VL.Kafka.Helper.csproj", "{3748BB81-AEEF-461B-9949-7944EC03366E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{47B66206-E5AF-4B29-AE5A-2F5A89A64E6A}"
+	ProjectSection(SolutionItems) = preProject
+		..\deployment\dev.VL.Kafka.nuspec = ..\deployment\dev.VL.Kafka.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

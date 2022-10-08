@@ -4811,5 +4811,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="QNl2gpgmT7ANXtXEuPTzan" Location="Confluent.Kafka" Version="1.9.3" />
-  <ProjectDependency Id="HL89eq8R4zXQVtEgF1qK3q" Location="./src/VL.Kafka.Helper/VL.Kafka.Helper.csproj" />
+  <PlatformDependency Id="AnbWtuOKjLHP5XjjHfOOFS" Location="./lib/net6.0/VL.Kafka.Helper.dll" />
 </Document>
