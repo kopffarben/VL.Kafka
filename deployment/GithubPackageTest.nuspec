@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.Kafka</id>
+    <version>4.0.0</version>
+    <title>VL.Kafka</title>
+    <authors>Kopffarben Johannes Schmidt</authors>
+    <owners>Kopffarben Johannes Schmidt</owners>
+    <projectUrl>https://github.com/kopffarben/VL.Kafka</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <repository type="git" url="https://github.com/kopffarben/VL.Kafka.git"/>
+    <summary>Kafka Implemetaion for VL</summary>
+    <description>Kafka Implemetaion for VL</description>
+    <copyright>Copyright © 2022 by Kopffarben. All rights reserved.</copyright>
+    <tags>VL</tags>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\help\*.vl" target="" exclude="" />
+    <!-- <file src="..\src\Whatever\bin\Release\netstandard2.0\Whatever.dll" target="lib\netstandard2.0" exclude="" /> -->
+  </files>
+</package>
