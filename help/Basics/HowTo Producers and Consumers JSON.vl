@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Fg1gfDTjcFqPoC85tPHcad" LanguageVersion="2022.5.0-0258-07680ccc6f" Version="0.128">
-  <NugetDependency Id="E8CvBgvc8jMNRy8ah4on7t" Location="VL.CoreLib" Version="2022.5.0-0258-g07680ccc6f" />
+<Document xmlns:p="property" Id="Fg1gfDTjcFqPoC85tPHcad" LanguageVersion="2022.5.0-0363-7bef174365" Version="0.128">
+  <NugetDependency Id="E8CvBgvc8jMNRy8ah4on7t" Location="VL.CoreLib" Version="2022.5.0-0363-g7bef174365" />
   <Patch Id="OrTeoRDG4vpPOoz3AavHo3">
     <Canvas Id="D84K1MD6bTpLmS9MTJFWbs" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -196,7 +196,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="A4DkDNtyEHmO5LS6zHQck4" Comment="Enable" Bounds="877,416,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="A4DkDNtyEHmO5LS6zHQck4" Comment="Enable" Bounds="877,416,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -230,7 +230,7 @@
           <Pad Id="ITHJQgqXWW3MEiuWrgsVPe" Comment="" Bounds="791,791,38,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="ShHJpl2xtvzLghZ34vy9v0" Comment="" Bounds="823,706,185,71" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="273,295,395,188" Id="Q7lg8BP1pnLLSMJv2SUzUw">
-            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>

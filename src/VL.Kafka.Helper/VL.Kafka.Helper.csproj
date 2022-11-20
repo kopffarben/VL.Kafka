@@ -5,6 +5,7 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 	<AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
 	<OutputPath>..\..\lib\</OutputPath>
+	<BaseOutputPath>C:\_eDemokratie\VL.LIB\VL.Kafka\lib</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
