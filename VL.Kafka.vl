@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="JFSIEoA6nKTPyUeClmhYXN" LanguageVersion="2022.5.0-0258-07680ccc6f" Version="0.128">
-  <NugetDependency Id="HcG4aHap73TLFRp1bdHe57" Location="VL.CoreLib" Version="2022.5.0-0258-g07680ccc6f" />
+<Document xmlns:p="property" Id="JFSIEoA6nKTPyUeClmhYXN" LanguageVersion="2022.5.0-0379-781640424a" Version="0.128">
+  <NugetDependency Id="HcG4aHap73TLFRp1bdHe57" Location="VL.CoreLib" Version="2022.5.0-0379-g781640424a" />
   <Patch Id="UAp4tq0MGaGMB3VmrjGtXc">
     <Canvas Id="C9OBY6Qbnd8L5cjbdJLo0n" DefaultCategory="Kafka" CanvasType="FullCategory">
       <Canvas Id="MXEOXoPzjGuOV4ELR6uWyI" Name="XML" Position="727,233" DefaultCategory="Kafka.XML" CanvasType="FullCategory">

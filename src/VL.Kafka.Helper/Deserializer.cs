@@ -7,7 +7,7 @@ using VL.Core;
 
 namespace VL.Kafka.Helper
 {
-    public class Deserializer<TValue> : IDeserializer<TValue> where TValue : class
+    public class Deserializer<TValue> : IDeserializer<TValue> //where TValue : class
     {
         string recordName;
         Func<string, TValue> deserialize;
@@ -20,12 +20,12 @@ namespace VL.Kafka.Helper
 
         public TValue Deserialize(ReadOnlySpan<byte> data, bool isNull, Confluent.Kafka.SerializationContext context) 
         {
-            if (isNull)
-            {
-                return null;
-            }
-            else
-            {
+            //if (isNull)
+            //{
+            //    return null;
+            //}
+            //else
+            //{
                 try
                 {
                     var array = data.ToArray();
@@ -39,7 +39,7 @@ namespace VL.Kafka.Helper
                 {
                     throw e.InnerException;
                 }
-            }
+            //}
         }
     }
 
