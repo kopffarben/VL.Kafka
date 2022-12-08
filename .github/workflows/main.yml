@@ -22,46 +22,18 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Git Checkout
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-
-    - name: Add msbuild to PATH
+      uses: actions/checkout@master
+    
+    - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v1.0.2
 
     - name: Setup Nuget.exe
       uses: nuget/setup-nuget@v1
-      
-    - name: NBGV
-      uses: dotnet/nbgv@master
+
+    - name: Publish VL Nuget
+      uses: vvvv/PublishVLNuget@1.0.40
       with:
-        setAllVars: true
-        stamp: version.json
-    - run: echo "$NBGV_SemVer2"
-    - run: echo "$NBGV_NuGetPackageVersion"
-    - run: echo "$NBGV_SimpleVersion"
-    - run: echo "$NBGV_VersionRevision"
-    - run: echo "$NBGV_PrereleaseVersion"
-    
-#    - name: Publish VL Nuget
-#      uses: vvvv/PublishVLNuget@1.0.41
-#      with:
-#        csproj: src/Whatever/Whatever.csproj
-#        nuspec: deployment/GithubPackageTest.nuspec
-#        version: ${{ github.event.inputs.version }}
-#        nuget-key: ${{ secrets.NUGET_KEY }}
-  
-#    - name: Create Tag
-#      uses: negz/create-tag@v1
-#      with:
-#        version: ${{ github.event.inputs.version }}
-#        message: ${{ github.event.inputs.notes }}
-#        token: ${{ secrets.GITHUB_TOKEN }}
-        
-#    - name: Release
-#      uses: softprops/action-gh-release@v1
-#      with:
-#        body: ${{ github.event.inputs.notes }}
-#        tag_name: ${{ github.event.inputs.version }}
-#        files: ./*.nupkg
-#        token: ${{ secrets.GITHUB_TOKEN }}
+        nuspec: deployment\VL.Kafka.nuspec
+        icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
+        icon-dst: ./deployment/nugeticon.png
+        nuget-key: ${{ secrets.NUGET_KEY }}
