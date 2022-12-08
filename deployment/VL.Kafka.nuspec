@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Kafka</id>
-    <version>4.0.0</version>
+    <version>0.14.0</version>
     <title>VL.Kafka</title>
     <authors>Kopffarben Johannes Schmidt</authors>
     <owners>Kopffarben Johannes Schmidt</owners>
