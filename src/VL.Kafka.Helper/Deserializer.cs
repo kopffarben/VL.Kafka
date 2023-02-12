@@ -14,7 +14,7 @@ namespace VL.Kafka.Helper
 
         public Deserializer(Func<string, TValue> deserialize)
         {
-            this.recordName = VLFactory.Current.GetTypeInfo(typeof(TValue)).Name;
+            this.recordName = IVLFactory.Current.GetTypeInfo(typeof(TValue)).Name;
             this.deserialize = deserialize;
         }
 
@@ -53,7 +53,7 @@ namespace VL.Kafka.Helper
 
         public AsyncDeserializer(Func<string, TValue> deserialize)
         {
-            this.recordName = VLFactory.Current.GetTypeInfo(typeof(TValue)).Name;
+            this.recordName = IVLFactory.Current.GetTypeInfo(typeof(TValue)).Name;
             this.deserialize = deserialize;
         }
 
