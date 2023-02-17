@@ -280,7 +280,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="SPjNKpAwrZmL1aPs9G338O" Bounds="706,169,286,274" ShowValueBox="true" isIOBox="true">
+          <Pad Id="SPjNKpAwrZmL1aPs9G338O" Bounds="563,169,426,274" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -290,24 +290,17 @@
               </p:TypeArguments>
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
-              <p:maxvisibleentries p:Type="Int32">7</p:maxvisibleentries>
+              <p:maxvisibleentries p:Type="Int32">8</p:maxvisibleentries>
             </p:ValueBoxSettings>
             <p:Value>
-              <Item>Auf welche elektronische Geräte&#xD;
-könntest Du nie verzichten?</Item>
-              <Item>Was kannst Du dazu Beitragen,&#xD;
-damit die Welt 2040 klimaneutral wird?</Item>
-              <Item>Welche Probleme sollte die Politik &#xD;
-in den nächsten 10 Jahre lösen?</Item>
-              <Item>Welche Probleme in Deiner Nachbarschaft,&#xD;
-sollte die Politik in den nächsten Jahren lösen?</Item>
-              <Item>Was sind die größten Probleme&#xD;
-in Deiner Nachbarschaft?</Item>
-              <Item>Was könnte deine Stadt tun&#xD;
-um einen gesünderen Lebensstil&#xD;
-zu fördern?</Item>
-              <Item>Welche Arbeit erledigst Du im Alltag&#xD;
-für die Du nicht bezahlt wirst?</Item>
+              <Item>Welche Probleme sollte die Politik in den nächsten 10 Jahre lösen?</Item>
+              <Item>Was sind die größten Probleme in Deiner Nachbarschaft?</Item>
+              <Item>Was könnte deine Stadt tun um einen gesünderen Lebensstil zu fördern?</Item>
+              <Item>Welche Arbeit erledigst Du im Alltag für die Du nicht bezahlt wirst?</Item>
+              <Item>Welche Jobs findest du wichtig?</Item>
+              <Item>Was würde dich dazu bringen dein Auto aufzugeben?</Item>
+              <Item>Wenn du frei wärst, dir deinen perfekten Job zusammenzustellen, wie würde der aussehen?</Item>
+              <Item>Wofür würdest du ungenutzte Flächen in der Stadt nutzen wollen?</Item>
             </p:Value>
           </Pad>
           <Pad Id="IOo3c4moH77Lx8uuSp7gm0" Bounds="1021,169,286,274" ShowValueBox="true" isIOBox="true">
@@ -320,23 +313,17 @@ für die Du nicht bezahlt wirst?</Item>
               </p:TypeArguments>
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
-              <p:maxvisibleentries p:Type="Int32">7</p:maxvisibleentries>
+              <p:maxvisibleentries p:Type="Int32">8</p:maxvisibleentries>
             </p:ValueBoxSettings>
             <p:Value>
-              <Item>Which electronic devices &#xD;
-could you never live without?</Item>
-              <Item>What can you contribute to make&#xD;
-the world climate neutral in 2040?</Item>
-              <Item>Which problems should the government&#xD;
-solve in the next 10 years?</Item>
-              <Item>What problems in your neighborhood&#xD;
-should politicians solve in the next few years?</Item>
-              <Item>What are the biggest problems&#xD;
-in your neighborhood?</Item>
-              <Item>What could your city do&#xD;
-to promote a healthy lifestyle?</Item>
-              <Item>What work do you do every day&#xD;
-that you are not paid for?</Item>
+              <Item>Which problems should the government solve in the next 10 years?</Item>
+              <Item>What are the biggest problems in your neighborhood?</Item>
+              <Item>What could your city do to promote a healthy lifestyle?</Item>
+              <Item>What work do you do every day that you are not paid for?</Item>
+              <Item>Which jobs do you find important?</Item>
+              <Item>What would make you give up your car?</Item>
+              <Item>If you were free to create your perfect job, what would it be like?</Item>
+              <Item>What would you want to use unused space in the city for?</Item>
             </p:Value>
           </Pad>
           <!--
