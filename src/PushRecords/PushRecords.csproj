@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<LangVersion>10.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
     <BaseOutputPath>..\..\lib</BaseOutputPath>
+    <!--<Nullable>enable</Nullable>-->
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Confluent.Kafka" Version="1.9.3" />
-    <PackageReference Include="VL.Core" Version="2022.5.0-0574-ga3c26ef93e" />
+    <PackageReference Include="VL.Core" Version="2022.5.0-0594-gdd5359b47d" />
   </ItemGroup>
 
 </Project>
