@@ -8281,14 +8281,14 @@
     ************************ Create ************************
 
 -->
-          <Node Name="Create" Bounds="575,348,42,80" Id="TzG8Z6Zsf8XMSp40NDtlwb">
+          <Node Name="Create" Bounds="726,364,80,80" Id="TzG8Z6Zsf8XMSp40NDtlwb">
             <p:NodeReference>
               <Choice Kind="OperationDefinition" Name="Operation" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="RJvnJYcVOJILUtZHIRf9xS">
-              <Node Bounds="592,376,46,26" AutoConnect="true" Id="ULXpiBNifyMLqeXbCPLZXA">
+              <Node Bounds="743,392,46,26" AutoConnect="true" Id="ULXpiBNifyMLqeXbCPLZXA">
                 <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.csproj">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Answer" />
@@ -8303,14 +8303,14 @@
     ************************ Create ************************
 
 -->
-          <Node Name="Create" Bounds="837,370,32,80" Id="Gr0auDlcHXQLW42e5jX5Fc">
+          <Node Name="Create" Bounds="839,366,80,80" Id="Gr0auDlcHXQLW42e5jX5Fc">
             <p:NodeReference>
               <Choice Kind="OperationDefinition" Name="Operation" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="DX8JtIgWLZFN9e74Ko0DBh">
-              <Node Bounds="853,398,48,26" AutoConnect="true" Id="LWsosCZlNUZQLWdFT3033F">
+              <Node Bounds="855,394,48,26" AutoConnect="true" Id="LWsosCZlNUZQLWdFT3033F">
                 <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.csproj">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Category" />
@@ -8325,14 +8325,14 @@
     ************************ Create ************************
 
 -->
-          <Node Name="Create" Bounds="971,366,47,80" Id="P4tqwYU6DgJQd52rBm10Pl">
+          <Node Name="Create" Bounds="956,367,80,80" Id="P4tqwYU6DgJQd52rBm10Pl">
             <p:NodeReference>
               <Choice Kind="OperationDefinition" Name="Operation" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="GR0tCWa2GQlMDXgW44HZpi">
-              <Node Bounds="987,395,48,26" AutoConnect="true" Id="MtaXyCfhpQhNVqn9rbgUpD">
+              <Node Bounds="972,396,48,26" AutoConnect="true" Id="MtaXyCfhpQhNVqn9rbgUpD">
                 <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.csproj">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Question" />
@@ -8347,14 +8347,14 @@
     ************************ Create ************************
 
 -->
-          <Node Name="Create" Bounds="1110,385,48,80" Id="IBFH5c2lvlZN0Yx0Nk5tkq">
+          <Node Name="Create" Bounds="1084,369,80,80" Id="IBFH5c2lvlZN0Yx0Nk5tkq">
             <p:NodeReference>
               <Choice Kind="OperationDefinition" Name="Operation" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="RobWLnFsqcJMSxKwCl2Wmj">
-              <Node Bounds="1127,414,47,26" AutoConnect="true" Id="BECip3nBVp4ObzDCnouUX3">
+              <Node Bounds="1101,398,47,26" AutoConnect="true" Id="BECip3nBVp4ObzDCnouUX3">
                 <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.csproj">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Keyword" />
@@ -8470,6 +8470,132 @@
               <Pin Id="Af1Uq2iW9VOPj5pyQhyzIx" Name="Value" Kind="InputPin" />
               <Pin Id="EBoAAy6VmMUNiy7ohygO3z" Name="defaulthandeling" Kind="InputPin" Bounds="994,266" />
               <Pin Id="LWZ6pLg2uaYNPH3iN3LTRn" Name="Result" Kind="OutputPin" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ IAnswer ************************
+
+-->
+          <Node Name="IAnswer" Bounds="1286,371" Id="MBx3AlscOBMMdYuXlwTaHz">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="IAnswer" />
+            </p:TypeAnnotation>
+            <Patch Id="NuaZII7cZbCPY3rrnFKuEo">
+              <Canvas Id="VRrmTBb0skoOrtj6BvOeMV" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="Q4cq93slhb7M232McqifT7" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ ICategory ************************
+
+-->
+          <Node Name="ICategory" Bounds="1433,375" Id="OD9IypifOSqNVC8X28TG1V">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="ICategory" />
+            </p:TypeAnnotation>
+            <Patch Id="ORFiSMKCcd6PFN1ItQmTEb">
+              <Canvas Id="LuFL7FRsXGgNxOXroYHQzG" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="Gvgjl6WNSjGOdmCQUqWlSn" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ ICounter ************************
+
+-->
+          <Node Name="ICounter" Bounds="1286,421" Id="QbSegmcRZ7fPvGxLenVHMB">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="ICounter" />
+            </p:TypeAnnotation>
+            <Patch Id="MGc23V8KBwbMomBlmbsFMg">
+              <Canvas Id="BKS9dLGzzNwNudzLP9ACzm" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="Ewpvgxt9pq0MFKAuExxxiJ" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ IKeyword ************************
+
+-->
+          <Node Name="IKeyword" Bounds="1433,425" Id="Ebd2eyTuiDBMRVpskBqX8P">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="IKeyword" />
+            </p:TypeAnnotation>
+            <Patch Id="M0kFc0pFDoiMsDd2N1Xn6O">
+              <Canvas Id="SpcTrf7hnO4P6lTsilWaBt" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="RpsgODxIh08M3XzhovCXTb" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ ImgVertex ************************
+
+-->
+          <Node Name="ImgVertex" Bounds="1286,471" Id="ULQvM7xToAKLWfsNLllVAc">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="ImgVertex" />
+            </p:TypeAnnotation>
+            <Patch Id="LKZYWEVLn4gMRjkhdCDDKj">
+              <Canvas Id="SJfmdIKSQXoPzCDY7ohsXG" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="GvF7QwxJEH5Mh4mt9wfsWg" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ INode ************************
+
+-->
+          <Node Name="INode" Bounds="1580,374" Id="Eo3oEBdGMXGNiwnNpLz8Ga">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="INode" />
+            </p:TypeAnnotation>
+            <Patch Id="CHx10iRJT5fL0aFEEz0Qpk">
+              <Canvas Id="QCyj0bmIMUANxYeCYQMUfe" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="Eo8aV67aYUtNgCXuiULr73" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ ITime ************************
+
+-->
+          <Node Name="ITime" Bounds="1580,424" Id="BIDeup2XBycMSUVM7h5IKS">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="ITime" />
+            </p:TypeAnnotation>
+            <Patch Id="EcdSrOq6M2tLcncHwOIMxS">
+              <Canvas Id="NacdD9UUcv4LyGheAjIw0T" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="Lnj83ZIldLqNETN1YQIDTF" IsHidden="true" />
             </Patch>
           </Node>
         </Canvas>
@@ -8648,56 +8774,56 @@
                     <Pin Id="NattYfF9VUWNsYjLUtQil3" Name="KeywordDict" Kind="InputPin" />
                     <Pin Id="Nt89BLVcqT6QGqPST7YNeg" Name="Output" Kind="StateOutputPin" />
                   </Node>
-                  <Node Bounds="367,879,53,26" Id="BGgxzWXk4GgLFdquMCOFj0">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="WordDicts" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="LNCJlRU1m7tPWl35HuVFhs" Name="ID" Kind="InputPin" />
-                    <Pin Id="U38VDtWvm6UMzaT2lzIq45" Name="DE" Kind="InputPin" />
-                    <Pin Id="MVg5527D0xJMQXMgFPops9" Name="EN" Kind="InputPin" />
-                    <Pin Id="AvbR6ILldulOdKuJk1PAag" Name="Output" Kind="StateOutputPin" />
-                  </Node>
-                  <Node Bounds="624,879,53,26" Id="SvhRx2VtOhwNrnAHYgUo4c">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="WordDicts" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="GQx3kfe8EbTPglYkS83RPL" Name="ID" Kind="InputPin" />
-                    <Pin Id="O41BGXJhnQmMeqOKJbqC67" Name="DE" Kind="InputPin" />
-                    <Pin Id="P4EyO901kNgMPdVgRz7uym" Name="EN" Kind="InputPin" />
-                    <Pin Id="TtscIOU4q1LPLDsB8GPC5j" Name="Output" Kind="StateOutputPin" />
-                  </Node>
-                  <Node Bounds="883,879,53,26" Id="M1F10gs9ApAPKRFSg4BOm5">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="WordDicts" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="ASJOeIIn0j5QcfHzOrIdeI" Name="ID" Kind="InputPin" />
-                    <Pin Id="L78bMfXe365LNV8rbBQa19" Name="DE" Kind="InputPin" />
-                    <Pin Id="MNPbe1N3P4AL4O2VL4Zhno" Name="EN" Kind="InputPin" />
-                    <Pin Id="L6452Dz0XXrMwxJO2hPI5Z" Name="Output" Kind="StateOutputPin" />
-                  </Node>
-                  <Node Bounds="1143,879,53,26" Id="Uy6mt8FHu0dLif7lG5UxJc">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="WordDicts" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="KoNgP5vsNgeLwLsBr3JQXd" Name="ID" Kind="InputPin" />
-                    <Pin Id="J6WbuNlV8eQPQ5of6nXQ4q" Name="DE" Kind="InputPin" />
-                    <Pin Id="GoN7W3IlouNO6ob72nuQvv" Name="EN" Kind="InputPin" />
-                    <Pin Id="BKuEy0NFipuMrLXnbcthD5" Name="Output" Kind="StateOutputPin" />
-                  </Node>
                   <Pad Id="JWAUJFiSI5qPHvLQ49fEXd" SlotId="OyPqNGmmSiNOGifZ22NIk3" Bounds="247,785" />
                   <Slot Id="OyPqNGmmSiNOGifZ22NIk3" Name="reset" />
                   <Pad Id="KgqzvKryhjmLtLNirqIN2n" SlotId="OyPqNGmmSiNOGifZ22NIk3" Bounds="533,756" />
                   <Pad Id="OItJnSk3X3OLzBglB2HNMk" SlotId="OyPqNGmmSiNOGifZ22NIk3" Bounds="803,756" />
                   <Pad Id="StS7p3t9MRqMYuKzUEhRK8" SlotId="OyPqNGmmSiNOGifZ22NIk3" Bounds="1073,756" />
                   <Pad Id="IJ5RONafCdwNBbIbyccFx1" SlotId="OyPqNGmmSiNOGifZ22NIk3" Bounds="1343,756" />
+                  <Node Bounds="367,881,67,19" Id="Rr5dD5u5SXzPF45BEjwXou">
+                    <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                      <Choice Kind="OperationCallFlag" Name="ValueTuple (Create)" />
+                    </p:NodeReference>
+                    <Pin Id="PSctE79rqlYOltwOOIuu6l" Name="Item 1" Kind="InputPin" />
+                    <Pin Id="VcRoGpNCWHgMnN2rBHw2Lm" Name="Item 2" Kind="InputPin" />
+                    <Pin Id="F8VJuLVdeToNZV7Me9KOV1" Name="Item 3" Kind="InputPin" />
+                    <Pin Id="Co0T6JFEx3nOg6NhtWQW4J" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="625,881,67,19" Id="N3CwtWbgfK0MTXBmy9cqQx">
+                    <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                      <Choice Kind="OperationCallFlag" Name="ValueTuple (Create)" />
+                    </p:NodeReference>
+                    <Pin Id="MOKblzCntNkOkSr4dOVHP1" Name="Item 1" Kind="InputPin" />
+                    <Pin Id="Ise3H7EWqAwP5bJ16LxGeB" Name="Item 2" Kind="InputPin" />
+                    <Pin Id="MztwZLyCiT7NBX9HK6rYh6" Name="Item 3" Kind="InputPin" />
+                    <Pin Id="Up07iEMplwjPljEYnKCF99" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="883,881,67,19" Id="RkLnqvW3UNLPwcRaDkGFCO">
+                    <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                      <Choice Kind="OperationCallFlag" Name="ValueTuple (Create)" />
+                    </p:NodeReference>
+                    <Pin Id="HkQPOWuu0oRPTQIQ2PnSPZ" Name="Item 1" Kind="InputPin" />
+                    <Pin Id="EbfnVnIE5ZVMNLqRtCJ4T3" Name="Item 2" Kind="InputPin" />
+                    <Pin Id="Cc7gNPAGEQgN1fJxA6mRUF" Name="Item 3" Kind="InputPin" />
+                    <Pin Id="OVHGhd5hKtXL6CM1ekSiPd" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="1142,881,67,19" Id="Qej9Qz0OeL8QPi2s3MK3m1">
+                    <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                      <Choice Kind="OperationCallFlag" Name="ValueTuple (Create)" />
+                    </p:NodeReference>
+                    <Pin Id="Gp9iXyNb51XOs7DrTZJAMz" Name="Item 1" Kind="InputPin" />
+                    <Pin Id="V2LQtAqa7unPAFbavIwI73" Name="Item 2" Kind="InputPin" />
+                    <Pin Id="PEaBwfhv6M6PU9OSf1Sco8" Name="Item 3" Kind="InputPin" />
+                    <Pin Id="GOZvD8xAnsvNc4iii91u5o" Name="Output" Kind="StateOutputPin" />
+                  </Node>
                 </Patch>
               </Node>
               <ControlPoint Id="Hzix9hDNdzXNQGbZHELMe7" Bounds="247,682" />
@@ -10023,22 +10149,6 @@
             <Link Id="G7HnsnGarrBNssp0x0nh4o" Ids="Lh74hSj8LLiQSCDsDHVIRj,QeXga7vZuyrO4Z2dZvU56U" />
             <Link Id="MJJzsmwINS3O4tRp5zL7L5" Ids="Q7qda8mFPBUNXsRjUcCuev,JJqWgCzBHZxPAyie1yc7Wb" />
             <Link Id="IZZ2Vu1p2DoNPQrO2R7EQw" Ids="Nt89BLVcqT6QGqPST7YNeg,OthOziSaEJ2O1YXN3BhnWb" />
-            <Link Id="A8KTrReB5zKOF3pCQAXE0q" Ids="RjLzh6C8zXjO4uy6eMHeRS,LNCJlRU1m7tPWl35HuVFhs" />
-            <Link Id="J3CmTqbsMNcMHWyA9Go6oH" Ids="KqGMbWyyeZqPwYVTFelzQr,U38VDtWvm6UMzaT2lzIq45" />
-            <Link Id="UYtdB0o1JU3PGZm3bCQ8fW" Ids="COHuFNyYZkpNZRCwhU3v5X,MVg5527D0xJMQXMgFPops9" />
-            <Link Id="SGhD2gMVhwILJIIQ86gREC" Ids="AvbR6ILldulOdKuJk1PAag,AynNi8hT9WIPTxK02P4Dsv" />
-            <Link Id="GIQmYBOBJvQLXiv19hBp8l" Ids="AKs87z7qqs4MVbnYpYsTQw,GQx3kfe8EbTPglYkS83RPL" />
-            <Link Id="JXIPlILQXpPPcmDNAEbxYg" Ids="JDSY9zvKKbUNXWYOv5r9Ar,O41BGXJhnQmMeqOKJbqC67" />
-            <Link Id="B55B9vJ3m92OVsiw3ok2wu" Ids="B9Os0EPQsCrLIImksGg4Rl,P4EyO901kNgMPdVgRz7uym" />
-            <Link Id="CtfECeFAoGmQXFAVGXechy" Ids="JXhREh7Jm5hNC60cfADap5,L78bMfXe365LNV8rbBQa19" />
-            <Link Id="FsdTyGD3r1SOE3dCskyleW" Ids="Bw2eYW42rKbLX8Ib9FckJs,MNPbe1N3P4AL4O2VL4Zhno" />
-            <Link Id="ODi2fvKi2tVOES3mIpfO6V" Ids="JVQXks8SVDFNtMHMy3TvuW,ASJOeIIn0j5QcfHzOrIdeI" />
-            <Link Id="IagKaMw1WXAMIh45aRKHGN" Ids="L6452Dz0XXrMwxJO2hPI5Z,LZJMoKP0HZKM66T9Jsn2NB" />
-            <Link Id="UY52uG3JQVMLiK0GiM9phO" Ids="TtscIOU4q1LPLDsB8GPC5j,SqM4626RVEqOYrRt6nRS8I" />
-            <Link Id="OeDtkQhPJU0MZU7g8c0jWO" Ids="LYe3MhgubDyNTzHzINnKem,KoNgP5vsNgeLwLsBr3JQXd" />
-            <Link Id="C3xW9kzHNFhQQJ3Q88qwZj" Ids="CgXbc5x4q5lPCoGBKCI9uz,J6WbuNlV8eQPQ5of6nXQ4q" />
-            <Link Id="MaIrPPMOMenO5C005p6cV7" Ids="LE6t95H3P8zPLOgE55HiwG,GoN7W3IlouNO6ob72nuQvv" />
-            <Link Id="MmTMlffl3qYLGOjU62mOZl" Ids="BKuEy0NFipuMrLXnbcthD5,NattYfF9VUWNsYjLUtQil3" />
             <Link Id="GsLhmJFY4tVLmUrfJp6rhK" Ids="Hzix9hDNdzXNQGbZHELMe7,JWAUJFiSI5qPHvLQ49fEXd" />
             <Link Id="HzFmY8kcYphQbGFUjNjHHO" Ids="JWAUJFiSI5qPHvLQ49fEXd,AzE2Y2DmO5GMeEXpUMt7nm" />
             <Link Id="GoTGhTMP13ANcoLQCfOuPi" Ids="KgqzvKryhjmLtLNirqIN2n,VjOD2aKrd47MrsA6DbV3BU" />
@@ -10053,6 +10163,22 @@
             <Link Id="UFDTg5dm6imMRl86S0G7Hq" Ids="IJ5RONafCdwNBbIbyccFx1,DAgJTn1tWr4O9wqO25oQSY" />
             <Link Id="FP9YXQTU9xgLbfYLbiw5Q2" Ids="IJ5RONafCdwNBbIbyccFx1,VO1OWF5IZHCMqFB4MR8Ga7" />
             <Link Id="Qs02rAHr0nwNiW6D3MxPd3" Ids="IJ5RONafCdwNBbIbyccFx1,HEozNEFy1esL9czpFN75sM" />
+            <Link Id="Gt2aJvjYIFnLShIHDvU5ly" Ids="RjLzh6C8zXjO4uy6eMHeRS,PSctE79rqlYOltwOOIuu6l" />
+            <Link Id="UfKz9dU4cqEP1m0t00g3Xt" Ids="KqGMbWyyeZqPwYVTFelzQr,VcRoGpNCWHgMnN2rBHw2Lm" />
+            <Link Id="DtjovuqBuYoPD3LHd3icH9" Ids="COHuFNyYZkpNZRCwhU3v5X,F8VJuLVdeToNZV7Me9KOV1" />
+            <Link Id="OYuL6Qw342JNfR5wooT9BR" Ids="Co0T6JFEx3nOg6NhtWQW4J,AynNi8hT9WIPTxK02P4Dsv" />
+            <Link Id="TfLezN39CfaLjylYbFqDRP" Ids="Up07iEMplwjPljEYnKCF99,SqM4626RVEqOYrRt6nRS8I" />
+            <Link Id="Ng6PiTfokN8PSkVOXfYaoo" Ids="AKs87z7qqs4MVbnYpYsTQw,MOKblzCntNkOkSr4dOVHP1" />
+            <Link Id="RZDW5QyFR89PoF5uQwHhgs" Ids="JDSY9zvKKbUNXWYOv5r9Ar,Ise3H7EWqAwP5bJ16LxGeB" />
+            <Link Id="A4Q62z39g2QLCLpfMVa1ta" Ids="B9Os0EPQsCrLIImksGg4Rl,MztwZLyCiT7NBX9HK6rYh6" />
+            <Link Id="MuvIZUuWBV2QOag9kQgaml" Ids="JVQXks8SVDFNtMHMy3TvuW,HkQPOWuu0oRPTQIQ2PnSPZ" />
+            <Link Id="KJ490UWBfrLM0DnujqNVs1" Ids="JXhREh7Jm5hNC60cfADap5,EbfnVnIE5ZVMNLqRtCJ4T3" />
+            <Link Id="BGz89SeUMDhOSXDHqIbfdV" Ids="Bw2eYW42rKbLX8Ib9FckJs,Cc7gNPAGEQgN1fJxA6mRUF" />
+            <Link Id="Eo1quaBkwBcQNzz4Oxl4Jz" Ids="LYe3MhgubDyNTzHzINnKem,Gp9iXyNb51XOs7DrTZJAMz" />
+            <Link Id="Vquisgy7c4FPhZHQk4L8iK" Ids="CgXbc5x4q5lPCoGBKCI9uz,V2LQtAqa7unPAFbavIwI73" />
+            <Link Id="FjeVr2oCW1sPIyUxy6anRd" Ids="LE6t95H3P8zPLOgE55HiwG,PEaBwfhv6M6PU9OSf1Sco8" />
+            <Link Id="T0hDY8jzbiMK9yX4chlc3O" Ids="GOZvD8xAnsvNc4iii91u5o,NattYfF9VUWNsYjLUtQil3" />
+            <Link Id="KRlB0VOz4uYOYwllhJQdcn" Ids="OVHGhd5hKtXL6CM1ekSiPd,LZJMoKP0HZKM66T9Jsn2NB" />
           </Patch>
         </Node>
         <!--
@@ -10709,448 +10835,677 @@
     ************************ ToImmutable ************************
 
 -->
-              <Node Name="ToImmutable" Bounds="963,936" Id="DPUE2VnvtoGMiqqrW44ajI">
+              <Node Name="ToImmutable" Bounds="1003,938" Id="SWBvlva7O7fNtbR4hBd0dj">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="ContainerDefinition" Name="Process" />
                 </p:NodeReference>
-                <Patch Id="RX1LCKfy0JkOFcCsoMhQl2" IsGeneric="true">
-                  <Canvas Id="D9yqPf891PZNSCw3vTTjI4" CanvasType="Group">
-                    <Node Bounds="977,816,1144,444" Id="NPHhsxEqXXOMH8Lr3bT9MP">
+                <Patch Id="GEnk45G1hAyL3C98b140Ry">
+                  <Canvas Id="PbDMu1xyVrjQAqrL0Rqynb" CanvasType="Group">
+                    <Node Bounds="977,816,1232,536" Id="BZ1JPlNQ5vLPpzV8ut6a0O">
                       <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <CategoryReference Kind="Category" Name="Primitive" />
                         <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                       </p:NodeReference>
-                      <Pin Id="Ou705uZzspqOyKpjdXPZbd" Name="Force" Kind="InputPin" />
-                      <Pin Id="NpNf7un5dTTMhIUIYQ4MUm" Name="Dispose Cached Outputs" Kind="InputPin" />
-                      <Pin Id="EcRN4tHsyStMKI1v9SSLq4" Name="Has Changed" Kind="OutputPin" />
-                      <ControlPoint Id="JNgQCygb2Y7QVOnzwtTqep" Bounds="990,1255" Alignment="Bottom" />
-                      <Patch Id="EHSsS3obvqVMbdQCnAK7RD" ManuallySortedPins="true">
-                        <Patch Id="CpYIw9WJmNPMh7EiS9cnuK" Name="Create" ManuallySortedPins="true" />
-                        <Patch Id="GVBPzbU02QPMNKuTFMHc0Z" Name="Then" ManuallySortedPins="true" />
-                        <Node Bounds="989,839,905,26" Id="FIGS2IMKPAZOZur5gqWL8m">
+                      <Pin Id="UBH6TbdwPFoNAtNBvcJ51W" Name="Force" Kind="InputPin" />
+                      <Pin Id="Fl48zthj8ydPXvGmLcxg4w" Name="Dispose Cached Outputs" Kind="InputPin" />
+                      <Pin Id="CKfm3Lg4qtbLE3GPt4enbM" Name="Has Changed" Kind="OutputPin" />
+                      <ControlPoint Id="GsWVBlI0LQ5Nz4raKRzoJ5" Bounds="990,1346" Alignment="Bottom" />
+                      <Patch Id="NzdKq9nafJZOquiwZDsYDx" ManuallySortedPins="true">
+                        <Patch Id="FLzdqXUBD5VLBN6PAbPLyZ" Name="Create" ManuallySortedPins="true" />
+                        <Patch Id="UvKLO5IuWMYOEmbLpozbXd" Name="Then" ManuallySortedPins="true" />
+                        <Node Bounds="989,839,905,26" Id="UkCX2dej9NLPFEyurEC2fx">
                           <p:NodeReference LastCategoryFullName="Kafka.Futurium.GraphDict" LastDependency="VL.Kafka.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="RecordType" Name="GraphDict" />
                             <Choice Kind="OperationCallFlag" Name="Split" />
                           </p:NodeReference>
-                          <Pin Id="J0XinBYhkbYNBQdrrtE0mo" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="S2EpvmCUrXQMWgXMNMqr5a" Name="VertDict" Kind="OutputPin" />
-                          <Pin Id="Smq681sADElP7epZi5uNu7" Name="AnswerDict" Kind="OutputPin" />
-                          <Pin Id="Ej5HR0WFeNwLONpfquimFT" Name="CategoryDict" Kind="OutputPin" />
-                          <Pin Id="BhF0vZMPXQdMcGC1wr4E2f" Name="QuestionDict" Kind="OutputPin" />
-                          <Pin Id="C6329cNYaIcQLoJ3AqR7rw" Name="KeywordDict" Kind="OutputPin" />
+                          <Pin Id="OJPNh9NHhUwOEboRslszrB" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="A8pvTtzDKJ6M6k9sps7IPq" Name="VertDict" Kind="OutputPin" />
+                          <Pin Id="C3DxtzGTDEdMpvotvMZcUi" Name="AnswerDict" Kind="OutputPin" />
+                          <Pin Id="MMCkw7A5hgpLtKpNcwmxBJ" Name="CategoryDict" Kind="OutputPin" />
+                          <Pin Id="KtAKWDMnIzrOj09bqcTvkp" Name="QuestionDict" Kind="OutputPin" />
+                          <Pin Id="PbY8hYM8rKRQKR6KLSaAjj" Name="KeywordDict" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1076,934,83,19" Id="QPsqiYzovx4NIvhbtv2QoC">
+                        <Node Bounds="1076,934,83,19" Id="Gmwg6zAI0GfOEUTGeF0PLF">
                           <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="Dictionary" />
                             <Choice Kind="OperationCallFlag" Name="FromSequence (KeyValuePair)" />
                           </p:NodeReference>
-                          <Pin Id="JyFTIPxVXkuP1Tk25zUiaT" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="RDjxcJ4degRMKi9G7WlN7T" Name="Result" Kind="OutputPin" />
+                          <Pin Id="U0PYAyOqZrxLAo4noRaGFH" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="KB38tUZC9VCOR4Yn6eF6AU" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="989,890,92,26" Id="Im6fmYlyHafLROexmSofhA">
+                        <Node Bounds="989,890,92,26" Id="NerMhFoFN6QQSH08YW9CIJ">
                           <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
                             <Choice Kind="OperationCallFlag" Name="ToArray" />
                           </p:NodeReference>
-                          <Pin Id="NtwkYafrIDXN1fn695BlE9" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="GlfmxnJ5efpQJu8cRuc38T" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="KgcJY1L5mgtM3eqX8hHHgY" Name="Result" Kind="OutputPin" />
+                          <Pin Id="Gf511qumkKgPzKK2TbsazD" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="UebMmQZE77lMpPimJTnxLQ" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="KXDN5UQ6mRaLYaigJu8pij" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1214,890,53,26" Id="RMOsSgb7wqIOJbR8GRFmOM">
-                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="RecordType" Name="WordDicts" />
-                            <Choice Kind="OperationCallFlag" Name="Split" />
-                          </p:NodeReference>
-                          <Pin Id="Rf4KXFyM53rO7eWYzGAKfG" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="Vx6pnpAbsmfOhuhiv40qOR" Name="ID" Kind="OutputPin" />
-                          <Pin Id="DC7Uh6Ru8sUMMeYNeaTeYH" Name="DE" Kind="OutputPin" />
-                          <Pin Id="LmBrOH1Y09EMeHxPSeQVaQ" Name="EN" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1214,942,92,26" Id="UFIHOSuVH2bOAtjkAJfYJB">
+                        <Node Bounds="1214,942,92,26" Id="UA49ZlxxWaBL5GXjh5tDP2">
                           <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
                             <Choice Kind="OperationCallFlag" Name="Values" />
                           </p:NodeReference>
-                          <Pin Id="LLKAg5G9a74LCyb1FrT7kd" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="QKos9gzYw9KNk96v5g8XdX" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="OZ95kywGScrPVbfjqmAWOg" Name="Values" Kind="OutputPin" />
+                          <Pin Id="CmQ25h8kLWJMHUGx8Q5hU5" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="JbdcQ2BmuSMPyhJ4WvhVKU" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="SAY5c5C9OjEMQO4Egj6zIY" Name="Values" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1301,1068,83,19" Id="V2tNjmEjuH7K90VOjWeuWH">
+                        <Node Bounds="1301,1038,83,19" Id="GcdO81GTzupLIZylNAYz79">
                           <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
                             <Choice Kind="OperationCallFlag" Name="FromSequence" />
                           </p:NodeReference>
-                          <Pin Id="QiMHtRcDDxZQQR9Na1vGZt" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="BxPQSLCUdE3LBC1Bvz7oYV" Name="Result" Kind="OutputPin" />
+                          <Pin Id="ObNrAOq0xwfOaW40vEdtDz" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="NWwexUrI6qBPmr5IhW8vWc" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1238,987,92,26" Id="N2NEvVVnJ5jLvwl87eG6Tj">
+                        <Node Bounds="1246,972,92,26" Id="GlwMAWmDnlsQUBDQXz0tXG">
                           <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
                             <Choice Kind="OperationCallFlag" Name="Values" />
                           </p:NodeReference>
-                          <Pin Id="T07ftH3L6efOZm2dI4WQzc" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="MeNHSR4aYJwMUbx50wP4do" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="PqNg3RDigpbMNU5WeLCiBR" Name="Values" Kind="OutputPin" />
+                          <Pin Id="EqSav5aN00EN2oiITsx23n" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="Km3TLdHNFW6Mg7kL6IPX9E" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="NIEuq1A2pF2Pk2TVHFGmWa" Name="Values" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1264,1032,92,26" Id="Nb70nJSWMxpL9jQzdJnPTM">
+                        <Node Bounds="1278,1002,92,26" Id="CF4bo4xJaKsMLU2qiu2cm8">
                           <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
                             <Choice Kind="OperationCallFlag" Name="Values" />
                           </p:NodeReference>
-                          <Pin Id="GZqs10FMsL4M8RUj2sjlt7" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="VJUfVBMN9inPBvg9HZrYT9" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="HmcolTsErAiNNw7CfhneHs" Name="Values" Kind="OutputPin" />
+                          <Pin Id="LYM7bR7LsZWPhHsn0moGSG" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="LKL8JxnxIVQOlbnH7bkKc1" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="QGQEsB4Wh2GP1zCCDq2anA" Name="Values" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1325,1098,83,19" Id="QuIHIBU84jnL2iChK4winP">
+                        <Node Bounds="1407,1023,83,19" Id="I00JOi5VxkdOkNQwSISXnu">
                           <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
                             <Choice Kind="OperationCallFlag" Name="FromSequence" />
                           </p:NodeReference>
-                          <Pin Id="SnxRkl5dJbXM4D2QJFXZaP" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="UOFg4F3J6LvMpd4Fmp7oeV" Name="Result" Kind="OutputPin" />
+                          <Pin Id="DE9CN6i0pVUPgGyvv4GuYQ" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="Hz1rIK7ftjlQVkmnENkEeH" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1351,1128,83,19" Id="TKTXhPQdQpoLBF6MtU9B2p">
+                        <Node Bounds="1439,1053,83,19" Id="DL8TFIty4SKNwfURyOspX4">
                           <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
                             <Choice Kind="OperationCallFlag" Name="FromSequence" />
                           </p:NodeReference>
-                          <Pin Id="Iw4UzQFgvvWPiEBIBYzDjj" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="FOP6LZ2TyZDPcV02x7ebzA" Name="Result" Kind="OutputPin" />
+                          <Pin Id="Acvg66VEuAlM78Ap3EfOLC" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="RcAONvhvANoM18ychVSyrS" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1301,1166,55,26" Id="HcEzqWqrF0XMUnuQWTPx7z">
+                        <Node Bounds="1301,1260,55,26" Id="JeUiBHkgQimQalWRH8s8lu">
                           <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="RecordType" Name="WordDicts" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
                           </p:NodeReference>
-                          <Pin Id="F5YoUEV8AFgMgbEtqhEvx2" Name="ID" Kind="InputPin" />
-                          <Pin Id="RuVeiSIlilyMk8aKtyzGfi" Name="DE" Kind="InputPin" />
-                          <Pin Id="FWiITDxtHZcO6t0oaCi240" Name="EN" Kind="InputPin" />
-                          <Pin Id="PDcZjDUwoIXMqp0ufjKO7V" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="UQRVbXtK1KrQDTRTEtC3bz" Name="ID" Kind="InputPin" />
+                          <Pin Id="Osb7ib6NCOJM8W5WNjkvUl" Name="TEXT" Kind="InputPin" />
+                          <Pin Id="UnT5p39STDkQAGHltaeQCn" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="1439,890,53,26" Id="RusI2CH8A3iQZCW4GbgwNM">
-                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
+                        <Node Bounds="1214,890,67,19" Id="SMFOONUJrb7M7TxDmiJPpJ">
+                          <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="RecordType" Name="WordDicts" />
-                            <Choice Kind="OperationCallFlag" Name="Split" />
+                            <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                            <Choice Kind="OperationCallFlag" Name="ValueTuple (Split)" />
                           </p:NodeReference>
-                          <Pin Id="LvSuwHTY5syPSjCVx8qqd5" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="JZJDIcHkc37MmoWrM5y8oK" Name="ID" Kind="OutputPin" />
-                          <Pin Id="RmACllJvaEuOQ7SkxKmxRe" Name="DE" Kind="OutputPin" />
-                          <Pin Id="PEc6ZHkGGwfPNjqKVhUlL8" Name="EN" Kind="OutputPin" />
+                          <Pin Id="Gf6DIsc4njrLZiZ6ivNXi0" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="OBvTzHC2ktCN5a6K5am7fI" Name="Item 1" Kind="OutputPin" />
+                          <Pin Id="USBmf3xq8bsOLYXSetTc8C" Name="Item 2" Kind="OutputPin" />
+                          <Pin Id="JGmNHHpNjZiMyDKyQH7PYJ" Name="Item 3" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1439,942,92,26" Id="RiRlrHKoSeCPtU1D3ueev6">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                        <Node Bounds="1350,1097,62,26" Id="RWbIKP2kLyjQQzjGsxtlVm">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="OS3b6NyDq2lQMeWjrBAHBy" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="CUn9vMLDLoNQL6CXQgRQNJ" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="UhrKxBJmhRlNLQqZSv99Ng" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1526,1068,83,19" Id="MOYdpmlra1XLg9kQqpfbtU">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="HVHgEj9nuaRQM8winEn74Y" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="D49AzZGwJ0TQGSBh5cFe5V" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1463,987,92,26" Id="JNmlnvEFF8wNWminM6kbUM">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="QZDnsYvQIqKQbOYfmjZdt7" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="JsZQPCkARiJMUb4uBsSenq" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="NIDPmtiDWjLMrxa07hrvsz" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1489,1032,92,26" Id="C64PKIhRjJMPLFcX2gQJJL">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="QzPbD1N8f2nNPrxBBT4dlq" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="QhYyyrbjb2QLm8Qpu3Ow0q" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="NNNIzg9LZTYNK0LXo8ZgI6" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1550,1098,83,19" Id="ExyHemgbrqFMrJ1RBO8Biu">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="NN72iKHMN0sOxnNq6ePXYY" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="CqFTqz7y7jmOJCKVOjtAfP" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1576,1128,83,19" Id="C33MYdN6hecLo31aFppuno">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="UttEiLr9jgNQEhxnfH4Ep7" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="Ij8JFotrH9xQZvVdLXBHAm" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1526,1166,55,26" Id="Bp9RclcmAP7NQtj0AdErMh">
-                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="RecordType" Name="WordDicts" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
                           </p:NodeReference>
-                          <Pin Id="LmxI49ZIDfLQX5hTGlaDI7" Name="ID" Kind="InputPin" />
-                          <Pin Id="ELU8c6BM3pNLddU2zp4DgB" Name="DE" Kind="InputPin" />
-                          <Pin Id="IfAaFO0w9AMPFIibTpUbxq" Name="EN" Kind="InputPin" />
-                          <Pin Id="G6zPyO9zQa9L7MJG7brn73" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="AvywKYBespDOQTM8QWgOoq" Name="Key" Kind="InputPin" />
+                          <Pin Id="JE9BvJD9QbSLICtO5GSVcm" Name="Value" Kind="InputPin" />
+                          <Pin Id="GBO6K4Nsg5NMhFT62VJSEA" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="1664,890,53,26" Id="LylcHVkia4BOK2jYfDIdit">
-                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="RecordType" Name="WordDicts" />
-                            <Choice Kind="OperationCallFlag" Name="Split" />
-                          </p:NodeReference>
-                          <Pin Id="LycTEL8NsZSLhZkHmOzaQ8" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="FZZM6d2A6t1QExV2UpjKoi" Name="ID" Kind="OutputPin" />
-                          <Pin Id="FLytRu4VIuuMNxvte9wh19" Name="DE" Kind="OutputPin" />
-                          <Pin Id="CpRUf3emcNlMTzSzcPlsGJ" Name="EN" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1664,942,92,26" Id="OhCF3cVjiPfOhaWuaACVQO">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="U6uXBJPbNqvP24ZtHduxLp" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="UKOp94YSG3uP6cpcUG0hgO" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="IvmVITBf9IsPYafS3LPvme" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1751,1068,83,19" Id="ALxl27ygnkwLwzIVeP1X1w">
+                        <Pad Id="GMLB6MSFrhrQVFn7aI9HQP" Comment="" Bounds="1352,1085,21,15" ShowValueBox="true" isIOBox="true" Value="de">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Pad Id="TO3Q0hLCE4sM4LLwbhmujh" Comment="" Bounds="1383,1136,21,15" ShowValueBox="true" isIOBox="true" Value="en">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Node Bounds="1351,1191,39,19" Id="RDCtOR8P3RoNHUcL8OJ00f">
                           <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                            <Choice Kind="OperationCallFlag" Name="Cons" />
                           </p:NodeReference>
-                          <Pin Id="FiFzMunXMK7QDfSpiiF281" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="Uq9tWdbHn00MRp2ziYwftG" Name="Result" Kind="OutputPin" />
+                          <Pin Id="TLG70ubeMz4MMYq2fl9a14" Name="Input" Kind="InputPin" />
+                          <Pin Id="F8rRK42X4LbMxieokOaohf" Name="Input 2" Kind="InputPin" />
+                          <Pin Id="DkQ2HbWKUGRMeD1tY1E9DZ" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1688,987,92,26" Id="VM5D1mOCsHSLt91X6yNiT7">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                        <Node Bounds="1381,1152,62,26" Id="IMYC22oxEnQOh8HOlh892O">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="A8XHHu9QK25ND9vUJtKMWM" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="LbtHAICQ7VjNrQJMIFJY9P" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="UBzn92O9a9kQN94sivXV9v" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1714,1032,92,26" Id="GYbhwLKSSYBP7f4ztiZCj6">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="VMdRXqK9J7pPQZOqglXkiv" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="PJQeTi1SxyhNszUf25dnTg" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="I4oxedtmEVjLFLUIljptkz" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1775,1098,83,19" Id="LgBlgAhjBHaMevpxbhFutq">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="UzuTeGSMOEXMKwsz0thQOm" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="RY4HFFTpSpPL2KMsIojCDL" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1801,1128,83,19" Id="M1Ibb7joBOSPI3cUxzm9lB">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="LYjuLXCMgp4MiJCMJKzhJR" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="EaOp87FwokCO2BLNHUlmoM" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1751,1166,55,26" Id="JWGdL4NFkwvMVIZxqhpPI2">
-                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="RecordType" Name="WordDicts" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
                           </p:NodeReference>
-                          <Pin Id="UIn4oElcm8zOJg0rY7IaAB" Name="ID" Kind="InputPin" />
-                          <Pin Id="Haw2xtxhGncOFpF3rRZhyJ" Name="DE" Kind="InputPin" />
-                          <Pin Id="A4oqO9ENM3LPDKp6VQQpuQ" Name="EN" Kind="InputPin" />
-                          <Pin Id="VezHJmKSpO0P8I8q6Rnj9D" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="BqbBtDdfRoYNbO9H11CypX" Name="Key" Kind="InputPin" />
+                          <Pin Id="LfAijXcNT82QbzHREbEyGY" Name="Value" Kind="InputPin" />
+                          <Pin Id="ElY3WDYvTR6QJkWEY4MQxG" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="1889,890,53,26" Id="JmOVW8RUsfgNethIX536JK">
-                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
+                        <Node Bounds="1351,1228,83,19" Id="OzQU2p15RptNWkTtM1BT0t">
+                          <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="RecordType" Name="WordDicts" />
-                            <Choice Kind="OperationCallFlag" Name="Split" />
+                            <CategoryReference Kind="ClassType" Name="Dictionary" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence (KeyValuePair)" />
                           </p:NodeReference>
-                          <Pin Id="P8133nYhO2cPNpYb1FJRJ6" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="DqTR0JsfsKHOYtOQZ8GdEf" Name="ID" Kind="OutputPin" />
-                          <Pin Id="QffUW8uMu56QWRB4nrDkUR" Name="DE" Kind="OutputPin" />
-                          <Pin Id="RWXiD7eAvqgLAMup1Obm1X" Name="EN" Kind="OutputPin" />
+                          <Pin Id="R8WhiMrMr89OiVGBI7Dw8J" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="DlNHeqFyB0wNCuMJ3hk7wn" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="1889,942,92,26" Id="GVDfeWvxXeGM4RUuXlEDoO">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="RjaQFe6ctJtOVP2VeyhNBX" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="G2msD8OmtbeLXV0DQ7XAS8" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="K2n2t7YgeB1PU1RfswTG4h" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1976,1068,83,19" Id="PGMLiVs4t2kMH9G7UQfsXG">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="IoEzBkUMckDOxee8wixsYd" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="EvBvkgFHFvzOTAjrMQRa0O" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1913,987,92,26" Id="FodgrsARklCMhUXycPTqM7">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="FOWROSLWh1mOnx7N343CF2" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="LE0soLpQXVtPrm5y7o7OSZ" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="Q2p6vba7xq3OQdO5GQoLWA" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1939,1032,92,26" Id="PDcmoccVc2mMPR8ZiKXI9x">
-                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
-                            <Choice Kind="OperationCallFlag" Name="Values" />
-                          </p:NodeReference>
-                          <Pin Id="Ii9h42NgGfeMF8nL96MaGl" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="KpVERYnIiutLCjb023AAaq" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="LTxH3wZOdrQLEaTRI08Chq" Name="Values" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="2000,1098,83,19" Id="OSSvHserqy4N54FFVXijqS">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="SbcZGoHXukfLvsUWhTbcT4" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="K2Kkzfz75djLzhx02ADUVg" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="2026,1128,83,19" Id="B7L5V4jjHurNYSMdvbyT93">
-                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                          </p:NodeReference>
-                          <Pin Id="Lc8P8Fg9SEVLh1WJ42C0jM" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="O2bNGAiP9nyOMz9xoS0lIc" Name="Result" Kind="OutputPin" />
-                        </Node>
-                        <Node Bounds="1976,1166,55,26" Id="C5vhARDAnltP3rChRG5bB6">
-                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <CategoryReference Kind="RecordType" Name="WordDicts" />
-                            <Choice Kind="OperationCallFlag" Name="Create" />
-                          </p:NodeReference>
-                          <Pin Id="LHJ6lbONXnjM91Dlkk2oEi" Name="ID" Kind="InputPin" />
-                          <Pin Id="GJRkU27B9m4MFTTGaeZYo6" Name="DE" Kind="InputPin" />
-                          <Pin Id="Do5pkn0oV7PLyZv1YddKOL" Name="EN" Kind="InputPin" />
-                          <Pin Id="MRwC0BzoQqRLhp2HWGCGVl" Name="Output" Kind="StateOutputPin" />
-                        </Node>
-                        <Node Bounds="1076,1214,905,26" Id="AvvOm3R6HBUN96XERvuRRK">
+                        <Node Bounds="1076,1304,905,26" Id="EwpZ106L05dNQGa9GM1NgA">
                           <p:NodeReference LastCategoryFullName="Kafka.Futurium.GraphDict" LastDependency="VL.Kafka.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="RecordType" Name="GraphDict" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
                           </p:NodeReference>
-                          <Pin Id="I8GH7IkaeddNgmIE0pRWVD" Name="VertDict" Kind="InputPin" />
-                          <Pin Id="Sixr02kqG3yOOyB50vt7dE" Name="AnswerDict" Kind="InputPin" />
-                          <Pin Id="ChYAntg94JHOeWXBF4Bfqv" Name="CategoryDict" Kind="InputPin" />
-                          <Pin Id="N7MbXs7RkkbNtrzaI1zftK" Name="QuestionDict" Kind="InputPin" />
-                          <Pin Id="AYzy6mUoEWnL9elURTXdQb" Name="KeywordDict" Kind="InputPin" />
-                          <Pin Id="KKeRzidgHmsLjwYodhjtdU" Name="Output" Kind="OutputPin" />
+                          <Pin Id="GsY8jp29GZONGqLRwbvBg7" Name="VertDict" Kind="InputPin" />
+                          <Pin Id="NMXxMxgrzOQP3MNqWBsyXS" Name="AnswerDict" Kind="InputPin" />
+                          <Pin Id="ATE5U814rQwQMY1OzXeJka" Name="CategoryDict" Kind="InputPin" />
+                          <Pin Id="LHWbxLJUfzkOaDrvZ9XGvZ" Name="QuestionDict" Kind="InputPin" />
+                          <Pin Id="FLopcxwBVTILhPbpKxYIyK" Name="KeywordDict" Kind="InputPin" />
+                          <Pin Id="JJy8RZ7CD75NKolHxqvYEf" Name="Output" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1439,942,92,26" Id="UhGYZB2B9xEOS1Ec9smeu9">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="DNkI2RXqGwMPek67bRqZyO" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="FYeCSYLAe8eM1qtCuA9RmY" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="Hq2nvGlDjAENufZwoFrT2a" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1526,1038,83,19" Id="TKcox6AS250MvIXuRx7kVP">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="JQR2xNOtKESOMqSsMKHCMw" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="Eck0THX74ctLXFISn67DRG" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1471,972,92,26" Id="Dgv4jt7saakMt0MwNDO6bq">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="Jo5vkBHfpTzLzwRRuPsvnr" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="FRuFSuJiOmfOFiS2YhEfBp" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="IIS8EL60Qq8OWj3eLBAdLJ" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1503,1002,92,26" Id="VLpoXX6wVg0Oa9jHnQ9RS1">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="O4g90t2RLODNEkbhwjsSPL" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="Vlcq4JfL8L2PtAGQhYUU4j" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="OE2W9jTb2JJLSi2etRSjdM" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1632,1023,83,19" Id="Qu9t8b2kKDINNFcZdHe3lD">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="JbPy15g049oPgU70ZWX2VT" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="IFD0j4rSx0LP2IKRexZJZK" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1664,1053,83,19" Id="ThtnGr0fL2bPsaJenrMV1k">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="JXIP1td47M9L06C0Vzvngi" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="SLu6DL7QTBvP4T0JlAVfeG" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1526,1260,55,26" Id="Elyn08mKnfbPF58paMZ5Kh">
+                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="RecordType" Name="WordDicts" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="GYxlYSlwUs7ORwPIu3RSVC" Name="ID" Kind="InputPin" />
+                          <Pin Id="OdHt7VnVs2hPAbWdqDKYau" Name="TEXT" Kind="InputPin" />
+                          <Pin Id="QowmbaOtxbHPx9WKuDpObc" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Node Bounds="1439,890,67,19" Id="Hw1UUmjbPexLvQewrSJmjU">
+                          <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                            <Choice Kind="OperationCallFlag" Name="ValueTuple (Split)" />
+                          </p:NodeReference>
+                          <Pin Id="UCn8d3hWI7iO9hWSLE6ZrQ" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="KQsXnxKw7ZVNXfw3h8balI" Name="Item 1" Kind="OutputPin" />
+                          <Pin Id="BMzn4TdULscN1AwIpqc9jE" Name="Item 2" Kind="OutputPin" />
+                          <Pin Id="LAjlTIk9vk6QQoPcbHfUwB" Name="Item 3" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1575,1097,62,26" Id="SLqoDHnpyB7LR7MqWOqJNn">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="TaN5fYZFkAJPPeGlY8qkO4" Name="Key" Kind="InputPin" />
+                          <Pin Id="Rnk5WhB3gbFMKz32G295e6" Name="Value" Kind="InputPin" />
+                          <Pin Id="LOXxBLkDCsILd9bbvtrqMo" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Pad Id="OVYQaCOeeKsLNtHxX2SnDa" Comment="" Bounds="1577,1085,21,15" ShowValueBox="true" isIOBox="true" Value="de">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Pad Id="RVH7v5VtVpBNOZm6Jqr6n6" Comment="" Bounds="1608,1136,21,15" ShowValueBox="true" isIOBox="true" Value="en">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Node Bounds="1576,1191,39,19" Id="Q0bP3GkU126OBhBPqd6QSj">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="Cons" />
+                          </p:NodeReference>
+                          <Pin Id="SeHRjDZotaWMyWfqTLb89m" Name="Input" Kind="InputPin" />
+                          <Pin Id="RNFxWHmyK2UO3kafF4VMLn" Name="Input 2" Kind="InputPin" />
+                          <Pin Id="CpFpuznYw2cMgUKJAaQypc" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1606,1152,62,26" Id="PZWMo2HKHwkLMYjUMfAk3Z">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="PlOcUVJfjgANf1EBPtygUP" Name="Key" Kind="InputPin" />
+                          <Pin Id="EtYjVKBOi8bLpm6WgfqOdb" Name="Value" Kind="InputPin" />
+                          <Pin Id="NtnbG3c0AlKMluJORtPXzB" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Node Bounds="1576,1228,83,19" Id="L4iGlyWoL92N2OKo7TYIOM">
+                          <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Dictionary" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence (KeyValuePair)" />
+                          </p:NodeReference>
+                          <Pin Id="HeEkJ6ejH3MQaS6QqqlGen" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="Bc5fsFTDofqQRCxMGs1kHV" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1664,942,92,26" Id="NONmy8RoigyOIzkeIJGv4n">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="FfGAKIKXGsYMNPVhnEWiUM" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="CWACGd189tZM7MOogTP0cx" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="O2zGSbeWQPRL611uFHOmav" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1751,1038,83,19" Id="Pq7JZOMWAyhP0H6rfxaDZ4">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="EAodisACA04LJMyvGrnRag" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="HyTPu0NIBuTN47K6sTFiY9" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1696,972,92,26" Id="TOu2OBv6KCdOmtVtF8lhIC">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="ToHcsjVBAejNs72uiO9OPr" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="Vk7l2885Xe2LXGPq2xBDSd" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="BEZV8a3nBgSLjGYNJbQQbj" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1728,1002,92,26" Id="RXIqoOtAe88P1ZAxDQlWvq">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="TA4JDsiQvuBOQROCnCC0MG" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="Ues0qKObJszOJcCgVTMdOd" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="A1fJ1WeXUHgMY73J2SFJc7" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1857,1023,83,19" Id="Uac0Y2IWAZjMx6TxOizDGs">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="Kdm39Jw8EOZMiLCeZkVHeR" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="BgXgz1VowFnLKv5emSUVym" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1889,1053,83,19" Id="F5cZDE8vQxdPIeZronUDxO">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="QmoYMXgnT2EOn1n4DrOb2u" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="H5RKFs0PGj0NTEw3lfn3Bx" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1751,1260,55,26" Id="OBvvOW1sLQMOnY9ebGFAiU">
+                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="RecordType" Name="WordDicts" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="RqFs1BgXSXAO12QUPUgept" Name="ID" Kind="InputPin" />
+                          <Pin Id="BDHu7ui9TsgLNmde7dm08Y" Name="TEXT" Kind="InputPin" />
+                          <Pin Id="LWf43z8h5qlPBFA0zF0RNQ" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Node Bounds="1664,890,67,19" Id="FY5AxuHvF4qLI3RSeGbp0r">
+                          <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                            <Choice Kind="OperationCallFlag" Name="ValueTuple (Split)" />
+                          </p:NodeReference>
+                          <Pin Id="AGPFq4ZEruGMWZ7p3fb4dS" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="MFxlRPdK85wOaQzq8wtbeD" Name="Item 1" Kind="OutputPin" />
+                          <Pin Id="HRCYsFrOzP9NhW3A3r20hj" Name="Item 2" Kind="OutputPin" />
+                          <Pin Id="JAB0Ygbd1juMQhYgui2c0Z" Name="Item 3" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1800,1097,62,26" Id="SLmfZ9TluJ1OV8IINO9LJ4">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="GgPdNpAYsfuLaYTYNzsDCw" Name="Key" Kind="InputPin" />
+                          <Pin Id="OyFzngT1ddJMdjYM0Zngs9" Name="Value" Kind="InputPin" />
+                          <Pin Id="LOLCyyb2PoVLGF4Nj2sSPv" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Pad Id="UyVbho6xjcZLvdb4A1ejcn" Comment="" Bounds="1802,1085,21,15" ShowValueBox="true" isIOBox="true" Value="de">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Pad Id="PQszFAEJA8ELdma8J73PqQ" Comment="" Bounds="1833,1136,21,15" ShowValueBox="true" isIOBox="true" Value="en">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Node Bounds="1801,1191,39,19" Id="UK0s3m0VSOBP9UYpYcpNz1">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="Cons" />
+                          </p:NodeReference>
+                          <Pin Id="GTwWK7KP3l1MoOKYC3cTra" Name="Input" Kind="InputPin" />
+                          <Pin Id="SKAuYqKB2EiMqd2fntyJNZ" Name="Input 2" Kind="InputPin" />
+                          <Pin Id="S7Ba7nMlLO5PxzreHd2vvK" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1831,1152,62,26" Id="PiT48hWe22MMJED6mBRRki">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="SNu9Cler6e1NRHz3E3IZwa" Name="Key" Kind="InputPin" />
+                          <Pin Id="ExsLs9l10k9Pgg5g61fag8" Name="Value" Kind="InputPin" />
+                          <Pin Id="FivGYEtZAkPMiSBzOIsBnD" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Node Bounds="1801,1228,83,19" Id="JQXiqfisXS0LKB5wY7olbO">
+                          <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Dictionary" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence (KeyValuePair)" />
+                          </p:NodeReference>
+                          <Pin Id="Gu7L3knmAeJQI58Ft4OCny" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="BEjjaBpa8f8Otj7lTZGbP2" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1889,942,92,26" Id="FORoeGczfowMbhxe41FkWV">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="EjL0lUyVV4oPStVtkKhSVO" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="B6dSSKstKjTNzCUoXBQ7PD" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="QCFGm9bH4hRN3udtdIAyUv" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1976,1038,83,19" Id="RYzC5RbpRzeL3rUmKZuOwM">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="JkCuVc2VzUyPu959mahYsb" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="FVYeMLwivtcPYL9hKpP4iZ" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1921,972,92,26" Id="Fv5SSgM769zP8xJJHUITbg">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="Jo7qgfCtcIWNJiNxCM4Waf" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="AtZiEI5fB0UQKFUING4YKb" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="EdobrTAHD38QYS42gvtoqu" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1953,1002,92,26" Id="LLws8JfVKpIOHGdoiWh42k">
+                          <p:NodeReference LastCategoryFullName="Collections.Concurrent.ConcurrentDictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ConcurrentDictionary" />
+                            <Choice Kind="OperationCallFlag" Name="Values" />
+                          </p:NodeReference>
+                          <Pin Id="PAfrlFUxk5SOGzwCi9K5i9" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="DaMp2lZAQ6JLX4YSaivY1Q" Name="Output" Kind="StateOutputPin" />
+                          <Pin Id="OdIklzDAn0COnHuKX4HV9R" Name="Values" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="2082,1023,83,19" Id="UEPzv935WLEQXthJzP4zCm">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="M1Y8KXUQq2rMzsPNUD9tAr" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="SEsADCbsB3aLlgIGI9qD8g" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="2114,1053,83,19" Id="OwUJ7JcrL8SLKwXoYB095x">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          </p:NodeReference>
+                          <Pin Id="Q7HS0m4atCnNLIT0fs9Khj" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="JaRP5lUUGaoQbc3vDb6Flu" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="1976,1260,55,26" Id="T3z8iTxhcjyLdyaGwmK4Qt">
+                          <p:NodeReference LastCategoryFullName="Kafka.Futurium.WordDicts" LastDependency="VL.Kafka.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="RecordType" Name="WordDicts" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="J1ElQJ04rkKNaE7ivGXR1B" Name="ID" Kind="InputPin" />
+                          <Pin Id="Twxm6rQHQ6XLosnIFPNYCR" Name="TEXT" Kind="InputPin" />
+                          <Pin Id="N8jz7nuAJgiMnIZfchL87E" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Node Bounds="1889,890,67,19" Id="DxA3qmlm4QlOrrcQtD5RBI">
+                          <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
+                            <Choice Kind="OperationCallFlag" Name="ValueTuple (Split)" />
+                          </p:NodeReference>
+                          <Pin Id="N4O9jL0UvU1O6QmqTtJJJ2" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="BIbyl8R9uwHQO8RjPt79eO" Name="Item 1" Kind="OutputPin" />
+                          <Pin Id="StPDUH0Eq9fONx824MAf0h" Name="Item 2" Kind="OutputPin" />
+                          <Pin Id="DNwl7VtoBIeLJQv3lT1th9" Name="Item 3" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="2025,1097,62,26" Id="VG4WHTfWRWNLBKQ3k6dBv9">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="JyZ4ZxJehIQMOs7XGaO6SY" Name="Key" Kind="InputPin" />
+                          <Pin Id="UxKo4eJ4VYSNaATZSXwam6" Name="Value" Kind="InputPin" />
+                          <Pin Id="RKbuy527gP6LmEFVVw78fG" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Pad Id="PnOuMUQvRlEMTtLff1aarY" Comment="" Bounds="2027,1085,21,15" ShowValueBox="true" isIOBox="true" Value="de">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Pad Id="Dcw4kJehWycLKFwFfNtDP5" Comment="" Bounds="2058,1136,21,15" ShowValueBox="true" isIOBox="true" Value="en">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="ImmutableTypeFlag" Name="String" />
+                            <CategoryReference Kind="Category" Name="Primitive" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Node Bounds="2026,1191,39,19" Id="MwHPYWDZhXDPRbumhYCfp0">
+                          <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
+                            <Choice Kind="OperationCallFlag" Name="Cons" />
+                          </p:NodeReference>
+                          <Pin Id="A3n1Wa5x5r0O3XU9W18kAw" Name="Input" Kind="InputPin" />
+                          <Pin Id="O0ALiyyxpqaLtIRfUOl86H" Name="Input 2" Kind="InputPin" />
+                          <Pin Id="TmCDVDouNXSPSfra1LNxn1" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="2056,1152,62,26" Id="LslwZh6WD2XMouckrgTARe">
+                          <p:NodeReference LastCategoryFullName="Collections.Common.KeyValuePair" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="KeyValuePair" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="N4o3d3ILRIQLg8snfYz0c9" Name="Key" Kind="InputPin" />
+                          <Pin Id="FrNASqhPcMbNlzaq1AsF3F" Name="Value" Kind="InputPin" />
+                          <Pin Id="NMMByXCEq3nMo6etBxL7m1" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Node Bounds="2026,1228,83,19" Id="QsrSl7ZT4vyNFTlxdi3dET">
+                          <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Dictionary" />
+                            <Choice Kind="OperationCallFlag" Name="FromSequence (KeyValuePair)" />
+                          </p:NodeReference>
+                          <Pin Id="DBbfHN5LqgNMwRL25uOTeE" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="UhdSeQ6K7W4MayuaR6w9dG" Name="Result" Kind="OutputPin" />
                         </Node>
                       </Patch>
                     </Node>
-                    <ControlPoint Id="RI2QL8T5eZaOMuI7KnKZ0G" Bounds="991,746" />
-                    <ControlPoint Id="Ltt517qv1QFO4QNx1RZpfj" Bounds="990,1293" />
-                    <ControlPoint Id="H1htOCkINJsOskNldflzpw" Bounds="1286,746" />
+                    <ControlPoint Id="Q1yspoDgYvdMprfv3KwrqE" Bounds="991,746" />
+                    <ControlPoint Id="QQOOQXAI63yQEphPSA4UuR" Bounds="990,1368" />
+                    <ControlPoint Id="Ob65hYvZqf1LIeWoebP3Vv" Bounds="1286,746" />
                   </Canvas>
-                  <ProcessDefinition Id="FP4VnI4hI7gPU9hsFjZ5rn">
-                    <Fragment Id="MfLgXUhTNeRP2OkZh4vn31" Patch="LrTE0GnMgKJQaPoieLDaQv" Enabled="true" />
-                    <Fragment Id="U39VuShMcF5O9Gw1bm5YBC" Patch="CkjPoe69Z3VOULflb3oEPc" Enabled="true" />
+                  <ProcessDefinition Id="SoAhcxRf59hLZwyQCRouzw">
+                    <Fragment Id="IwYOTaloqlaNjQoPUH2PlK" Patch="IxKH7pZ2dHcMVtkqpiltDc" Enabled="true" />
+                    <Fragment Id="H52EswlbgBVOmNA9ObI5a0" Patch="OFm5lqSgHOlMplvD0npiXH" Enabled="true" />
                   </ProcessDefinition>
-                  <Link Id="GInDV3EC2WKPLx3kyphplb" Ids="KgcJY1L5mgtM3eqX8hHHgY,JyFTIPxVXkuP1Tk25zUiaT" />
-                  <Link Id="HDcILoOnLwRNGFXZGZYyiR" Ids="Vx6pnpAbsmfOhuhiv40qOR,LLKAg5G9a74LCyb1FrT7kd" />
-                  <Link Id="BCKv1kqrC0YQEVS9vuOpPo" Ids="OZ95kywGScrPVbfjqmAWOg,QiMHtRcDDxZQQR9Na1vGZt" />
-                  <Link Id="CGj3geaFOL0LiChUK3vGI6" Ids="DC7Uh6Ru8sUMMeYNeaTeYH,T07ftH3L6efOZm2dI4WQzc" />
-                  <Link Id="AWSCYa2zbN1MRKcMHlZbWp" Ids="LmBrOH1Y09EMeHxPSeQVaQ,GZqs10FMsL4M8RUj2sjlt7" />
-                  <Link Id="P26XGMeinmoMBVju39vad3" Ids="PqNg3RDigpbMNU5WeLCiBR,SnxRkl5dJbXM4D2QJFXZaP" />
-                  <Link Id="B506eSVxTcpONUcMaLsQf3" Ids="HmcolTsErAiNNw7CfhneHs,Iw4UzQFgvvWPiEBIBYzDjj" />
-                  <Link Id="PBR4dV47viEPsG8GlrFTSC" Ids="BxPQSLCUdE3LBC1Bvz7oYV,F5YoUEV8AFgMgbEtqhEvx2" />
-                  <Link Id="IJbE5M0rMB1LSaZZyu7w0a" Ids="UOFg4F3J6LvMpd4Fmp7oeV,RuVeiSIlilyMk8aKtyzGfi" />
-                  <Link Id="UvsMFH159OGO0afynvt8r7" Ids="FOP6LZ2TyZDPcV02x7ebzA,FWiITDxtHZcO6t0oaCi240" />
-                  <Link Id="PhEMUiEYinMLYlIlR4dqzS" Ids="JZJDIcHkc37MmoWrM5y8oK,OS3b6NyDq2lQMeWjrBAHBy" />
-                  <Link Id="REUiZJG34nyQL81NxibdhT" Ids="UhrKxBJmhRlNLQqZSv99Ng,HVHgEj9nuaRQM8winEn74Y" />
-                  <Link Id="OqrN1niQ8kZOgJaHcbeMdQ" Ids="RmACllJvaEuOQ7SkxKmxRe,QZDnsYvQIqKQbOYfmjZdt7" />
-                  <Link Id="GMsMk2s0CLyQMPu8Oysg5b" Ids="PEc6ZHkGGwfPNjqKVhUlL8,QzPbD1N8f2nNPrxBBT4dlq" />
-                  <Link Id="UXNArj1AHOTM1LloPY10ia" Ids="NIDPmtiDWjLMrxa07hrvsz,NN72iKHMN0sOxnNq6ePXYY" />
-                  <Link Id="F14OY49NtM9PBzV8HM3H64" Ids="NNNIzg9LZTYNK0LXo8ZgI6,UttEiLr9jgNQEhxnfH4Ep7" />
-                  <Link Id="GZLV5OCFHl7Oqe4iB69wdw" Ids="D49AzZGwJ0TQGSBh5cFe5V,LmxI49ZIDfLQX5hTGlaDI7" />
-                  <Link Id="PvBug9NxoYtQFZiLpeTB5M" Ids="CqFTqz7y7jmOJCKVOjtAfP,ELU8c6BM3pNLddU2zp4DgB" />
-                  <Link Id="PpTXWPf7namNX0HEjen6bk" Ids="Ij8JFotrH9xQZvVdLXBHAm,IfAaFO0w9AMPFIibTpUbxq" />
-                  <Link Id="Snhh8z6NQftLQlVOTUoTnr" Ids="FZZM6d2A6t1QExV2UpjKoi,U6uXBJPbNqvP24ZtHduxLp" />
-                  <Link Id="HkSGDRv3qPmMI197hDtGem" Ids="IvmVITBf9IsPYafS3LPvme,FiFzMunXMK7QDfSpiiF281" />
-                  <Link Id="R5HogA0fcXCPCCTbt5AtfR" Ids="FLytRu4VIuuMNxvte9wh19,A8XHHu9QK25ND9vUJtKMWM" />
-                  <Link Id="OfZdh5yMA1XOPLGmv7uXd6" Ids="CpRUf3emcNlMTzSzcPlsGJ,VMdRXqK9J7pPQZOqglXkiv" />
-                  <Link Id="Iosg0AuznWRLtEtvwiojtT" Ids="UBzn92O9a9kQN94sivXV9v,UzuTeGSMOEXMKwsz0thQOm" />
-                  <Link Id="GtMsGxcpDenMoc9fvwa0Jn" Ids="I4oxedtmEVjLFLUIljptkz,LYjuLXCMgp4MiJCMJKzhJR" />
-                  <Link Id="QIDYqcqogizLtOlzD0IzgL" Ids="Uq9tWdbHn00MRp2ziYwftG,UIn4oElcm8zOJg0rY7IaAB" />
-                  <Link Id="HXrJjxIDGG2LPAo6seL9I3" Ids="RY4HFFTpSpPL2KMsIojCDL,Haw2xtxhGncOFpF3rRZhyJ" />
-                  <Link Id="BfDx3Eevdr7N9JsFJGjpYV" Ids="EaOp87FwokCO2BLNHUlmoM,A4oqO9ENM3LPDKp6VQQpuQ" />
-                  <Link Id="I32Cz54lQlVMlY4BFWaS9h" Ids="DqTR0JsfsKHOYtOQZ8GdEf,RjaQFe6ctJtOVP2VeyhNBX" />
-                  <Link Id="UJ4jXkOeMFyQYgIqvZ447j" Ids="K2n2t7YgeB1PU1RfswTG4h,IoEzBkUMckDOxee8wixsYd" />
-                  <Link Id="QBGiq1ZPhwkNeZodc1vV7w" Ids="QffUW8uMu56QWRB4nrDkUR,FOWROSLWh1mOnx7N343CF2" />
-                  <Link Id="UI0KKxwZgRMNgg5Q5JbbMt" Ids="RWXiD7eAvqgLAMup1Obm1X,Ii9h42NgGfeMF8nL96MaGl" />
-                  <Link Id="JgwcTMVhwQjNUYiRT3x2sQ" Ids="Q2p6vba7xq3OQdO5GQoLWA,SbcZGoHXukfLvsUWhTbcT4" />
-                  <Link Id="Jy0STnnemFaOrBt5wIdDUe" Ids="LTxH3wZOdrQLEaTRI08Chq,Lc8P8Fg9SEVLh1WJ42C0jM" />
-                  <Link Id="KOD5k3KQFF5NOdqTekkPtc" Ids="EvBvkgFHFvzOTAjrMQRa0O,LHJ6lbONXnjM91Dlkk2oEi" />
-                  <Link Id="EevWCm7kcGMOdLON5DoW7C" Ids="K2Kkzfz75djLzhx02ADUVg,GJRkU27B9m4MFTTGaeZYo6" />
-                  <Link Id="Tpl8M3IUbs7L0RnCzWk5Qf" Ids="O2bNGAiP9nyOMz9xoS0lIc,Do5pkn0oV7PLyZv1YddKOL" />
-                  <Link Id="L1ORKkef8MINgL6bZ9DVLd" Ids="PDcZjDUwoIXMqp0ufjKO7V,Sixr02kqG3yOOyB50vt7dE" />
-                  <Link Id="Qnoxt24IGH4LYrL1bIPmWq" Ids="G6zPyO9zQa9L7MJG7brn73,ChYAntg94JHOeWXBF4Bfqv" />
-                  <Link Id="IFIL1h855X6Of2IrXBiP1e" Ids="VezHJmKSpO0P8I8q6Rnj9D,N7MbXs7RkkbNtrzaI1zftK" />
-                  <Link Id="LY1buUZWAQBLEzzumnBpcV" Ids="MRwC0BzoQqRLhp2HWGCGVl,AYzy6mUoEWnL9elURTXdQb" />
-                  <Link Id="HOP8M28uGO6Lie4CtIXHPh" Ids="RDjxcJ4degRMKi9G7WlN7T,I8GH7IkaeddNgmIE0pRWVD" />
-                  <Link Id="Ef2eR29mgbgL0rKVUnh3CV" Ids="KKeRzidgHmsLjwYodhjtdU,JNgQCygb2Y7QVOnzwtTqep" />
-                  <Link Id="POKFF6B9cyYLqq19sbj2Dz" Ids="RI2QL8T5eZaOMuI7KnKZ0G,J0XinBYhkbYNBQdrrtE0mo" />
-                  <Link Id="Ol8CnbhjjzPLo6uzjGlENr" Ids="U7uOiBQQlcEM1r4yf6jr14,RI2QL8T5eZaOMuI7KnKZ0G" IsHidden="true" />
-                  <Link Id="AHgrAORRyNWMsasRuRhshJ" Ids="JNgQCygb2Y7QVOnzwtTqep,Ltt517qv1QFO4QNx1RZpfj" />
-                  <Link Id="F9ssP47wd1RQVZsUVBEVqi" Ids="Ltt517qv1QFO4QNx1RZpfj,Rp3e1cPqAxOMQCkf5cJD6V" IsHidden="true" />
-                  <Link Id="ReN3tduQvIaL6pAnNzNU8A" Ids="H1htOCkINJsOskNldflzpw,Ou705uZzspqOyKpjdXPZbd" />
-                  <Link Id="TdkrBCF2pjRQC3YGOcnMkz" Ids="CYQnFR5Ww10OsDVtokKCrx,H1htOCkINJsOskNldflzpw" IsHidden="true" />
-                  <Patch Id="LrTE0GnMgKJQaPoieLDaQv" Name="Create" />
-                  <Patch Id="CkjPoe69Z3VOULflb3oEPc" Name="Update">
-                    <Pin Id="U7uOiBQQlcEM1r4yf6jr14" Name="GraphDict" Kind="InputPin" Bounds="991,749">
+                  <Link Id="SbEViBMICs7PC0xDnbL0sC" Ids="KXDN5UQ6mRaLYaigJu8pij,U0PYAyOqZrxLAo4noRaGFH" />
+                  <Link Id="DnPAlQTc8LgNWiiTJd7AH3" Ids="SAY5c5C9OjEMQO4Egj6zIY,ObNrAOq0xwfOaW40vEdtDz" />
+                  <Link Id="PkirOXzJ7ibQJGP9ypt7gq" Ids="NIEuq1A2pF2Pk2TVHFGmWa,DE9CN6i0pVUPgGyvv4GuYQ" />
+                  <Link Id="BWwV833FhcNMKjyuaOOFEt" Ids="QGQEsB4Wh2GP1zCCDq2anA,Acvg66VEuAlM78Ap3EfOLC" />
+                  <Link Id="AoH5CXUItzePjTdR5ZA2D3" Ids="Q1yspoDgYvdMprfv3KwrqE,OJPNh9NHhUwOEboRslszrB" />
+                  <Link Id="CzMALEhsThHMy3DQLZD2id" Ids="Q4veK6XP0qZPkAtMKincHU,Q1yspoDgYvdMprfv3KwrqE" IsHidden="true" />
+                  <Link Id="GDwzZrzLnagOfpPqO1jguY" Ids="GsWVBlI0LQ5Nz4raKRzoJ5,QQOOQXAI63yQEphPSA4UuR" />
+                  <Link Id="Rc2mQM91q1cQcbM80RzxZo" Ids="QQOOQXAI63yQEphPSA4UuR,GfRDYcrcQ2gNqOmopmoJ2M" IsHidden="true" />
+                  <Link Id="CN77vloHbcsN586juu2d4c" Ids="Ob65hYvZqf1LIeWoebP3Vv,UBH6TbdwPFoNAtNBvcJ51W" />
+                  <Link Id="T6tKxuQ5w9CMn7rPbnk84Q" Ids="VVT1FQKhjaYOgcBLg72rjZ,Ob65hYvZqf1LIeWoebP3Vv" IsHidden="true" />
+                  <Link Id="PieNrP30uSFMvfNSXH8Qkj" Ids="A8pvTtzDKJ6M6k9sps7IPq,Gf511qumkKgPzKK2TbsazD" />
+                  <Link Id="OS3ybbm3o8QPPJWE0j8ZpE" Ids="C3DxtzGTDEdMpvotvMZcUi,Gf6DIsc4njrLZiZ6ivNXi0" />
+                  <Link Id="DVkGyBZWU4gLrkYUwz6pFn" Ids="OBvTzHC2ktCN5a6K5am7fI,CmQ25h8kLWJMHUGx8Q5hU5" />
+                  <Link Id="HsetWtrsjU5MlmZlFVSXV5" Ids="USBmf3xq8bsOLYXSetTc8C,EqSav5aN00EN2oiITsx23n" />
+                  <Link Id="Q1zvzKaIaKROG3Qe9IkhbG" Ids="JGmNHHpNjZiMyDKyQH7PYJ,LYM7bR7LsZWPhHsn0moGSG" />
+                  <Link Id="Pr9VkenRKF6PBLGpBSkpdS" Ids="Hz1rIK7ftjlQVkmnENkEeH,JE9BvJD9QbSLICtO5GSVcm" />
+                  <Link Id="SgCDsH82lEKQEbnNVmnQxT" Ids="GMLB6MSFrhrQVFn7aI9HQP,AvywKYBespDOQTM8QWgOoq" />
+                  <Link Id="Jb4vRZOJUwjPhCUSiYiJ9R" Ids="GBO6K4Nsg5NMhFT62VJSEA,TLG70ubeMz4MMYq2fl9a14" />
+                  <Link Id="FLE6g0k1PctNJH7R0EJzPH" Ids="RcAONvhvANoM18ychVSyrS,LfAijXcNT82QbzHREbEyGY" />
+                  <Link Id="Mqu86Z8r38VNNGyPPkVrxJ" Ids="TO3Q0hLCE4sM4LLwbhmujh,BqbBtDdfRoYNbO9H11CypX" />
+                  <Link Id="FinI4yyoWaFLZD4mVrHUZr" Ids="ElY3WDYvTR6QJkWEY4MQxG,F8rRK42X4LbMxieokOaohf" />
+                  <Link Id="OMeLNAY46DrLipxNYQSTyA" Ids="DkQ2HbWKUGRMeD1tY1E9DZ,R8WhiMrMr89OiVGBI7Dw8J" />
+                  <Link Id="V5V0fxBw82bMLf9x1NR9IH" Ids="DlNHeqFyB0wNCuMJ3hk7wn,Osb7ib6NCOJM8W5WNjkvUl" />
+                  <Link Id="DzcIQlYqoImOP4xhahqhXN" Ids="NWwexUrI6qBPmr5IhW8vWc,UQRVbXtK1KrQDTRTEtC3bz" />
+                  <Link Id="E8wt4SIXRg0Ph8WZWChE4I" Ids="UnT5p39STDkQAGHltaeQCn,NMXxMxgrzOQP3MNqWBsyXS" />
+                  <Link Id="IE2KCz4FOS0LzsfdkPbXxt" Ids="Hq2nvGlDjAENufZwoFrT2a,JQR2xNOtKESOMqSsMKHCMw" />
+                  <Link Id="PLrrhl9jsgENsGiBjpTu4D" Ids="IIS8EL60Qq8OWj3eLBAdLJ,JbPy15g049oPgU70ZWX2VT" />
+                  <Link Id="VoxVzBmzDRxL3HvWxLuyrR" Ids="OE2W9jTb2JJLSi2etRSjdM,JXIP1td47M9L06C0Vzvngi" />
+                  <Link Id="QK2SzqgofSrP48B8RG36OI" Ids="KQsXnxKw7ZVNXfw3h8balI,DNkI2RXqGwMPek67bRqZyO" />
+                  <Link Id="OrohPBvmPuGMEVLNoAMBXt" Ids="BMzn4TdULscN1AwIpqc9jE,Jo5vkBHfpTzLzwRRuPsvnr" />
+                  <Link Id="QxffYQz65jIPfZjxyFOvWp" Ids="LAjlTIk9vk6QQoPcbHfUwB,O4g90t2RLODNEkbhwjsSPL" />
+                  <Link Id="OVucZSXLesPNDLxLsaUTJu" Ids="IFD0j4rSx0LP2IKRexZJZK,Rnk5WhB3gbFMKz32G295e6" />
+                  <Link Id="UYCzKqh9tj5OGmaBRZ7BtE" Ids="OVYQaCOeeKsLNtHxX2SnDa,TaN5fYZFkAJPPeGlY8qkO4" />
+                  <Link Id="LX98eNiIocfPlJ0Pez4xRg" Ids="LOXxBLkDCsILd9bbvtrqMo,SeHRjDZotaWMyWfqTLb89m" />
+                  <Link Id="Oyolu0T2UpMQUhRUw4pbAJ" Ids="SLu6DL7QTBvP4T0JlAVfeG,EtYjVKBOi8bLpm6WgfqOdb" />
+                  <Link Id="NJo9AciRtpQL3pD1Ymdl2B" Ids="RVH7v5VtVpBNOZm6Jqr6n6,PlOcUVJfjgANf1EBPtygUP" />
+                  <Link Id="GopSSelAzSMONF9Cyuqw9d" Ids="NtnbG3c0AlKMluJORtPXzB,RNFxWHmyK2UO3kafF4VMLn" />
+                  <Link Id="Ggx9fyHgDHfLf4XGk9c5OT" Ids="CpFpuznYw2cMgUKJAaQypc,HeEkJ6ejH3MQaS6QqqlGen" />
+                  <Link Id="GDD1Etfv2RBMVghBTEWXGT" Ids="Bc5fsFTDofqQRCxMGs1kHV,OdHt7VnVs2hPAbWdqDKYau" />
+                  <Link Id="IR7G5K5WK2pLwab4lUkoqf" Ids="Eck0THX74ctLXFISn67DRG,GYxlYSlwUs7ORwPIu3RSVC" />
+                  <Link Id="Vv2zT24kGiOPM9x9OXpkdy" Ids="O2zGSbeWQPRL611uFHOmav,EAodisACA04LJMyvGrnRag" />
+                  <Link Id="Sggeoh5zLujMKum9HesaU5" Ids="BEZV8a3nBgSLjGYNJbQQbj,Kdm39Jw8EOZMiLCeZkVHeR" />
+                  <Link Id="HINnsniW9NbQa7PfeNlEA3" Ids="A1fJ1WeXUHgMY73J2SFJc7,QmoYMXgnT2EOn1n4DrOb2u" />
+                  <Link Id="IG9GbnBTZnfMCPkxar2sCa" Ids="MFxlRPdK85wOaQzq8wtbeD,FfGAKIKXGsYMNPVhnEWiUM" />
+                  <Link Id="CMYM1gGzePtP8MSMDV535R" Ids="HRCYsFrOzP9NhW3A3r20hj,ToHcsjVBAejNs72uiO9OPr" />
+                  <Link Id="EEuOg2kyegkMQmJpLGD64L" Ids="JAB0Ygbd1juMQhYgui2c0Z,TA4JDsiQvuBOQROCnCC0MG" />
+                  <Link Id="CHDIvCIS75jNwgZUvE3FrK" Ids="BgXgz1VowFnLKv5emSUVym,OyFzngT1ddJMdjYM0Zngs9" />
+                  <Link Id="O8jNkG2mL6hMEIx2DdnBiF" Ids="UyVbho6xjcZLvdb4A1ejcn,GgPdNpAYsfuLaYTYNzsDCw" />
+                  <Link Id="Qq7UsX1kEcnLMcOiNbaGGF" Ids="LOLCyyb2PoVLGF4Nj2sSPv,GTwWK7KP3l1MoOKYC3cTra" />
+                  <Link Id="TMZkqgH9FE0O7m7nri2mmR" Ids="H5RKFs0PGj0NTEw3lfn3Bx,ExsLs9l10k9Pgg5g61fag8" />
+                  <Link Id="LsYO51kDYlnN48WyJksVKO" Ids="PQszFAEJA8ELdma8J73PqQ,SNu9Cler6e1NRHz3E3IZwa" />
+                  <Link Id="ANXa4F5XTDKNmdLj0gxbWZ" Ids="FivGYEtZAkPMiSBzOIsBnD,SKAuYqKB2EiMqd2fntyJNZ" />
+                  <Link Id="OCL9RBUAuCzP4AF8AUFXtx" Ids="S7Ba7nMlLO5PxzreHd2vvK,Gu7L3knmAeJQI58Ft4OCny" />
+                  <Link Id="V6kH3PqBE2pMm491N2TfXD" Ids="BEjjaBpa8f8Otj7lTZGbP2,BDHu7ui9TsgLNmde7dm08Y" />
+                  <Link Id="CgpR8l8PMtNPitSmiAFAlJ" Ids="HyTPu0NIBuTN47K6sTFiY9,RqFs1BgXSXAO12QUPUgept" />
+                  <Link Id="QFglpPSPGn4L8M7oivWkq1" Ids="QCFGm9bH4hRN3udtdIAyUv,JkCuVc2VzUyPu959mahYsb" />
+                  <Link Id="Ml8fDIbwezAPReBRB1b1kU" Ids="EdobrTAHD38QYS42gvtoqu,M1Y8KXUQq2rMzsPNUD9tAr" />
+                  <Link Id="LlcJJmkGkXSLecqnGKj3uJ" Ids="OdIklzDAn0COnHuKX4HV9R,Q7HS0m4atCnNLIT0fs9Khj" />
+                  <Link Id="LCf4PITMGGyMqiHH735HVe" Ids="BIbyl8R9uwHQO8RjPt79eO,EjL0lUyVV4oPStVtkKhSVO" />
+                  <Link Id="NNYMWV1T7HMPASKFRe9KyA" Ids="StPDUH0Eq9fONx824MAf0h,Jo7qgfCtcIWNJiNxCM4Waf" />
+                  <Link Id="UVbxMZMQYBQL3bzijMVILs" Ids="DNwl7VtoBIeLJQv3lT1th9,PAfrlFUxk5SOGzwCi9K5i9" />
+                  <Link Id="SMZaPQjCEBdOIRPalNwq8z" Ids="SEsADCbsB3aLlgIGI9qD8g,UxKo4eJ4VYSNaATZSXwam6" />
+                  <Link Id="CI96ZNxQ0JVLHA30ufuV3O" Ids="PnOuMUQvRlEMTtLff1aarY,JyZ4ZxJehIQMOs7XGaO6SY" />
+                  <Link Id="K1Oh2nZxtzUOU26Xio2nd9" Ids="RKbuy527gP6LmEFVVw78fG,A3n1Wa5x5r0O3XU9W18kAw" />
+                  <Link Id="KSi76CPo6gvLJD2cUUcWgl" Ids="JaRP5lUUGaoQbc3vDb6Flu,FrNASqhPcMbNlzaq1AsF3F" />
+                  <Link Id="NxRwPxbiaXVPx1sgGnYTKz" Ids="Dcw4kJehWycLKFwFfNtDP5,N4o3d3ILRIQLg8snfYz0c9" />
+                  <Link Id="GuQRRtyeseJNpbAcdRecWi" Ids="NMMByXCEq3nMo6etBxL7m1,O0ALiyyxpqaLtIRfUOl86H" />
+                  <Link Id="CTwj2bX7nzaLzsnmVN4ona" Ids="TmCDVDouNXSPSfra1LNxn1,DBbfHN5LqgNMwRL25uOTeE" />
+                  <Link Id="LQuvfTIlN5QQQZOTpw1bB2" Ids="UhdSeQ6K7W4MayuaR6w9dG,Twxm6rQHQ6XLosnIFPNYCR" />
+                  <Link Id="S6FBURY1kvfMnV8yJpDxtM" Ids="FVYeMLwivtcPYL9hKpP4iZ,J1ElQJ04rkKNaE7ivGXR1B" />
+                  <Link Id="JtnuPapDSU1OMiOZyFbuU8" Ids="MMCkw7A5hgpLtKpNcwmxBJ,UCn8d3hWI7iO9hWSLE6ZrQ" />
+                  <Link Id="CwYapv77iCKQdP7Kb2fMDB" Ids="KtAKWDMnIzrOj09bqcTvkp,AGPFq4ZEruGMWZ7p3fb4dS" />
+                  <Link Id="JbbO0IZpkF5PklnVrfZjT0" Ids="PbY8hYM8rKRQKR6KLSaAjj,N4O9jL0UvU1O6QmqTtJJJ2" />
+                  <Link Id="QN9Sl9RsgauNthUEhRglp3" Ids="QowmbaOtxbHPx9WKuDpObc,ATE5U814rQwQMY1OzXeJka" />
+                  <Link Id="R3A2C4VeBaYMKlm1MiA1xi" Ids="LWf43z8h5qlPBFA0zF0RNQ,LHWbxLJUfzkOaDrvZ9XGvZ" />
+                  <Link Id="GnZP50GlIoEO6NBP7u56Zr" Ids="N8jz7nuAJgiMnIZfchL87E,FLopcxwBVTILhPbpKxYIyK" />
+                  <Link Id="Hsh42hQPigeOe9SrbRBVBs" Ids="KB38tUZC9VCOR4Yn6eF6AU,GsY8jp29GZONGqLRwbvBg7" />
+                  <Link Id="TFO0NIyuGZ5M4by51atUKH" Ids="JJy8RZ7CD75NKolHxqvYEf,GsWVBlI0LQ5Nz4raKRzoJ5" />
+                  <Patch Id="IxKH7pZ2dHcMVtkqpiltDc" Name="Create" />
+                  <Patch Id="OFm5lqSgHOlMplvD0npiXH" Name="Update">
+                    <Pin Id="Q4veK6XP0qZPkAtMKincHU" Name="GraphDict" Kind="InputPin" Bounds="991,749">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
                         <Choice Kind="TypeFlag" Name="GraphDict" />
                         <p:TypeArguments>
@@ -11166,7 +11521,7 @@
                             </p:TypeArguments>
                           </TypeReference>
                           <TypeReference>
-                            <Choice Kind="TypeFlag" Name="WordDicts" />
+                            <Choice Kind="TypeFlag" Name="ValueTuple (3 Items)" />
                             <p:TypeArguments>
                               <TypeReference>
                                 <Choice Kind="TypeFlag" Name="ConcurrentDictionary" />
@@ -11176,6 +11531,17 @@
                                   </TypeReference>
                                   <TypeReference>
                                     <Choice Kind="TypeFlag" Name="Integer32" />
+                                  </TypeReference>
+                                </p:TypeArguments>
+                              </TypeReference>
+                              <TypeReference>
+                                <Choice Kind="TypeFlag" Name="ConcurrentDictionary" />
+                                <p:TypeArguments>
+                                  <TypeReference>
+                                    <Choice Kind="TypeFlag" Name="Integer32" />
+                                  </TypeReference>
+                                  <TypeReference>
+                                    <Choice Kind="TypeFlag" Name="String" />
                                   </TypeReference>
                                 </p:TypeArguments>
                               </TypeReference>
@@ -11195,38 +11561,46 @@
                         </p:TypeArguments>
                       </p:TypeAnnotation>
                     </Pin>
-                    <Pin Id="CYQnFR5Ww10OsDVtokKCrx" Name="Apply" Kind="InputPin" Bounds="1286,746" />
-                    <Pin Id="Rp3e1cPqAxOMQCkf5cJD6V" Name="GraphDict" Kind="OutputPin" Bounds="992,1293">
+                    <Pin Id="VVT1FQKhjaYOgcBLg72rjZ" Name="Apply" Kind="InputPin" Bounds="1286,746" />
+                    <Pin Id="GfRDYcrcQ2gNqOmopmoJ2M" Name="GraphDict" Kind="OutputPin" Bounds="992,1293">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
                         <Choice Kind="TypeFlag" Name="GraphDict" />
                         <p:TypeArguments>
-                          <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                          <TypeReference>
                             <Choice Kind="TypeFlag" Name="Dictionary" />
                             <p:TypeArguments>
-                              <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                              <TypeReference>
                                 <Choice Kind="TypeFlag" Name="Integer32" />
                               </TypeReference>
-                              <TypeReference LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+                              <TypeReference>
                                 <Choice Kind="TypeFlag" Name="ImgVertex" />
                               </TypeReference>
                             </p:TypeArguments>
                           </TypeReference>
-                          <TypeReference LastCategoryFullName="Kafka.Futurium.CollectVerticies" LastDependency="VL.Kafka.vl">
+                          <TypeReference>
                             <Choice Kind="TypeFlag" Name="WordDicts" />
                             <p:TypeArguments>
-                              <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                              <TypeReference>
                                 <Choice Kind="TypeFlag" Name="Spread" />
                                 <p:TypeArguments>
-                                  <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                                  <TypeReference>
                                     <Choice Kind="TypeFlag" Name="Integer32" />
                                   </TypeReference>
                                 </p:TypeArguments>
                               </TypeReference>
-                              <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                                <Choice Kind="TypeFlag" Name="Spread" />
+                              <TypeReference>
+                                <Choice Kind="TypeFlag" Name="Dictionary" />
                                 <p:TypeArguments>
-                                  <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                                  <TypeReference>
                                     <Choice Kind="TypeFlag" Name="String" />
+                                  </TypeReference>
+                                  <TypeReference>
+                                    <Choice Kind="TypeFlag" Name="Spread" />
+                                    <p:TypeArguments>
+                                      <TypeReference>
+                                        <Choice Kind="TypeFlag" Name="String" />
+                                      </TypeReference>
+                                    </p:TypeArguments>
                                   </TypeReference>
                                 </p:TypeArguments>
                               </TypeReference>
@@ -11236,11 +11610,6 @@
                       </p:TypeAnnotation>
                     </Pin>
                   </Patch>
-                  <Link Id="LZIFOIMz6qGQBRYOiONn1r" Ids="S2EpvmCUrXQMWgXMNMqr5a,NtwkYafrIDXN1fn695BlE9" />
-                  <Link Id="LmTPfXgsY1KMzQrVAD8jax" Ids="Smq681sADElP7epZi5uNu7,Rf4KXFyM53rO7eWYzGAKfG" />
-                  <Link Id="If2OJcsTS6RLfHRTTEpEhI" Ids="Ej5HR0WFeNwLONpfquimFT,LvSuwHTY5syPSjCVx8qqd5" />
-                  <Link Id="IpBbZNJmsdSPDKtEM2JQCz" Ids="BhF0vZMPXQdMcGC1wr4E2f,LycTEL8NsZSLhZkHmOzaQ8" />
-                  <Link Id="As1zu3VLXDdLe6eSNgWmdV" Ids="C6329cNYaIcQLoJ3AqR7rw,P8133nYhO2cPNpYb1FJRJ6" />
                 </Patch>
               </Node>
               <!--
@@ -11248,50 +11617,53 @@
     ************************ TotalCount ************************
 
 -->
-              <Node Name="TotalCount" Bounds="965,982" Id="O5WRB6LudAPNpRgjbgJeco">
+              <Node Name="TotalCount" Bounds="1005,984" Id="EAxkSub8TJ9MqWDKdglYPz">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="ContainerDefinition" Name="Process" />
                 </p:NodeReference>
-                <Patch Id="ANDgALuMTolPp2LzeB1umg">
-                  <Canvas Id="AtKIAqXxICFL7qrjVHg1wV" CanvasType="Group">
-                    <ControlPoint Id="J24usprvUooN1knUxZUQkr" Bounds="1251,827" />
-                    <ControlPoint Id="EoyflY4HPpRMrq32DR5AMv" Bounds="1164,604" />
-                    <ControlPoint Id="LFE6BMqx0r5MTPMTvcPg5X" Bounds="1161,829" />
-                    <Node Bounds="1162,648,85,26" Id="NnYI285f5cBLFOQd1CJ11A">
+                <Patch Id="JJgRD2YE1KnQM2qMPBVWyg">
+                  <Canvas Id="AZg69OxNRgWO5ImMgOssfC" CanvasType="Group">
+                    <ControlPoint Id="TZdhGPn9PN9MTi4HVZ3uzM" Bounds="1251,827" />
+                    <ControlPoint Id="Nse6TtS2DfjOyFhbh1Ieqr" Bounds="1164,604" />
+                    <ControlPoint Id="RvnXTJyoCZwMGRNGiGXrmJ" Bounds="1161,829" />
+                    <Node Bounds="1162,648,85,26" Id="P9EGfRb3hRVQDI2Fy8605e">
                       <p:NodeReference LastCategoryFullName="Kafka.Futurium.GraphDict" LastDependency="VL.Kafka.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="RecordType" Name="GraphDict" />
                         <Choice Kind="OperationCallFlag" Name="Split" />
                       </p:NodeReference>
-                      <Pin Id="USnw7obfnRSMUIzPddAcgM" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="K17Z3PKhcooMwvGbyqm1Sd" Name="Output" Kind="OutputPin" />
-                      <Pin Id="JQmM8OOY0lhQM24oo5HQlp" Name="VertDict" Kind="OutputPin" />
-                      <Pin Id="JXlrSwK2R6JL9lBJvM1uqz" Name="AnswerDict" Kind="OutputPin" />
-                      <Pin Id="LOyZO2KBksyOtHngKpz3sO" Name="CategoryDict" Kind="OutputPin" />
-                      <Pin Id="UUMqjabMI3IMOn2OP8CiJv" Name="QuestionDict" Kind="OutputPin" />
-                      <Pin Id="CZj6btBKgMGOd11NIMbBW8" Name="KeywordDict" Kind="OutputPin" />
+                      <Pin Id="VYzl0VNoUCEMTLQjI0MQTP" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="UZXFV6ma2qxO2u0PxqCcRW" Name="Output" Kind="OutputPin" />
+                      <Pin Id="PAAF0uv2l4eOrZ91twCgAE" Name="VertDict" Kind="OutputPin" />
+                      <Pin Id="QMrWbID2HgxNtgWOOhrEw3" Name="AnswerDict" Kind="OutputPin" />
+                      <Pin Id="EpKzP8CTRsSPbYSDkAgh3z" Name="CategoryDict" Kind="OutputPin" />
+                      <Pin Id="VwvhnKuCyCyLS5RJCkSVg5" Name="QuestionDict" Kind="OutputPin" />
+                      <Pin Id="IsYvLLGAyJPOZagxcSWunw" Name="KeywordDict" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="1182,726,53,26" Id="SsXSZIpzIo5PubAiDamUXm">
+                    <Node Bounds="1182,726,53,26" Id="UAG2DVTHJpbP98AuP2RTMK">
                       <p:NodeReference LastCategoryFullName="Collections.Dictionary" LastDependency="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="ClassType" Name="Dictionary" />
                         <Choice Kind="OperationCallFlag" Name="Count" />
                       </p:NodeReference>
-                      <Pin Id="IFnmlSzFXQIPjjLzSBxgNC" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="LW3bHp7FTy1Py9KJDxxph1" Name="Count" Kind="OutputPin" />
+                      <Pin Id="O0Xxjc3qrsbPmFcbaoWCWy" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="TGSqKIjdy0hQQtExOTYkW2" Name="Count" Kind="OutputPin" />
                     </Node>
                   </Canvas>
-                  <ProcessDefinition Id="PRQvZ3qhuhTNWuCz4FsAIY">
-                    <Fragment Id="C3NFMTgfrKIMI0ZNGSECUP" Patch="STUbBYxuvqGQCxMoDyjz9G" Enabled="true" />
-                    <Fragment Id="NwMn14hlb6vPdF7zPro8nQ" Patch="GGkeA2tSMKxOzkfVPGZuvT" Enabled="true" />
+                  <ProcessDefinition Id="GZJA30V43njPCqru1M3u3Q">
+                    <Fragment Id="NDOyDtvETttLhwdtyZmA52" Patch="QAf6E2eVFkCLpMdga19kn1" Enabled="true" />
+                    <Fragment Id="FRu5q8z7hDtOaAEC6aDvgr" Patch="CmYX8jdri6cPoNuqlhpnqd" Enabled="true" />
                   </ProcessDefinition>
-                  <Link Id="CIXu6pgHnfHP0FyGKA4bGJ" Ids="J24usprvUooN1knUxZUQkr,N4J7wuMdJOlOYlGI4mRso6" IsHidden="true" />
-                  <Link Id="Aa2TdHxT8YyPpAnD1WwTLL" Ids="JNiJEgFk7bcOkM75YwMCDD,EoyflY4HPpRMrq32DR5AMv" IsHidden="true" />
-                  <Link Id="VFU0XKYU1hWNrc49tm0iet" Ids="LFE6BMqx0r5MTPMTvcPg5X,PucFBs900dBNBW2pTT5hmZ" IsHidden="true" />
-                  <Link Id="CKbStTxanrpMBl7OljHrY5" Ids="EoyflY4HPpRMrq32DR5AMv,USnw7obfnRSMUIzPddAcgM" />
-                  <Patch Id="STUbBYxuvqGQCxMoDyjz9G" Name="Create" />
-                  <Patch Id="GGkeA2tSMKxOzkfVPGZuvT" Name="Update">
-                    <Pin Id="JNiJEgFk7bcOkM75YwMCDD" Name="GraphDict" Kind="InputPin" Bounds="991,749">
+                  <Link Id="NEkPTv4wA1TOitCbu96FSi" Ids="TZdhGPn9PN9MTi4HVZ3uzM,Gc9A7qc8iJ3N8mpSKD5abT" IsHidden="true" />
+                  <Link Id="S1nhDhvm1GaLl77XtlzfA6" Ids="Nz5wnYrkZbQLn5W1H0mXsr,Nse6TtS2DfjOyFhbh1Ieqr" IsHidden="true" />
+                  <Link Id="NHd3fTRjexTNm6x0KxVVMh" Ids="RvnXTJyoCZwMGRNGiGXrmJ,Bwjb6J3MXIKPeYbWvLT6Bq" IsHidden="true" />
+                  <Link Id="DVBKY64S64ZLoKgNteR0Ha" Ids="Nse6TtS2DfjOyFhbh1Ieqr,VYzl0VNoUCEMTLQjI0MQTP" />
+                  <Link Id="QrnRFywIBhDLjNfYEdTgB5" Ids="PAAF0uv2l4eOrZ91twCgAE,O0Xxjc3qrsbPmFcbaoWCWy" />
+                  <Link Id="ED7Mq4CXmLXOT9qJb3FS51" Ids="TGSqKIjdy0hQQtExOTYkW2,TZdhGPn9PN9MTi4HVZ3uzM" />
+                  <Link Id="MSdxsXEgTZLNfZADy5b9xz" Ids="UZXFV6ma2qxO2u0PxqCcRW,RvnXTJyoCZwMGRNGiGXrmJ" />
+                  <Patch Id="QAf6E2eVFkCLpMdga19kn1" Name="Create" />
+                  <Patch Id="CmYX8jdri6cPoNuqlhpnqd" Name="Update">
+                    <Pin Id="Nz5wnYrkZbQLn5W1H0mXsr" Name="GraphDict" Kind="InputPin" Bounds="991,749">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
                         <Choice Kind="TypeFlag" Name="GraphDict" />
                         <p:TypeArguments>
@@ -11318,10 +11690,18 @@
                                 </p:TypeArguments>
                               </TypeReference>
                               <TypeReference>
-                                <Choice Kind="TypeFlag" Name="Spread" />
+                                <Choice Kind="TypeFlag" Name="Dictionary" />
                                 <p:TypeArguments>
                                   <TypeReference>
                                     <Choice Kind="TypeFlag" Name="String" />
+                                  </TypeReference>
+                                  <TypeReference>
+                                    <Choice Kind="TypeFlag" Name="Spread" />
+                                    <p:TypeArguments>
+                                      <TypeReference>
+                                        <Choice Kind="TypeFlag" Name="String" />
+                                      </TypeReference>
+                                    </p:TypeArguments>
                                   </TypeReference>
                                 </p:TypeArguments>
                               </TypeReference>
@@ -11330,12 +11710,9 @@
                         </p:TypeArguments>
                       </p:TypeAnnotation>
                     </Pin>
-                    <Pin Id="PucFBs900dBNBW2pTT5hmZ" Name="GraphDict" Kind="OutputPin" Bounds="992,1293" />
-                    <Pin Id="N4J7wuMdJOlOYlGI4mRso6" Name="Count" Kind="OutputPin" Bounds="1630,1050" />
+                    <Pin Id="Bwjb6J3MXIKPeYbWvLT6Bq" Name="GraphDict" Kind="OutputPin" Bounds="992,1293" />
+                    <Pin Id="Gc9A7qc8iJ3N8mpSKD5abT" Name="Count" Kind="OutputPin" Bounds="1630,1050" />
                   </Patch>
-                  <Link Id="Oej1rSbulSfPIx71RNGJQN" Ids="JQmM8OOY0lhQM24oo5HQlp,IFnmlSzFXQIPjjLzSBxgNC" />
-                  <Link Id="NHSKhSglKiGQOB3bRDFfCl" Ids="LW3bHp7FTy1Py9KJDxxph1,J24usprvUooN1knUxZUQkr" />
-                  <Link Id="Eavl1a2hNNQOA3TLIGhG2U" Ids="K17Z3PKhcooMwvGbyqm1Sd,LFE6BMqx0r5MTPMTvcPg5X" />
                 </Patch>
               </Node>
               <!--
@@ -11343,52 +11720,48 @@
     ************************ GetWords ************************
 
 -->
-              <Node Name="GetWords" Bounds="966,1030" Id="Bpi6YsRaSBDMpcj9VccIKy">
+              <Node Name="GetWords" Bounds="1006,1032" Id="QE9Lx1t5Qo2MFlzBKWcJVS">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="ContainerDefinition" Name="Process" />
                 </p:NodeReference>
-                <Patch Id="KISbxnd7xjwNTpcpJebCr3">
-                  <Canvas Id="VwMuuv7JHdhN9Bj2HqfUfY" CanvasType="Group">
-                    <ControlPoint Id="M5pDK6dhmhkLGmD3c2iZmQ" Bounds="888,408" />
-                    <ControlPoint Id="AJryglgmTPqLlP94jgrmZc" Bounds="885,633" />
-                    <Node Bounds="886,452,85,26" Id="VPr4AB8sZXUMt4nAPfM5P0">
+                <Patch Id="DkOEmMg0maCPLOh93NjY7H">
+                  <Canvas Id="Td6eOTrxha1NPhlw5CBeae" CanvasType="Group">
+                    <ControlPoint Id="LlJtBPB4aG3OBRMgrh6l0W" Bounds="1028,414" />
+                    <Node Bounds="1026,458,105,26" Id="K5M1xMFrC12NeRD7Gw940I">
                       <p:NodeReference LastCategoryFullName="Kafka.Futurium.GraphDict" LastDependency="VL.Kafka.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="RecordType" Name="GraphDict" />
                         <Choice Kind="OperationCallFlag" Name="Split" />
                       </p:NodeReference>
-                      <Pin Id="SXAE4Sxr0teOxq45hW7Hf3" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="IWujKIB2wROMbIREHpP6q8" Name="Output" Kind="OutputPin" />
-                      <Pin Id="Qo5LxDHuXOhNks9o0am5vO" Name="VertDict" Kind="OutputPin" />
-                      <Pin Id="Hkh5vB7rnRTNO0diVaFIr9" Name="AnswerDict" Kind="OutputPin" />
-                      <Pin Id="VFBqTwLG4yKNgRYt1UnZhB" Name="CategoryDict" Kind="OutputPin" />
-                      <Pin Id="DdzC3akYsv5PyO8b5imkcs" Name="QuestionDict" Kind="OutputPin" />
-                      <Pin Id="Gb9IpoTxegvNYKHu6CxSS2" Name="KeywordDict" Kind="OutputPin" />
+                      <Pin Id="OTN1kNEqyn4LZUR0sYHcU0" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="O8k3c6jPEA6MUyJDa7MV0e" Name="VertDict" Kind="OutputPin" />
+                      <Pin Id="T0OW3MYvwiHOMuUNNgpkyP" Name="AnswerDict" Kind="OutputPin" />
+                      <Pin Id="G70vJWEdMDGOxUwNILQ3uG" Name="CategoryDict" Kind="OutputPin" />
+                      <Pin Id="R20hBVj9WOkOb1YYXGMcbe" Name="QuestionDict" Kind="OutputPin" />
+                      <Pin Id="VbLOCx0p0p1Lgi742v9MVZ" Name="KeywordDict" Kind="OutputPin" />
                     </Node>
-                    <ControlPoint Id="IrRTxl2OVUELyw0FRDktm7" Bounds="972,633" />
-                    <ControlPoint Id="NXmg7Zi0hsBOC9vHou9Y7h" Bounds="1059,633" />
-                    <ControlPoint Id="C0m2ZcjEiH3OoHVfIqNGZF" Bounds="1146,633" />
-                    <ControlPoint Id="VV01HyWBAYcPgGGp5Lw7x3" Bounds="1233,633" />
+                    <ControlPoint Id="PsZZBs2PcjwPFMjyfVK8N5" Bounds="972,633" />
+                    <ControlPoint Id="ScJs7V0oJYwLoSBpAVHpKn" Bounds="1059,633" />
+                    <ControlPoint Id="DAj0EQrjdqUOfg4rFFgEiw" Bounds="1146,633" />
+                    <ControlPoint Id="MoUmpkUL5XrM2ea6iGfUat" Bounds="1233,633" />
                   </Canvas>
-                  <ProcessDefinition Id="T7nD09d0ZYBPe49CB0LVdb">
-                    <Fragment Id="ASdEjMxt3OkLcjvPjrgJU6" Patch="RPhAslmrGkVL5N4RytLQoz" Enabled="true" />
-                    <Fragment Id="LeMXx0mQ1RyPvCU5CHLenq" Patch="JhrzivEun0oLs4FGBcPPaS" Enabled="true" />
+                  <ProcessDefinition Id="VPxG3Q31ZmgOMcyBYpcRr3">
+                    <Fragment Id="CSwUuZTrfvqNpLBrG69zXu" Patch="CSsB6IpC7orPtW0F3cAL4z" Enabled="true" />
+                    <Fragment Id="KU2UmPQ8epaP2qG72tLp8L" Patch="APyTmHp367kQQnd2rZjUVO" Enabled="true" />
                   </ProcessDefinition>
-                  <Link Id="FSyxEvaF7iPOXMUjHo5AcA" Ids="Vm6n30shd7QNU5hWdj20aQ,M5pDK6dhmhkLGmD3c2iZmQ" IsHidden="true" />
-                  <Link Id="MrYqZ1F5G1rMpJ2TdH0pMR" Ids="AJryglgmTPqLlP94jgrmZc,HFwsN1YYqBHNfiVcJZgOGN" IsHidden="true" />
-                  <Link Id="SqnQZqnaCr6NXy9LiSk0V9" Ids="M5pDK6dhmhkLGmD3c2iZmQ,SXAE4Sxr0teOxq45hW7Hf3" />
-                  <Link Id="L7oq9icsQXWNIpZrH0W2LD" Ids="IWujKIB2wROMbIREHpP6q8,AJryglgmTPqLlP94jgrmZc" />
-                  <Link Id="D0xPNlKlMGHPLTQkIQ4rJy" Ids="Hkh5vB7rnRTNO0diVaFIr9,IrRTxl2OVUELyw0FRDktm7" />
-                  <Link Id="DrY5orcWprRNuYBdcBF4bi" Ids="IrRTxl2OVUELyw0FRDktm7,GYwmvh2kXIcMVp5ms8iEe9" IsHidden="true" />
-                  <Link Id="KBTSRuLKlw4N7QWsYoz62G" Ids="VFBqTwLG4yKNgRYt1UnZhB,NXmg7Zi0hsBOC9vHou9Y7h" />
-                  <Link Id="TzAX1WYafZRNBb8xZQI18N" Ids="NXmg7Zi0hsBOC9vHou9Y7h,TR4V8gmyKTzMYtG1QVC8Hk" IsHidden="true" />
-                  <Link Id="KJuAsToLcAILKEuoBSWjBk" Ids="DdzC3akYsv5PyO8b5imkcs,C0m2ZcjEiH3OoHVfIqNGZF" />
-                  <Link Id="KKm7H5C2rdJP1fDGKEfdWR" Ids="C0m2ZcjEiH3OoHVfIqNGZF,UcP3gSfS4TvON6Sp6AruO3" IsHidden="true" />
-                  <Link Id="KmCJklkROrLPVaduQUwSBT" Ids="Gb9IpoTxegvNYKHu6CxSS2,VV01HyWBAYcPgGGp5Lw7x3" />
-                  <Link Id="E8uJ4eqa4ogP1E61D3AKV2" Ids="VV01HyWBAYcPgGGp5Lw7x3,LFtrDzBzpeALJZOypTOUq3" IsHidden="true" />
-                  <Patch Id="RPhAslmrGkVL5N4RytLQoz" Name="Create" />
-                  <Patch Id="JhrzivEun0oLs4FGBcPPaS" Name="Update">
-                    <Pin Id="Vm6n30shd7QNU5hWdj20aQ" Name="GraphDict" Kind="InputPin" Bounds="991,749">
+                  <Link Id="DCQm4QTTJKlQEMhuyECfKt" Ids="SDUopfk1l8zLRQP0KpHZIs,LlJtBPB4aG3OBRMgrh6l0W" IsHidden="true" />
+                  <Link Id="UCxnayO3kkRPXfc9mugxWP" Ids="LlJtBPB4aG3OBRMgrh6l0W,OTN1kNEqyn4LZUR0sYHcU0" />
+                  <Link Id="SVGYaT3yhsfOkpIMT32O0B" Ids="T0OW3MYvwiHOMuUNNgpkyP,PsZZBs2PcjwPFMjyfVK8N5" />
+                  <Link Id="HtiSQqNjuZJO6v0yW6l9k0" Ids="PsZZBs2PcjwPFMjyfVK8N5,QrxiRU0au7XPeKYK26F0OW" IsHidden="true" />
+                  <Link Id="OXgyfMXY9JyMMOnDIYmaU6" Ids="G70vJWEdMDGOxUwNILQ3uG,ScJs7V0oJYwLoSBpAVHpKn" />
+                  <Link Id="URbNKzj7GRYPaRNZqK4RKm" Ids="ScJs7V0oJYwLoSBpAVHpKn,OIHx14NUeo2Nj7MlXVs9t5" IsHidden="true" />
+                  <Link Id="I4GZIB7GdYlOEyoKe1x7Wp" Ids="R20hBVj9WOkOb1YYXGMcbe,DAj0EQrjdqUOfg4rFFgEiw" />
+                  <Link Id="DaaqpuhDEPdMTgei5KiOuz" Ids="DAj0EQrjdqUOfg4rFFgEiw,I9nrTfnisgbMkuzbbYQ4nx" IsHidden="true" />
+                  <Link Id="PH3S6aiySAyPoFdQqbi1t2" Ids="VbLOCx0p0p1Lgi742v9MVZ,MoUmpkUL5XrM2ea6iGfUat" />
+                  <Link Id="J9MmPCHT9MbQMZkCPoqBd8" Ids="MoUmpkUL5XrM2ea6iGfUat,Eb1Cb34pkbXMuukL9PsoyB" IsHidden="true" />
+                  <Patch Id="CSsB6IpC7orPtW0F3cAL4z" Name="Create" />
+                  <Patch Id="APyTmHp367kQQnd2rZjUVO" Name="Update">
+                    <Pin Id="SDUopfk1l8zLRQP0KpHZIs" Name="GraphDict" Kind="InputPin" Bounds="991,749">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
                         <Choice Kind="TypeFlag" Name="GraphDict" />
                         <p:TypeArguments>
@@ -11415,11 +11788,19 @@
                                 </p:TypeArguments>
                               </TypeReference>
                               <TypeReference>
-                                <Choice Kind="TypeFlag" Name="Spread" />
+                                <Choice Kind="TypeFlag" Name="Dictionary" />
                                 <p:TypeArguments>
                                   <TypeReference>
                                     <Choice Kind="TypeFlag" Name="String" />
                                   </TypeReference>
+                                  <TypeReference>
+                                    <Choice Kind="TypeFlag" Name="Spread" />
+                                    <p:TypeArguments>
+                                      <TypeReference>
+                                        <Choice Kind="TypeFlag" Name="String" />
+                                      </TypeReference>
+                                    </p:TypeArguments>
+                                  </TypeReference>
                                 </p:TypeArguments>
                               </TypeReference>
                             </p:TypeArguments>
@@ -11427,31 +11808,23 @@
                         </p:TypeArguments>
                       </p:TypeAnnotation>
                     </Pin>
-                    <Pin Id="HFwsN1YYqBHNfiVcJZgOGN" Name="GraphDict" Kind="OutputPin" Bounds="992,1293">
+                    <Pin Id="QrxiRU0au7XPeKYK26F0OW" Name="AnswerDict" Kind="OutputPin" Bounds="972,634">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
-                        <Choice Kind="TypeFlag" Name="GraphDict" />
+                        <Choice Kind="TypeFlag" Name="WordDicts" />
                         <p:TypeArguments>
                           <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="TypeFlag" Name="Dictionary" />
+                            <Choice Kind="TypeFlag" Name="Spread" />
                             <p:TypeArguments>
                               <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                                 <Choice Kind="TypeFlag" Name="Integer32" />
                               </TypeReference>
-                              <TypeReference LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                                <Choice Kind="TypeFlag" Name="ImgVertex" />
-                              </TypeReference>
                             </p:TypeArguments>
                           </TypeReference>
-                          <TypeReference LastCategoryFullName="Kafka.Futurium.CollectVerticies" LastDependency="VL.Kafka.vl">
-                            <Choice Kind="TypeFlag" Name="WordDicts" />
+                          <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="TypeFlag" Name="Dictionary" />
                             <p:TypeArguments>
-                              <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                                <Choice Kind="TypeFlag" Name="Spread" />
-                                <p:TypeArguments>
-                                  <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                                    <Choice Kind="TypeFlag" Name="Integer32" />
-                                  </TypeReference>
-                                </p:TypeArguments>
+                              <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                                <Choice Kind="TypeFlag" Name="String" />
                               </TypeReference>
                               <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                                 <Choice Kind="TypeFlag" Name="Spread" />
@@ -11466,7 +11839,7 @@
                         </p:TypeArguments>
                       </p:TypeAnnotation>
                     </Pin>
-                    <Pin Id="GYwmvh2kXIcMVp5ms8iEe9" Name="AnswerDict" Kind="OutputPin" Bounds="972,634">
+                    <Pin Id="OIHx14NUeo2Nj7MlXVs9t5" Name="CategoryDict" Kind="OutputPin" Bounds="1064,634">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
                         <Choice Kind="TypeFlag" Name="WordDicts" />
                         <p:TypeArguments>
@@ -11479,17 +11852,25 @@
                             </p:TypeArguments>
                           </TypeReference>
                           <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="TypeFlag" Name="Spread" />
+                            <Choice Kind="TypeFlag" Name="Dictionary" />
                             <p:TypeArguments>
                               <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                                 <Choice Kind="TypeFlag" Name="String" />
+                              </TypeReference>
+                              <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                                <Choice Kind="TypeFlag" Name="Spread" />
+                                <p:TypeArguments>
+                                  <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                                    <Choice Kind="TypeFlag" Name="String" />
+                                  </TypeReference>
+                                </p:TypeArguments>
                               </TypeReference>
                             </p:TypeArguments>
                           </TypeReference>
                         </p:TypeArguments>
                       </p:TypeAnnotation>
                     </Pin>
-                    <Pin Id="TR4V8gmyKTzMYtG1QVC8Hk" Name="CategoryDict" Kind="OutputPin" Bounds="1064,634">
+                    <Pin Id="I9nrTfnisgbMkuzbbYQ4nx" Name="QuestionDict" Kind="OutputPin" Bounds="1163,635">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
                         <Choice Kind="TypeFlag" Name="WordDicts" />
                         <p:TypeArguments>
@@ -11502,17 +11883,25 @@
                             </p:TypeArguments>
                           </TypeReference>
                           <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="TypeFlag" Name="Spread" />
+                            <Choice Kind="TypeFlag" Name="Dictionary" />
                             <p:TypeArguments>
                               <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                                 <Choice Kind="TypeFlag" Name="String" />
+                              </TypeReference>
+                              <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                                <Choice Kind="TypeFlag" Name="Spread" />
+                                <p:TypeArguments>
+                                  <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                                    <Choice Kind="TypeFlag" Name="String" />
+                                  </TypeReference>
+                                </p:TypeArguments>
                               </TypeReference>
                             </p:TypeArguments>
                           </TypeReference>
                         </p:TypeArguments>
                       </p:TypeAnnotation>
                     </Pin>
-                    <Pin Id="UcP3gSfS4TvON6Sp6AruO3" Name="QuestionDict" Kind="OutputPin" Bounds="1163,635">
+                    <Pin Id="Eb1Cb34pkbXMuukL9PsoyB" Name="KeywordDict" Kind="OutputPin" Bounds="1260,634">
                       <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
                         <Choice Kind="TypeFlag" Name="WordDicts" />
                         <p:TypeArguments>
@@ -11525,33 +11914,18 @@
                             </p:TypeArguments>
                           </TypeReference>
                           <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="TypeFlag" Name="Spread" />
+                            <Choice Kind="TypeFlag" Name="Dictionary" />
                             <p:TypeArguments>
                               <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                                 <Choice Kind="TypeFlag" Name="String" />
                               </TypeReference>
-                            </p:TypeArguments>
-                          </TypeReference>
-                        </p:TypeArguments>
-                      </p:TypeAnnotation>
-                    </Pin>
-                    <Pin Id="LFtrDzBzpeALJZOypTOUq3" Name="KeywordDict" Kind="OutputPin" Bounds="1260,634">
-                      <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium" LastDependency="VL.Kafka.vl">
-                        <Choice Kind="TypeFlag" Name="WordDicts" />
-                        <p:TypeArguments>
-                          <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="TypeFlag" Name="Spread" />
-                            <p:TypeArguments>
-                              <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                                <Choice Kind="TypeFlag" Name="Integer32" />
-                              </TypeReference>
-                            </p:TypeArguments>
-                          </TypeReference>
-                          <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-                            <Choice Kind="TypeFlag" Name="Spread" />
-                            <p:TypeArguments>
-                              <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                                <Choice Kind="TypeFlag" Name="String" />
+                              <TypeReference LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                                <Choice Kind="TypeFlag" Name="Spread" />
+                                <p:TypeArguments>
+                                  <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                                    <Choice Kind="TypeFlag" Name="String" />
+                                  </TypeReference>
+                                </p:TypeArguments>
                               </TypeReference>
                             </p:TypeArguments>
                           </TypeReference>
@@ -11641,11 +12015,8 @@
             <Canvas Id="HiYVjE4Cla0PHMw8eLHh1B" CanvasType="Group">
               <Pad Id="Rc1W2smIN9uMJVZ2LFQKkY" SlotId="QIrV4d6bXmPM3L0OjWe9Y0" Bounds="564,337" />
               <Pad Id="IkCvSgH9VFuLwYVl7Wuymr" SlotId="SPhu54OZfzTPQr3LUQnwRe" Bounds="624,337" />
-              <Pad Id="Kgm5mi6pm0BQJtRbZiHtF0" SlotId="SiJzDVYT4w7LAYib6tkp2H" Bounds="684,337" />
               <ControlPoint Id="MxNAftQBOMJOrRXWqEU9jd" Bounds="624,307" />
               <ControlPoint Id="CxYmDZ4X1lVPgAJz3fvBem" Bounds="624,367" />
-              <ControlPoint Id="TUe9yOmdDGROqzDE6uB9pL" Bounds="684,307" />
-              <ControlPoint Id="P2gprf7iiscNC0bfXxA9tF" Bounds="684,367" />
               <ControlPoint Id="ImMw6OkBxrePDtpuidFHbs" Bounds="564,307" />
               <ControlPoint Id="KEejZ6DRNL7MDH6c0G4VC2" Bounds="564,367" />
             </Canvas>
@@ -11658,12 +12029,7 @@
                 <Choice Kind="TypeFlag" Name="TID" />
               </p:TypeAnnotation>
             </Slot>
-            <Slot Id="SPhu54OZfzTPQr3LUQnwRe" Name="DE">
-              <p:TypeAnnotation p:Type="TypeReference">
-                <Choice Kind="TypeFlag" Name="TWORDS" />
-              </p:TypeAnnotation>
-            </Slot>
-            <Slot Id="SiJzDVYT4w7LAYib6tkp2H" Name="EN">
+            <Slot Id="SPhu54OZfzTPQr3LUQnwRe" Name="TEXT">
               <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="TWORDS" />
               </p:TypeAnnotation>
@@ -11672,23 +12038,17 @@
             <Link Id="QqouRAtxZJnLqnGsruOvrN" Ids="MxNAftQBOMJOrRXWqEU9jd,IkCvSgH9VFuLwYVl7Wuymr" />
             <Link Id="NybiDGYiiNwMrtwea7l7nJ" Ids="CxYmDZ4X1lVPgAJz3fvBem,Lezmt0VhsSsM0JD0Mwnhyf" IsHidden="true" />
             <Link Id="VCHWfAtpQ0uOzHRmcAhi31" Ids="IkCvSgH9VFuLwYVl7Wuymr,CxYmDZ4X1lVPgAJz3fvBem" />
-            <Link Id="MqZrsbASgmBOqBvnPbDqqN" Ids="QNi6nAS35NcPKQVhaNXFxV,TUe9yOmdDGROqzDE6uB9pL" IsHidden="true" />
-            <Link Id="RYU5YRdklv6O6zFyzVXcOT" Ids="TUe9yOmdDGROqzDE6uB9pL,Kgm5mi6pm0BQJtRbZiHtF0" />
-            <Link Id="Dl1WwV9w7jyPuV0i5wt6t2" Ids="P2gprf7iiscNC0bfXxA9tF,F7A9Tx0nb4dO5q9Bdh6Gzx" IsHidden="true" />
-            <Link Id="CASZif45VVAPy8smFCoJ6t" Ids="Kgm5mi6pm0BQJtRbZiHtF0,P2gprf7iiscNC0bfXxA9tF" />
             <Link Id="VfGs9AlltyQLZG7uQOmR0e" Ids="MNbLYPDfoPtP1detVvO0QN,ImMw6OkBxrePDtpuidFHbs" IsHidden="true" />
             <Link Id="QObLASI5FFNOULVymBfsUK" Ids="ImMw6OkBxrePDtpuidFHbs,Rc1W2smIN9uMJVZ2LFQKkY" />
             <Link Id="M7G2EoZDGsML3LR32HFQM6" Ids="KEejZ6DRNL7MDH6c0G4VC2,KaGgKNi8FQsMJBgyliNatO" IsHidden="true" />
             <Link Id="S2kjZNLaEmHMWsiYq8pamw" Ids="Rc1W2smIN9uMJVZ2LFQKkY,KEejZ6DRNL7MDH6c0G4VC2" />
             <Patch Id="HOhbEtGZ1MaOi6uVWE5mDY" Name="Create">
               <Pin Id="MNbLYPDfoPtP1detVvO0QN" Name="ID" Kind="InputPin" />
-              <Pin Id="NypH9IFTOXKQOPJESgIhyf" Name="DE" Kind="InputPin" />
-              <Pin Id="QNi6nAS35NcPKQVhaNXFxV" Name="EN" Kind="InputPin" />
+              <Pin Id="NypH9IFTOXKQOPJESgIhyf" Name="TEXT" Kind="InputPin" />
             </Patch>
             <Patch Id="DXonb5fwqIhNoqEsyeGh04" Name="Split">
               <Pin Id="KaGgKNi8FQsMJBgyliNatO" Name="ID" Kind="OutputPin" />
-              <Pin Id="Lezmt0VhsSsM0JD0Mwnhyf" Name="DE" Kind="OutputPin" />
-              <Pin Id="F7A9Tx0nb4dO5q9Bdh6Gzx" Name="EN" Kind="OutputPin" />
+              <Pin Id="Lezmt0VhsSsM0JD0Mwnhyf" Name="TEXT" Kind="OutputPin" />
             </Patch>
           </Patch>
         </Node>
