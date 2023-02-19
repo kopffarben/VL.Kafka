@@ -8598,6 +8598,24 @@
               <ProcessDefinition Id="Lnj83ZIldLqNETN1YQIDTF" IsHidden="true" />
             </Patch>
           </Node>
+          <!--
+
+    ************************ IQuestion ************************
+
+-->
+          <Node Name="IQuestion" Bounds="1429,477" Id="MIZDl9SGd88PdClm7I3JoC">
+            <p:NodeReference>
+              <Choice Kind="ForwardDefinition" Name="Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+              <Choice Kind="TypeFlag" Name="IQuestion" />
+            </p:TypeAnnotation>
+            <Patch Id="V05xAjOyhyxN0maEdpAB3M">
+              <Canvas Id="Ah6ZNGi5h3WL0Zsas3rIdw" BordersChecked="false" CanvasType="Group" />
+              <ProcessDefinition Id="UoETaz9xu0SPKVncHxxzXd" IsHidden="true" />
+            </Patch>
+          </Node>
         </Canvas>
         <!--
 
