@@ -294,16 +294,16 @@
             </p:ValueBoxSettings>
             <p:Value>
               <Item>Welche Probleme sollte die Politik in den nächsten 10 Jahre lösen?</Item>
-              <Item>Was sind die größten Probleme in Deiner Nachbarschaft?</Item>
+              <Item>Was sind die größten Probleme in deiner Nachbarschaft?</Item>
               <Item>Was könnte deine Stadt tun um einen gesünderen Lebensstil zu fördern?</Item>
-              <Item>Welche Arbeit erledigst Du im Alltag für die Du nicht bezahlt wirst?</Item>
+              <Item>Welche Arbeit erledigst du im Alltag, für die du nicht bezahlt wirst?</Item>
               <Item>Welche Jobs findest du wichtig?</Item>
               <Item>Was würde dich dazu bringen dein Auto aufzugeben?</Item>
               <Item>Wenn du frei wärst, dir deinen perfekten Job zusammenzustellen, wie würde der aussehen?</Item>
               <Item>Wofür würdest du ungenutzte Flächen in der Stadt nutzen wollen?</Item>
             </p:Value>
           </Pad>
-          <Pad Id="IOo3c4moH77Lx8uuSp7gm0" Bounds="1021,169,286,274" ShowValueBox="true" isIOBox="true">
+          <Pad Id="IOo3c4moH77Lx8uuSp7gm0" Bounds="1021,169,456,269" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
