@@ -7892,7 +7892,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="CGpGlPRd7cSMBZJn8hUdYP">
                     <Node Bounds="805,705,10,10" AutoConnect="true" Id="LtPbJctPg6kN9MZVrdGibr">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="Create" />
                         <FullNameCategoryReference ID="StreamRecords.PushQuestion" />
                       </p:NodeReference>
@@ -7920,7 +7920,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="OcYZxdoZYMoPVrAh6DT9aF">
                     <Node Bounds="996,714,10,10" AutoConnect="true" Id="RCuuB9gn4EDPbxyDz6tgF5">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="de" />
                         <FullNameCategoryReference ID="StreamRecords.PushQuestion" />
                       </p:NodeReference>
@@ -7944,7 +7944,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="H5HFXcdSrrsNtXUjOznypG">
                     <Node Bounds="1147,716,10,10" AutoConnect="true" Id="RGRZou3kmntP8F6WKwNa74">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="en" />
                         <FullNameCategoryReference ID="StreamRecords.PushQuestion" />
                       </p:NodeReference>
@@ -7968,7 +7968,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="BWpgKKmPIQjLmxflhyNysl">
                     <Node Bounds="1287,731,10,10" AutoConnect="true" Id="FwMd3UuFhqYQI3ygVJwWk7">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushQuestion" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="SelfID" />
                         <FullNameCategoryReference ID="StreamRecords.PushQuestion" />
                       </p:NodeReference>
@@ -8018,7 +8018,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="EDydSNkjJXDOEaMJffEB42">
                     <Node Bounds="1636,935,55,26" AutoConnect="true" Id="PtwNPwgyllUPe4gL2KlZCu">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushAnswer" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushAnswer" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="ToString" />
                         <FullNameCategoryReference ID="StreamRecords.PushAnswer" />
                       </p:NodeReference>
@@ -8042,7 +8042,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="QAZcR0FIMFQPjnw676qOZB">
                     <Node Bounds="1638,807,145,26" AutoConnect="true" Id="LMCSfoZzd2DMQRjY2Zxxzs">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushAnswer" LastDependency="PushRecords.csproj" OverloadStrategy="AllPinsThatAreNotCommon">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushAnswer" LastDependency="PushRecords.dll" OverloadStrategy="AllPinsThatAreNotCommon">
                         <Choice Kind="OperationNode" Name="Create" />
                         <FullNameCategoryReference ID="StreamRecords.PushAnswer" />
                         <PinReference Kind="InputPin" Name="De">
@@ -8144,7 +8144,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="PuLVTENfHnhNAmwYHrylwQ">
                     <Node Bounds="1033,741,65,26" AutoConnect="true" Id="QIgCi45WPn4NXcVYGDYPQu">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="Create" />
                         <FullNameCategoryReference ID="StreamRecords.PushCategory" />
                       </p:NodeReference>
@@ -8172,7 +8172,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="PB2x3DnWjdUPgTmhRF5tl5">
                     <Node Bounds="1179,741,65,26" AutoConnect="true" Id="IwG8KtvkBKkLWxx2H3GBNb">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="de" />
                         <FullNameCategoryReference ID="StreamRecords.PushCategory" />
                       </p:NodeReference>
@@ -8196,7 +8196,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="SP086ZpT7c5Oq8gMCmZewL">
                     <Node Bounds="1308,743,10,10" AutoConnect="true" Id="SzogSpnxLwuM7SxDfBVSrB">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="en" />
                         <FullNameCategoryReference ID="StreamRecords.PushCategory" />
                       </p:NodeReference>
@@ -8220,7 +8220,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="AWbFdSpBM13PqYWGiRI1kh">
                     <Node Bounds="1448,752,10,10" AutoConnect="true" Id="Sf4RrADjFkpP8YjYl3BNIb">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushCategory" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="SelfID" />
                         <FullNameCategoryReference ID="StreamRecords.PushCategory" />
                       </p:NodeReference>
@@ -8270,7 +8270,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="NiuYLEhkNQHMpcAOc9bvOX">
                     <Node Bounds="610,335,10,10" AutoConnect="true" Id="S5dMFchmRq8LcrXuHAjgnu">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="Create" />
                         <FullNameCategoryReference ID="StreamRecords.lang" />
                       </p:NodeReference>
@@ -8296,7 +8296,7 @@
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="BkDdALIusSINMLl34d96I8">
                     <Node Bounds="599,492,10,10" AutoConnect="true" Id="J9xQ5bwjLJtLw4Zmzc3Y6q">
-                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.csproj">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="ToString" />
                         <FullNameCategoryReference ID="StreamRecords.lang" />
                       </p:NodeReference>
@@ -8329,7 +8329,7 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="RJvnJYcVOJILUtZHIRf9xS">
               <Node Bounds="743,392,46,26" AutoConnect="true" Id="ULXpiBNifyMLqeXbCPLZXA">
-                <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.csproj">
+                <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.dll">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Answer" />
                 </p:NodeReference>
@@ -8351,7 +8351,7 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="DX8JtIgWLZFN9e74Ko0DBh">
               <Node Bounds="855,394,48,26" AutoConnect="true" Id="LWsosCZlNUZQLWdFT3033F">
-                <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.csproj">
+                <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.dll">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Category" />
                 </p:NodeReference>
@@ -8373,7 +8373,7 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="GR0tCWa2GQlMDXgW44HZpi">
               <Node Bounds="972,396,48,26" AutoConnect="true" Id="MtaXyCfhpQhNVqn9rbgUpD">
-                <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.csproj">
+                <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.dll">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Question" />
                 </p:NodeReference>
@@ -8395,7 +8395,7 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="RobWLnFsqcJMSxKwCl2Wmj">
               <Node Bounds="1101,398,47,26" AutoConnect="true" Id="BECip3nBVp4ObzDCnouUX3">
-                <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.csproj">
+                <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.dll">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="StreamRecords.Keyword" />
                 </p:NodeReference>
@@ -8907,12 +8907,6 @@
                     <Pin Id="Q7FzrVa1jRHPdjMyeOkNa6" Name="Item 2" Kind="InputPin" />
                     <Pin Id="BG423v5zXQ7OmPdMCXxyKz" Name="Output" Kind="StateOutputPin" />
                   </Node>
-                  <Pin Id="Pec1pVMy858Or4qOn5FM7N" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="EW31u6vedliMqhZ6RReVjg" Name="Result" Kind="OutputPin" />
                   <Pad Id="Sz3rgEHsO5zL9u3c85v0dg" Comment="Item 2" Bounds="224,530,35,35" ShowValueBox="true" isIOBox="true" Value="True">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
@@ -8922,6 +8916,12 @@
                       <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
                     </p:ValueBoxSettings>
                   </Pad>
+                  <Pin Id="Pec1pVMy858Or4qOn5FM7N" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="EW31u6vedliMqhZ6RReVjg" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="433,105,140,170" Id="IO14xNNPa1KOXT5IAc8B9W">
@@ -8955,7 +8955,7 @@
                     <Pin Id="CvgDDFTePAnOdiAMcP0DsF" Name="Success" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="445,185,56,26" Id="Oa2fsW13cKROQAxlxVnZkX">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Answer" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="VertexID" />
@@ -8965,7 +8965,7 @@
                     <Pin Id="Q9sZqOiJ6ulPfB53JwyJsz" Name="Vertex ID" Kind="OutputPin" />
                   </Node>
                   <Pin Id="R55iTrtqb5oLtHz3Y9pJSz" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
                       <Choice Kind="TypeFlag" Name="ImgVertex" />
                     </p:TypeAnnotation>
                   </Pin>
@@ -9545,14 +9545,8 @@
                     <Pin Id="CyqGgW0fGCoPkJSxc3BLG1" Name="Result" Kind="OutputPin" />
                     <Pin Id="DwQ0SHNVPiHMAeMIALXT5m" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="SiB1379U7qbP41q3sf8UJe" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="IpsMyovXaEoNKDkz0ufdza" Name="Result" Kind="OutputPin" />
                   <Node Bounds="488,395,56,26" Id="Nbpi0vQUY7jNXI51sA59Xj">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Answer" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="de" />
@@ -9561,6 +9555,12 @@
                     <Pin Id="KCM3vQdCANnMejaIqQvNtG" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="IGsWjghzbG3OteGzqKhrIq" Name="De" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="SiB1379U7qbP41q3sf8UJe" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="IpsMyovXaEoNKDkz0ufdza" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="521,529,140,170" Id="NMHxLHkerQIQJTJyKLxsXY">
@@ -9593,14 +9593,8 @@
                     <Pin Id="K1tMUqYE0mfPX216hywD7s" Name="Result" Kind="OutputPin" />
                     <Pin Id="FNqrUcXGQkKN5CxjOYMtCW" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="B81F5pmzUGWLTXMSGbmj2B" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="Jk4qYrE2yFZO03etiFzAyV" Name="Result" Kind="OutputPin" />
                   <Node Bounds="533,609,56,26" Id="RXHP2ulpGQHPJnlxhJxrue">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Answer" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Answer" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="en" />
@@ -9609,6 +9603,12 @@
                     <Pin Id="I7HOoD2DqXnPQFfbeJ9QMf" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="VQNNyiPeWVTMPKxmi6A0KC" Name="En" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="B81F5pmzUGWLTXMSGbmj2B" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="Jk4qYrE2yFZO03etiFzAyV" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="691,105,140,170" Id="AiGdzO5fAqIOfE9y4SYqGU">
@@ -9641,14 +9641,8 @@
                     <Pin Id="BC6eBWmjuLfNDlf2tnknec" Name="Result" Kind="OutputPin" />
                     <Pin Id="IpPwhUzwuEjLkUu8G9NLqC" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="ADBec81LJCrNuPPD3QB5Rd" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="LlVsdqeW8NDMuqvyFCGxVz" Name="Result" Kind="OutputPin" />
                   <Node Bounds="703,185,56,26" Id="JgM3oUpUvCmOR0TCoYMt2c">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Category" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="VertexID" />
@@ -9657,6 +9651,12 @@
                     <Pin Id="BfMdDjUGmkHQEpz0RBly8k" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="LVRe5QmOSoZOdtPmAwK3E9" Name="Vertex ID" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="ADBec81LJCrNuPPD3QB5Rd" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="LlVsdqeW8NDMuqvyFCGxVz" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="734,315,140,170" Id="R2gdTXldCSUMLG54R7Z2aj">
@@ -9689,14 +9689,8 @@
                     <Pin Id="A74NCITFyjDOZoX6p56SXo" Name="Result" Kind="OutputPin" />
                     <Pin Id="DcY06obdLwxPPqFVFAzMAV" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="PPfzgUmZqUvMtG2T2gXFbf" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="BhK7H4riQ6WN9hmtoQE3Ip" Name="Result" Kind="OutputPin" />
                   <Node Bounds="746,395,56,26" Id="GwfbWPJOdGjPP7Cq4WzSCn">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Category" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="de" />
@@ -9705,6 +9699,12 @@
                     <Pin Id="QJ0GYBuH69UPzphCSrBPOn" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="RPMvikJHVpxMSjDzSorlX5" Name="De" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="PPfzgUmZqUvMtG2T2gXFbf" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="BhK7H4riQ6WN9hmtoQE3Ip" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="779,529,140,170" Id="RpSrIwSWnoSO7ow9A8XEUi">
@@ -9737,14 +9737,8 @@
                     <Pin Id="OEXcDZ382FJN7fjfIeLgpr" Name="Result" Kind="OutputPin" />
                     <Pin Id="VujmGs8ymB7Oht3lIeso9s" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="K8W9hDuvTA4LvRB2fL5TGt" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="Py3oHBnqkYhNiNRe1bSPL6" Name="Result" Kind="OutputPin" />
                   <Node Bounds="791,609,56,26" Id="OWEs9YFuk4ENPFfJEQGgwg">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Category" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Category" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="en" />
@@ -9753,6 +9747,12 @@
                     <Pin Id="PbrttbfZfiGMPiGkqmwnrH" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="HB2PukxGrRZOnRKtaqYagM" Name="En" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="K8W9hDuvTA4LvRB2fL5TGt" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="Py3oHBnqkYhNiNRe1bSPL6" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="949,105,140,170" Id="SEdnzoRbbN7P8O64CIhvzT">
@@ -9785,14 +9785,8 @@
                     <Pin Id="LsW9VlmcQikOzIG8eUnEWM" Name="Result" Kind="OutputPin" />
                     <Pin Id="H6fMqLNZ3unL9Ji10mKcC7" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="NvAEEgcPTn6P5PQXbRvNzW" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="Uhg0qgTbhtHMXp9dhULABX" Name="Result" Kind="OutputPin" />
                   <Node Bounds="961,185,56,26" Id="MtM544ntkp9OY8TC3BBjDz">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Question" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="VertexID" />
@@ -9801,6 +9795,12 @@
                     <Pin Id="Hz1g9dmrI72NMk3vTk99Fz" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="Gr0DNbcogH1MDpGzIjqxfs" Name="Vertex ID" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="NvAEEgcPTn6P5PQXbRvNzW" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="Uhg0qgTbhtHMXp9dhULABX" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="992,315,140,170" Id="QUDaVS36SeiNMJfdEVX2Hc">
@@ -9833,14 +9833,8 @@
                     <Pin Id="KxgFUEapJgJOCKJhGYjSGR" Name="Result" Kind="OutputPin" />
                     <Pin Id="GViN4Z6gIEvN2r7vzGxCca" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="Ci4a0mhMYpNM5wRa58ctWu" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="J3qLDpMEvPpMTNTFl3jv1Z" Name="Result" Kind="OutputPin" />
                   <Node Bounds="1004,395,56,26" Id="O5CF44ivR1COF1uWGl0mlB">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Question" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="de" />
@@ -9849,6 +9843,12 @@
                     <Pin Id="FRuYS6elvbRMoms22kDLyR" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="PyxtI2FtqcvQAcoRWaZq8n" Name="De" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="Ci4a0mhMYpNM5wRa58ctWu" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="J3qLDpMEvPpMTNTFl3jv1Z" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="1037,529,140,170" Id="M0PixUPrh7lMIttYL4RJmP">
@@ -9881,14 +9881,8 @@
                     <Pin Id="IyeIXm2zHafMoVM5rdMNBP" Name="Result" Kind="OutputPin" />
                     <Pin Id="QSsKU2xQHFhNlHiQ5WpQuD" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="M3QDPZnd9CyNomo2tJytg6" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="Dwcyh95SfI3PeXRpa9tFdN" Name="Result" Kind="OutputPin" />
                   <Node Bounds="1049,609,56,26" Id="V4IBu4dSlm9L5Ezt2ttkj2">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Question" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Question" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="en" />
@@ -9897,6 +9891,12 @@
                     <Pin Id="AGAtlzkLeCQPvCjtTYkS0t" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="FSMjjbM6ehIOR9zcLa0llo" Name="En" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="M3QDPZnd9CyNomo2tJytg6" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="Dwcyh95SfI3PeXRpa9tFdN" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="1207,105,140,170" Id="I6qso1RPHNOLp7PYP2SV2T">
@@ -9929,14 +9929,8 @@
                     <Pin Id="S77uBh4DEG8NY1TFJq5opq" Name="Result" Kind="OutputPin" />
                     <Pin Id="TBx7xXs0YtEO5vBC8vothk" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="CmknxtBWZJ3OShWYVBG5W9" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="KX7DuVVlBHON23iA8p0irx" Name="Result" Kind="OutputPin" />
                   <Node Bounds="1219,185,56,26" Id="E9QaiQugzp1MseeUsNMefx">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Keyword" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="VertexID" />
@@ -9945,6 +9939,12 @@
                     <Pin Id="Q8PJ07noqRzOUSOoYqcEu7" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="TuqgJstTj0sOTEmPet3OgK" Name="Vertex ID" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="CmknxtBWZJ3OShWYVBG5W9" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="KX7DuVVlBHON23iA8p0irx" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="1250,315,140,170" Id="FNN2YFGUxBiPqCY35itL78">
@@ -9977,14 +9977,8 @@
                     <Pin Id="GtJlMFeXTlDNFHYMf609qL" Name="Result" Kind="OutputPin" />
                     <Pin Id="Hmh9IpVqP0QOVeaR9Kah8L" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="IipeqTFx77mOVS6QwLVyab" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="U71KeXG7xJqMNNYSoVMV5m" Name="Result" Kind="OutputPin" />
                   <Node Bounds="1262,395,56,26" Id="Vk51iNrvBLCMJZsPP8LMFK">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Keyword" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="de" />
@@ -9993,6 +9987,12 @@
                     <Pin Id="IELM0pVMrb9OneO9ETtSlk" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="V0cD5vbrg8MOpy6o6CWR9P" Name="De" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="IipeqTFx77mOVS6QwLVyab" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="U71KeXG7xJqMNNYSoVMV5m" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="1295,529,140,170" Id="Axlivf2zdl5MbKQPR0ud1V">
@@ -10025,14 +10025,8 @@
                     <Pin Id="KDVjwn8RmYIPvmYC3YH4pq" Name="Result" Kind="OutputPin" />
                     <Pin Id="A6qLzz7HHw4MrYjDy6js8C" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pin Id="By2uPWqPQYROIw67JeEDWK" Name="Arg" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="StreamRecords" LastDependency="StreamRecords.csproj">
-                      <Choice Kind="TypeFlag" Name="ImgVertex" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="JGoXS9LU1INQB81ZmZvg7u" Name="Result" Kind="OutputPin" />
                   <Node Bounds="1307,609,56,26" Id="Gl65icH62aDMK7TgqRKNYP">
-                    <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.csproj">
+                    <p:NodeReference LastCategoryFullName="StreamRecords.Keyword" LastDependency="StreamRecords.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Keyword" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="en" />
@@ -10041,6 +10035,12 @@
                     <Pin Id="DnKDbYRtf1IPXzwshYUgct" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="Q7qda8mFPBUNXsRjUcCuev" Name="En" Kind="OutputPin" />
                   </Node>
+                  <Pin Id="By2uPWqPQYROIw67JeEDWK" Name="Arg" Kind="InputPin">
+                    <p:TypeAnnotation LastCategoryFullName="Kafka.Futurium.Receive" LastDependency="VL.Kafka.vl">
+                      <Choice Kind="TypeFlag" Name="ImgVertex" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="JGoXS9LU1INQB81ZmZvg7u" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
             </Canvas>
@@ -10251,7 +10251,7 @@
           <Patch Id="Abehuw7KyhiLtr3KZdT0uT">
             <Canvas Id="JfFGB6BGuoENuPjwfAjpB4" CanvasType="Group">
               <Node Bounds="561,388,55,26" Id="OHLO1NiL6cxMrlxFhUcu5N">
-                <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.csproj">
+                <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                   <Choice Kind="OperationNode" Name="Create" />
                   <FullNameCategoryReference ID="Memgraph.Memgraph" />
                 </p:NodeReference>
@@ -10261,7 +10261,7 @@
               <Pad Id="MzSiwFH9278NZpC5VQCRgL" SlotId="UcyuouBHhPEMSEmDGvSpsx" Bounds="563,468" />
               <ControlPoint Id="HTEGG1PauniNFE3GzTHB7p" Bounds="563,346" />
               <Node Bounds="696,388,55,26" Id="NnYkyQ71C81OVz30Jee30p">
-                <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.csproj">
+                <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                   <Choice Kind="OperationNode" Name="Dispose" />
                   <FullNameCategoryReference ID="Memgraph.Memgraph" />
                 </p:NodeReference>
@@ -10297,11 +10297,12 @@
                       <ControlPoint Id="R3V4vbrDqXXM40wGkDzPDr" Bounds="922,718" Alignment="Bottom" />
                       <ControlPoint Id="FYm4Wg2wz6RPeisFnUuArX" Bounds="999,644" Alignment="Top" />
                       <ControlPoint Id="GD0MG3hbuHNMyFuv6heWX9" Bounds="1000,718" Alignment="Bottom" />
+                      <ControlPoint Id="JC06OUzGcouNf8YtAKl1Vn" Bounds="949,644" Alignment="Top" />
                       <Patch Id="Votvyk2RQC4PCdYwS2EMPm" ManuallySortedPins="true">
                         <Patch Id="Mz3uWpawwtgNakl6elYZeB" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="H25P9P74nULNS702CteK0I" Name="Update" ManuallySortedPins="true" />
                         <Node Bounds="930,667,75,26" Id="L4cqTqK65ZCPY2w3aHPWZw">
-                          <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.csproj">
+                          <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="ExecuteWrite" />
                           </p:NodeReference>
@@ -10312,7 +10313,6 @@
                           <Pin Id="Lb1vOgK5ASRNyjqOkQ53G5" Name="Result" Kind="OutputPin" />
                         </Node>
                       </Patch>
-                      <ControlPoint Id="JC06OUzGcouNf8YtAKl1Vn" Bounds="949,644" Alignment="Top" />
                     </Node>
                     <ControlPoint Id="VXHUBwqDFq8LKAZIAASZ91" Bounds="912,605" />
                     <ControlPoint Id="DMSWollBT7EQaH2fD9h5Ns" Bounds="921,753" />
@@ -12443,8 +12443,8 @@
   <NugetDependency Id="OcbmRF9kQXrQKqrRvs3JpK" Location="Confluent.Kafka" Version="1.9.3" />
   <PlatformDependency Id="LX3mNvkl81OP7GXy1fe4CZ" Location="System.Text.Encoding" />
   <PlatformDependency Id="D5JQ6v08GVXOJFtf3guvsj" Location="../../vvvv/vvvv_gamma_2022.5.0-0574-ga3c26ef93e/System.Reactive.dll" />
-  <ProjectDependency Id="QF2zBm4khihLYMqknTsCCM" Location="./src/PushRecords/PushRecords.csproj" />
-  <ProjectDependency Id="N56ahcaqdXwLColwmCQQcv" Location="./src/StreamRecords/StreamRecords.csproj" />
-  <ProjectDependency Id="QNvwi2KdSvpOnQhEhsAf1a" Location="./src/Memgraph/Memgraph.csproj" />
   <PlatformDependency Id="FRr1MFnidS8O6sldAIvgmq" Location="../../patches/lib/Release/net6.0/RuntimeHelper.dll" />
+  <PlatformDependency Id="BXNH6MpItb6LP3a54P5qt8" Location="./lib/Any CPU/Debug/net6.0/Memgraph.dll" />
+  <PlatformDependency Id="ILoxVZB3BiXPxPtGpMvyWP" Location="./lib/Any CPU/Debug/net6.0/PushRecords.dll" />
+  <PlatformDependency Id="GYWzWumuuBaL3wi5MsTptf" Location="./lib/Any CPU/Debug/net6.0/StreamRecords.dll" />
 </Document>
