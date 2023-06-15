@@ -12444,7 +12444,7 @@
   <PlatformDependency Id="LX3mNvkl81OP7GXy1fe4CZ" Location="System.Text.Encoding" />
   <PlatformDependency Id="D5JQ6v08GVXOJFtf3guvsj" Location="../../vvvv/vvvv_gamma_2022.5.0-0574-ga3c26ef93e/System.Reactive.dll" />
   <PlatformDependency Id="FRr1MFnidS8O6sldAIvgmq" Location="../../patches/lib/Release/net6.0/RuntimeHelper.dll" />
-  <PlatformDependency Id="BXNH6MpItb6LP3a54P5qt8" Location="./lib/Any CPU/Debug/net6.0/Memgraph.dll" />
-  <PlatformDependency Id="ILoxVZB3BiXPxPtGpMvyWP" Location="./lib/Any CPU/Debug/net6.0/PushRecords.dll" />
-  <PlatformDependency Id="GYWzWumuuBaL3wi5MsTptf" Location="./lib/Any CPU/Debug/net6.0/StreamRecords.dll" />
+  <PlatformDependency Id="VyEnfT4lLQILhCYbUyaNNb" Location="./lib/Release/net6.0/Memgraph.dll" />
+  <PlatformDependency Id="Dw8SbJ2Hp5LL3RRYtX26hB" Location="./lib/Release/net6.0/PushRecords.dll" />
+  <PlatformDependency Id="RSE3zEaU5n0Pikko9SHqAn" Location="./lib/Release/net6.0/StreamRecords.dll" />
 </Document>
