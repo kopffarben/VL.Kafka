@@ -12447,4 +12447,5 @@
   <PlatformDependency Id="VyEnfT4lLQILhCYbUyaNNb" Location="./lib/Release/net6.0/Memgraph.dll" />
   <PlatformDependency Id="Dw8SbJ2Hp5LL3RRYtX26hB" Location="./lib/Release/net6.0/PushRecords.dll" />
   <PlatformDependency Id="RSE3zEaU5n0Pikko9SHqAn" Location="./lib/Release/net6.0/StreamRecords.dll" />
+  <NugetDependency Id="NRnZ9kABjKXLi9AVbsKSyQ" Location="Neo4j.Driver" Version="5.15.0" />
 </Document>
