@@ -5,11 +5,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<BaseOutputPath>..\..\lib</BaseOutputPath>
+
+	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Neo4j.Driver.Simple" Version="5.5.0" />
-    <PackageReference Include="VL.Core" Version="2022.5.0-0582-g69e6cbc026" />
+	<Content Include="CodeTemplates\CSharpDbContext\DbContext.hbs" PackagePath="lib\netstandard2.1\CodeTemplates\CSharpDbContext\" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Neo4j.Driver.Simple" Version="5.15.0" />
+    <PackageReference Include="VL.Core" Version="2023.5.2" />
   </ItemGroup>
 
 </Project>

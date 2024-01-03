@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="JFSIEoA6nKTPyUeClmhYXN" LanguageVersion="2022.5.0-0582-g69e6cbc026" Version="0.128">
-  <NugetDependency Id="HcG4aHap73TLFRp1bdHe57" Location="VL.CoreLib" Version="2022.5.0-0582-g69e6cbc026" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JFSIEoA6nKTPyUeClmhYXN" LanguageVersion="2023.5.2" Version="0.128">
+  <NugetDependency Id="HcG4aHap73TLFRp1bdHe57" Location="VL.CoreLib" Version="2023.5.2" />
   <Patch Id="UAp4tq0MGaGMB3VmrjGtXc">
     <Canvas Id="C9OBY6Qbnd8L5cjbdJLo0n" DefaultCategory="Kafka" CanvasType="FullCategory">
       <Canvas Id="MXEOXoPzjGuOV4ELR6uWyI" Name="XML" Position="727,233" DefaultCategory="Kafka.XML" CanvasType="FullCategory">
@@ -10270,97 +10270,23 @@
               </Node>
               <Pad Id="LCmZ8xivRYwPmUScBSw29m" SlotId="UcyuouBHhPEMSEmDGvSpsx" Bounds="698,346" />
               <Pad Id="PSitRdXSJVQNmcBzKnAbpO" SlotId="UcyuouBHhPEMSEmDGvSpsx" Bounds="698,468" />
-              <ControlPoint Id="HFQ6ldKlhPOOflzcMivEAk" Bounds="565,506" />
-              <!--
-
-    ************************ ExecuteWrite ************************
-
--->
-              <Node Name="ExecuteWrite" Bounds="810,421" Id="MOJbdWaaqT6N2HR4A5WjTR">
-                <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-                  <Choice Kind="ContainerDefinition" Name="Process" />
+              <ControlPoint Id="HFQ6ldKlhPOOflzcMivEAk" Bounds="564,550" />
+              <Node Bounds="843,553,75,26" Id="IZ9A8szZeDyMDmSjfPmSLA">
+                <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
+                  <Choice Kind="OperationNode" Name="ExecuteWrite" />
+                  <FullNameCategoryReference ID="Memgraph.Memgraph" />
                 </p:NodeReference>
-                <Patch Id="E4XWxhjuO6cQVaTxLGMQSY">
-                  <Canvas Id="Na2i6eyrNOmOMR5lx141jm" CanvasType="Group">
-                    <Node Bounds="907,638,110,86" Id="CwQ1yWqmi10O5ayIYomtV7">
-                      <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
-                        <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                        <Choice Kind="ProcessAppFlag" Name="Try" />
-                      </p:NodeReference>
-                      <Pin Id="Ixbz2jYN3kBLTJKNREacQh" Name="Stick To Last Valid Outputs" Kind="InputPin" />
-                      <Pin Id="NuWbcpUZg9uOIr2imNVCG1" Name="Reset Region On Failure" Kind="InputPin" />
-                      <Pin Id="JH78Wf8aAC2PLMvwX1hAa9" Name="Success" Kind="OutputPin" />
-                      <Pin Id="JyqX7Shirz6LtIHyJmF5SM" Name="Failure" Kind="OutputPin" />
-                      <Pin Id="V6dtjUPWTk8NLeJSdvVZC6" Name="Error Message" Kind="OutputPin" />
-                      <Pin Id="R8U7S5MT3BnNVPuq02qxj9" Name="Exceptions" Kind="OutputPin" />
-                      <ControlPoint Id="OqzMG9qmUbfMCDW9xw1JYn" Bounds="919,644" Alignment="Top" />
-                      <ControlPoint Id="R3V4vbrDqXXM40wGkDzPDr" Bounds="922,718" Alignment="Bottom" />
-                      <ControlPoint Id="FYm4Wg2wz6RPeisFnUuArX" Bounds="999,644" Alignment="Top" />
-                      <ControlPoint Id="GD0MG3hbuHNMyFuv6heWX9" Bounds="1000,718" Alignment="Bottom" />
-                      <ControlPoint Id="JC06OUzGcouNf8YtAKl1Vn" Bounds="949,644" Alignment="Top" />
-                      <Patch Id="Votvyk2RQC4PCdYwS2EMPm" ManuallySortedPins="true">
-                        <Patch Id="Mz3uWpawwtgNakl6elYZeB" Name="Create" ManuallySortedPins="true" />
-                        <Patch Id="H25P9P74nULNS702CteK0I" Name="Update" ManuallySortedPins="true" />
-                        <Node Bounds="930,667,75,26" Id="L4cqTqK65ZCPY2w3aHPWZw">
-                          <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
-                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                            <Choice Kind="OperationCallFlag" Name="ExecuteWrite" />
-                          </p:NodeReference>
-                          <Pin Id="Do4I6EKuCtrNy1ekKt6fF9" Name="Input" Kind="StateInputPin" />
-                          <Pin Id="GWqPmG916QTOdgzCXnrRTO" Name="Query" Kind="InputPin" />
-                          <Pin Id="FxKSHUIjQmoOQhNKUI7J5Z" Name="Apply" Kind="InputPin" />
-                          <Pin Id="ExXMehhzAGAOMmM313DFP5" Name="Output" Kind="StateOutputPin" />
-                          <Pin Id="Lb1vOgK5ASRNyjqOkQ53G5" Name="Result" Kind="OutputPin" />
-                        </Node>
-                      </Patch>
-                    </Node>
-                    <ControlPoint Id="VXHUBwqDFq8LKAZIAASZ91" Bounds="912,605" />
-                    <ControlPoint Id="DMSWollBT7EQaH2fD9h5Ns" Bounds="921,753" />
-                    <ControlPoint Id="H1GfoX9ituNL9jV9x641q3" Bounds="1047,611" />
-                    <ControlPoint Id="V0Ao6LZy0JiLAf2pWfzZtC" Bounds="1083,860" />
-                    <Node Bounds="1035,747" Id="J6spL9eZ8O5QBrsE6N6GOT">
-                      <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
-                        <Choice Kind="ProcessAppFlag" Name="S+H" />
-                      </p:NodeReference>
-                      <Pin Id="FstmnRtJx7ZMM1vvWg0kh7" Name="Value" Kind="InputPin" />
-                      <Pin Id="TlH7HCJkNv7MwOQocPkoGH" Name="Sample" Kind="InputPin" />
-                      <Pin Id="THWxcIkcV6OMLgD8vkMhZk" Name="Value" Kind="OutputPin" />
-                    </Node>
-                    <ControlPoint Id="H7Ws6dpvvnbOY59VRQSDRA" Bounds="962,598" />
-                  </Canvas>
-                  <ProcessDefinition Id="ST08Dkc2NwnMlWfhphxpXV">
-                    <Fragment Id="PVhyXs5EMKAMpsXLidOQyn" Patch="Qdy9uWELGc4LVkcF0e3o4O" Enabled="true" />
-                    <Fragment Id="RXySM7APUokO0vPNkOcPk5" Patch="POUFoewXp8YLK06HUC5rxD" Enabled="true" />
-                  </ProcessDefinition>
-                  <Link Id="ACNYwiS2vmgP7HTuxdyXKQ" Ids="OqzMG9qmUbfMCDW9xw1JYn,Do4I6EKuCtrNy1ekKt6fF9" />
-                  <Link Id="MPg4KX0rAoUOuWkrH4sf15" Ids="ExXMehhzAGAOMmM313DFP5,R3V4vbrDqXXM40wGkDzPDr" />
-                  <Link Id="NIMicJXPSIxLgqy8q4urI7" Ids="VXHUBwqDFq8LKAZIAASZ91,OqzMG9qmUbfMCDW9xw1JYn" />
-                  <Link Id="NS40q3CETFpQOj8Blqutwf" Ids="EpHJUQnIPaIMgIOUbBdEoW,VXHUBwqDFq8LKAZIAASZ91" IsHidden="true" />
-                  <Link Id="F8oB42AjQmzPYGLKjPOUHL" Ids="R3V4vbrDqXXM40wGkDzPDr,DMSWollBT7EQaH2fD9h5Ns" />
-                  <Link Id="H5xSwuwrQZUNAClblUsa44" Ids="DMSWollBT7EQaH2fD9h5Ns,HNXlaE6omX3PA4MKJqLirS" IsHidden="true" />
-                  <Link Id="BNGm8HwO5G7MiLvaycDK20" Ids="FYm4Wg2wz6RPeisFnUuArX,FxKSHUIjQmoOQhNKUI7J5Z" />
-                  <Link Id="DuSZfpV80goMuMNBNd0dqZ" Ids="H1GfoX9ituNL9jV9x641q3,FYm4Wg2wz6RPeisFnUuArX" />
-                  <Link Id="VpNFoeK6wc2PrqhXHVdK2F" Ids="T000Pz2y6I6OeMJd3fR7zc,H1GfoX9ituNL9jV9x641q3" IsHidden="true" />
-                  <Link Id="IrEVRTZy0t1L9EoQRKrIIj" Ids="Lb1vOgK5ASRNyjqOkQ53G5,GD0MG3hbuHNMyFuv6heWX9" />
-                  <Link Id="Bcd62HYri9yOSNaMUmIOZn" Ids="V0Ao6LZy0JiLAf2pWfzZtC,CQ5gsB69KfGPqWwOTb3QMZ" IsHidden="true" />
-                  <Link Id="RZaifGwWUnyMurjgmI630k" Ids="GD0MG3hbuHNMyFuv6heWX9,FstmnRtJx7ZMM1vvWg0kh7" />
-                  <Link Id="Gab1X75y7nNPnMtoalcNhe" Ids="THWxcIkcV6OMLgD8vkMhZk,V0Ao6LZy0JiLAf2pWfzZtC" />
-                  <Link Id="QhIItmAnwVuPDL2bVnaNqR" Ids="H1GfoX9ituNL9jV9x641q3,TlH7HCJkNv7MwOQocPkoGH" />
-                  <Link Id="HEWwJuig6kML8oet97JFQu" Ids="JC06OUzGcouNf8YtAKl1Vn,GWqPmG916QTOdgzCXnrRTO" />
-                  <Link Id="T4ShBrWjTJgL4VpPfsxXUS" Ids="H7Ws6dpvvnbOY59VRQSDRA,JC06OUzGcouNf8YtAKl1Vn" />
-                  <Link Id="TrTXEdo15G1OAQQU40PA5P" Ids="E1Gl6tVwozZMK6ltNgildu,H7Ws6dpvvnbOY59VRQSDRA" IsHidden="true" />
-                  <Patch Id="Qdy9uWELGc4LVkcF0e3o4O" Name="Create" />
-                  <Patch Id="POUFoewXp8YLK06HUC5rxD" Name="Update">
-                    <Pin Id="EpHJUQnIPaIMgIOUbBdEoW" Name="Input" Kind="InputPin" />
-                    <Pin Id="E1Gl6tVwozZMK6ltNgildu" Name="Query" Kind="InputPin" Bounds="962,598" />
-                    <Pin Id="T000Pz2y6I6OeMJd3fR7zc" Name="Apply" Kind="InputPin" Bounds="989,529" />
-                    <Pin Id="HNXlaE6omX3PA4MKJqLirS" Name="Output" Kind="OutputPin" Bounds="863,671" />
-                    <Pin Id="CQ5gsB69KfGPqWwOTb3QMZ" Name="Result" Kind="OutputPin" Bounds="964,677" />
-                  </Patch>
-                </Patch>
+                <Pin Id="VPK3N6qOO3ILIRo2I91vYh" Name="Input" Kind="StateInputPin" />
+                <Pin Id="HVbXGXyFBuFL8NRceCNtZE" Name="Query" Kind="InputPin" />
+                <Pin Id="IZ5fS9P8wlmPH6W8x2qjpv" Name="Apply" Kind="InputPin" />
+                <Pin Id="M6OqK1tokd9NDlJSDUXtAZ" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="KUW4FWfx5KXOQoJCLHk1TX" Name="Result" Kind="OutputPin" />
               </Node>
+              <ControlPoint Id="JT5yJXs0ILBOqA5FEWp5yx" Bounds="846,485" />
+              <ControlPoint Id="LWECGCLxBkdO9wI3LqrCzH" Bounds="839,617" />
+              <ControlPoint Id="VIur7TG9hF2NrYQ74ZV7Ls" Bounds="905,497" />
+              <ControlPoint Id="DjL78WTiGRxNEf451hk8bw" Bounds="958,526" />
+              <ControlPoint Id="PdBjgPT2WcKLoqvkTx3RtQ" Bounds="925,616" />
             </Canvas>
             <ProcessDefinition Id="SQ8jgAz5vr9PbuCVpCQzHw">
               <Fragment Id="OBe3eMCbOd8NGPAIVuxtSw" Patch="TAMiAIe6K12L2CbgCw34n7" Enabled="true" />
@@ -10382,7 +10308,23 @@
               <Pin Id="PwTJqYTIJdtOVkjTaMuZPD" Name="Driver" Kind="OutputPin" />
             </Patch>
             <Patch Id="FnFtgKCyPA7LqeUfcjDBeG" Name="Dispose" ParticipatingElements="NnYkyQ71C81OVz30Jee30p" />
-            <Patch Id="ShufErTK93AM75fVihX0mL" Name="ExecuteWrit" />
+            <Patch Id="ShufErTK93AM75fVihX0mL" Name="ExecuteWrit" ParticipatingElements="IZ9A8szZeDyMDmSjfPmSLA">
+              <Pin Id="Mx7a9oApCNcLWcfzYdFuKH" Name="Input" Kind="InputPin" />
+              <Pin Id="Vep2pcjDWVIMMMbQhgqR8m" Name="Query" Kind="InputPin" />
+              <Pin Id="EpU4QXk18KvOGlZRm3lWyO" Name="Apply" Kind="InputPin" />
+              <Pin Id="CbIRlqA6LzKP21tlyJJ9p8" Name="Output" Kind="OutputPin" />
+              <Pin Id="GEzgFTd6XtlP6ehcbKpV3s" Name="Result" Kind="OutputPin" />
+            </Patch>
+            <Link Id="UA5UAlXbYgwO5QiEZ2lRlU" Ids="JT5yJXs0ILBOqA5FEWp5yx,VPK3N6qOO3ILIRo2I91vYh" />
+            <Link Id="HYfuLNS6s2TLWnUCxQEAd6" Ids="Mx7a9oApCNcLWcfzYdFuKH,JT5yJXs0ILBOqA5FEWp5yx" IsHidden="true" />
+            <Link Id="OSShZtiNHR8QRoUrRXzyOD" Ids="M6OqK1tokd9NDlJSDUXtAZ,LWECGCLxBkdO9wI3LqrCzH" />
+            <Link Id="FrSaMcqTRB4MVclqL7Kfir" Ids="LWECGCLxBkdO9wI3LqrCzH,CbIRlqA6LzKP21tlyJJ9p8" IsHidden="true" />
+            <Link Id="H0b3WVXj0oXQPXrX0AjX8I" Ids="VIur7TG9hF2NrYQ74ZV7Ls,HVbXGXyFBuFL8NRceCNtZE" />
+            <Link Id="GJYPxiZOlMyObhUIMU2Jgd" Ids="Vep2pcjDWVIMMMbQhgqR8m,VIur7TG9hF2NrYQ74ZV7Ls" IsHidden="true" />
+            <Link Id="DTZQPaZgrGVNnSPurPh0F2" Ids="DjL78WTiGRxNEf451hk8bw,IZ5fS9P8wlmPH6W8x2qjpv" />
+            <Link Id="LDIATNkXj19NToa0paxvm1" Ids="EpU4QXk18KvOGlZRm3lWyO,DjL78WTiGRxNEf451hk8bw" IsHidden="true" />
+            <Link Id="Fgaosmxz4beNFau4w5Vr8r" Ids="KUW4FWfx5KXOQoJCLHk1TX,PdBjgPT2WcKLoqvkTx3RtQ" />
+            <Link Id="VPU0CJrszPlMsxXG3NvZmS" Ids="PdBjgPT2WcKLoqvkTx3RtQ,GEzgFTd6XtlP6ehcbKpV3s" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -10429,10 +10371,10 @@
                     </p:TypeAnnotation>
                   </Pad>
                   <Pad Id="UGut8uIjWLhPpFWB3x3aXP" Comment="" Bounds="711,632,656,101" ShowValueBox="true" isIOBox="true" />
-                  <Node Bounds="616,1237,105,19" Id="URVEvs1hpZRMWMC5sSZs6n">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.Memgraph" LastDependency="VL.Kafka.vl">
+                  <Node Bounds="612,1224,105,26" Id="URVEvs1hpZRMWMC5sSZs6n">
+                    <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="ExecuteWrite" />
+                      <Choice Kind="OperationCallFlag" Name="ExecuteWrite" />
                     </p:NodeReference>
                     <Pin Id="KDCxT5n9cRXLvv3ztyBYmS" Name="Input" Kind="InputPin" />
                     <Pin Id="QbXYtaDTYBONV4uchpEodX" Name="Query" Kind="InputPin" />
@@ -10466,7 +10408,7 @@
                       <Patch Id="OliH4F7Mn7yM1dOFc6lo2P" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="ShEHfHAu6iyLLKKTdtPUWx" Name="Update" ManuallySortedPins="true" />
                       <Patch Id="Dii8AIoGS4hMlOzXOzuuVx" Name="Dispose" ManuallySortedPins="true" />
-                      <Node Bounds="736,853,56,19" Id="NCT9n6zK7i6NyCLrTubED3">
+                      <Node Bounds="736,853,56,26" Id="NCT9n6zK7i6NyCLrTubED3">
                         <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -10510,7 +10452,7 @@
                         <Pin Id="Cf9nY2ua9nZNuBZG5fETrX" Name="Input 2" Kind="InputPin" />
                         <Pin Id="S0HCadRlmYSNN8BFpSRrA5" Name="Output" Kind="StateOutputPin" />
                       </Node>
-                      <Node Bounds="841,853,56,19" Id="QWyxDmwXUh4QHsNjJf0XSK">
+                      <Node Bounds="841,853,56,26" Id="QWyxDmwXUh4QHsNjJf0XSK">
                         <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -10534,7 +10476,7 @@
                         <Pin Id="NZ3Ro0WiWO5LDesHw4jBtt" Name="Input 2" Kind="InputPin" />
                         <Pin Id="OJOEOc7ZFZ2OZlPbr5FiDE" Name="Output" Kind="StateOutputPin" />
                       </Node>
-                      <Node Bounds="946,853,56,19" Id="EPK3Tw86OHsOiSs8Cji8OM">
+                      <Node Bounds="946,853,56,26" Id="EPK3Tw86OHsOiSs8Cji8OM">
                         <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -10588,10 +10530,10 @@
                     <Pin Id="G6llh3eXiXfPjFLvaLLZUW" Name="Up Edge" Kind="OutputPin" />
                     <Pin Id="VgQ7dTMA1qhMkSfrYFgThf" Name="Down Edge" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="616,1372,105,19" Id="MIP8pcnvTmXNcM1tclUyKT">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.Memgraph" LastDependency="VL.Kafka.vl">
+                  <Node Bounds="616,1372,105,26" Id="MIP8pcnvTmXNcM1tclUyKT">
+                    <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="ExecuteWrite" />
+                      <Choice Kind="OperationCallFlag" Name="ExecuteWrite" />
                     </p:NodeReference>
                     <Pin Id="EQjAeqXEL77MJxJcVtpNu6" Name="Input" Kind="InputPin" />
                     <Pin Id="DToZ4i65FRFLcIkgJhkoPQ" Name="Query" Kind="InputPin" />
@@ -10616,10 +10558,10 @@
                     <Pin Id="CBUt2xpF2p6O7vcDBI6QUH" Name="Up Edge" Kind="OutputPin" />
                     <Pin Id="Nw38Tzx59bdO7zfpfxAC7l" Name="Down Edge" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="616,1522,105,19" Id="H99Y0DoJ0ntPbfjI5msI4i">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.Memgraph" LastDependency="VL.Kafka.vl">
+                  <Node Bounds="616,1522,105,26" Id="H99Y0DoJ0ntPbfjI5msI4i">
+                    <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="ExecuteWrite" />
+                      <Choice Kind="OperationCallFlag" Name="ExecuteWrite" />
                     </p:NodeReference>
                     <Pin Id="RsQg810u8ddMyBt4FNf7sh" Name="Input" Kind="InputPin" />
                     <Pin Id="PvwMGFTWnNsNnqVDBHP1vM" Name="Query" Kind="InputPin" />
@@ -10644,11 +10586,10 @@
                     <Pin Id="CsnqqriBJgqONLpEaE49mg" Name="Up Edge" Kind="OutputPin" />
                     <Pin Id="HgoP8AhZoLvLW8oVTRMnXc" Name="Down Edge" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="632,577,75,19" Id="UEWp13FFaL0OCh41ocL2tR">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.Memgraph" LastDependency="VL.Kafka.vl">
+                  <Node Bounds="632,577,75,26" Id="UEWp13FFaL0OCh41ocL2tR">
+                    <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="Memgraph" NeedsToBeDirectParent="true" />
-                      <Choice Kind="ProcessAppFlag" Name="ExecuteWrite" />
+                      <Choice Kind="OperationCallFlag" Name="ExecuteWrite" />
                     </p:NodeReference>
                     <Pin Id="HlVftrZMO76Mw46YjAhKb3" Name="Input" Kind="InputPin" />
                     <Pin Id="VOWKHMsWZvvM9YFFjks2qK" Name="Query" Kind="InputPin" />
@@ -10656,7 +10597,7 @@
                     <Pin Id="SdqFFwhF7sNNYa65vtHEfM" Name="Output" Kind="OutputPin" />
                     <Pin Id="IwW8Ua5TzXuL0OjVaaGfMc" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="1111,1018,37,19" Id="Uk3QP4arnbfNSOuGZpGAWL">
+                  <Node Bounds="1111,1018,50,26" Id="Uk3QP4arnbfNSOuGZpGAWL">
                     <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="AND (Spectral)" />
@@ -10696,10 +10637,10 @@
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Node Bounds="624,1796,105,19" Id="EYVYzkVGlutMENaQu71Wvj">
-                    <p:NodeReference LastCategoryFullName="Kafka.Futurium.Memgraph" LastDependency="VL.Kafka.vl">
+                  <Node Bounds="624,1796,105,26" Id="EYVYzkVGlutMENaQu71Wvj">
+                    <p:NodeReference LastCategoryFullName="Memgraph.Memgraph" LastDependency="Memgraph.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="ExecuteWrite" />
+                      <Choice Kind="OperationCallFlag" Name="ExecuteWrite" />
                     </p:NodeReference>
                     <Pin Id="Bgm8JYbKZmSN9XLegL5dKd" Name="Input" Kind="InputPin" />
                     <Pin Id="R6wcqUdEKanQDCMUNDFz3W" Name="Query" Kind="InputPin" />
