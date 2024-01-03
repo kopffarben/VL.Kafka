@@ -3126,8 +3126,8 @@
                 <Pin Id="GUR2bBfq2VWN8ZHKxbKyTC" Name="Force" Kind="InputPin" />
                 <Pin Id="Ipex0gwosebOeEJYnWwmz7" Name="Dispose Cached Outputs" Kind="InputPin" />
                 <Pin Id="BlUA86QiQWKLKwecHRVH1M" Name="Has Changed" Kind="OutputPin" />
-                <ControlPoint Id="NbefOZvTp3gMwzv0Sl9ZlF" Bounds="581,162" Alignment="Top" />
-                <ControlPoint Id="JYCfCnOpZExO3gbYwCHZ2g" Bounds="548,407" Alignment="Bottom" />
+                <ControlPoint Id="NbefOZvTp3gMwzv0Sl9ZlF" Bounds="581,159" Alignment="Top" />
+                <ControlPoint Id="JYCfCnOpZExO3gbYwCHZ2g" Bounds="548,408" Alignment="Bottom" />
                 <Patch Id="PC1ltPiPFoAOuhHJpjH8bX" ManuallySortedPins="true">
                   <Patch Id="EqqwsjaVyHzOIcvUDGExqw" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="C4jse5apCnQP3OTEguuWq4" Name="Then" ParticipatingElements="FejsRICD6ZPNHXma2Phma3" ManuallySortedPins="true" />
@@ -3212,7 +3212,7 @@
                     <Pin Id="IZ9Y77fCvV0O5cpII3XXah" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="RLWRHOt66HrNZVEdjGs56n" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="570,276,51,26" Id="G7GJReh2nyvPEjbke6tkeg">
+                  <Node Bounds="570,276,75,26" Id="G7GJReh2nyvPEjbke6tkeg">
                     <p:NodeReference LastCategoryFullName="ISerializerVLJson" LastDependency="VL.Kafka.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="ISerializerVLJson" />
@@ -3330,7 +3330,7 @@
                     <Pin Id="STzJlgERwtkNhnCBEN7E6U" Name="Item 3" Kind="InputPin" />
                     <Pin Id="MVeNfj3xn1GP4doC1mEksq" Name="Output" Kind="StateOutputPin" />
                   </Node>
-                  <Node Bounds="770,1176" Id="KuWWhGRRgLPOf7DTfX9wnz">
+                  <Node Bounds="770,1176,60,19" Id="KuWWhGRRgLPOf7DTfX9wnz">
                     <p:NodeReference LastCategoryFullName="Kafka.Confluent" LastDependency="VL.Kafka.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="Category" Name="Kafka" />
@@ -12388,5 +12388,4 @@
   <PlatformDependency Id="VyEnfT4lLQILhCYbUyaNNb" Location="./lib/Release/net6.0/Memgraph.dll" />
   <PlatformDependency Id="Dw8SbJ2Hp5LL3RRYtX26hB" Location="./lib/Release/net6.0/PushRecords.dll" />
   <PlatformDependency Id="RSE3zEaU5n0Pikko9SHqAn" Location="./lib/Release/net6.0/StreamRecords.dll" />
-  <NugetDependency Id="NRnZ9kABjKXLi9AVbsKSyQ" Location="Neo4j.Driver" Version="5.15.0" />
 </Document>
