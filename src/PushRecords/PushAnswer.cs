@@ -1,4 +1,5 @@
-﻿using VL.Lib.Collections;
+﻿using VL.Core;
+using VL.Lib.Collections;
 
 namespace StreamRecords
 {
@@ -61,6 +62,17 @@ namespace StreamRecords
             this.Question = Question;
             this.Keywords = Keywords;
             this.Categories = Categories;
+        }
+        public void Split(out string de, out string en, out string language, out string SessionID, out Int64 timestamp, out int Question, out Spread<lang> Keywords, out Spread<int> Categories)
+        {
+            de = this.de;
+            en = this.en;
+            language = this.language.ToString();
+            SessionID = this.SessionID;
+            timestamp = Convert.ToInt64(Timestamp);
+            Question = this.Question;
+            Keywords = Spread.Create(this.Keywords);
+            Categories = Spread.Create(this.Categories);
         }
     }
 

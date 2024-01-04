@@ -8017,7 +8017,7 @@
                   </p:NodeReference>
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="EDydSNkjJXDOEaMJffEB42">
-                    <Node Bounds="1636,935,55,26" AutoConnect="true" Id="PtwNPwgyllUPe4gL2KlZCu">
+                    <Node Bounds="1636,935,59,26" AutoConnect="true" Id="PtwNPwgyllUPe4gL2KlZCu">
                       <p:NodeReference LastCategoryFullName="StreamRecords.PushAnswer" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="ToString" />
                         <FullNameCategoryReference ID="StreamRecords.PushAnswer" />
@@ -8034,7 +8034,7 @@
     ************************ Create ************************
 
 -->
-                <Node Name="Create" Bounds="1626,779,169,80" Id="IwHhCykieDoQXMNhiRpkSw">
+                <Node Name="Create" Bounds="1626,778,169,80" Id="IwHhCykieDoQXMNhiRpkSw">
                   <p:NodeReference>
                     <Choice Kind="OperationDefinition" Name="Operation" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -8107,10 +8107,49 @@
                     <Pin Id="Hf0AMAdWXPsNEm9HpIfZsn" Name="Output" Kind="OutputPin" />
                   </Patch>
                 </Node>
+                <!--
+
+    ************************ Split ************************
+
+-->
+                <Node Name="Split" Bounds="1816,776,169,80" Id="Cy3VqEgcpUkLX3Cuhpdyl6">
+                  <p:NodeReference>
+                    <Choice Kind="OperationDefinition" Name="Operation" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                  </p:NodeReference>
+                  <p:HideCategory p:Type="Boolean">false</p:HideCategory>
+                  <Patch Id="GHviabspnIpN60jchCnL9x">
+                    <Node Bounds="1828,804,145,26" AutoConnect="true" Id="AJdZ7ZOx6xEPsTUszxN61i">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.PushAnswer" LastDependency="PushRecords.dll">
+                        <Choice Kind="OperationNode" Name="Split" />
+                        <FullNameCategoryReference ID="StreamRecords.PushAnswer" />
+                      </p:NodeReference>
+                      <Pin Id="UVvdIP7cI4oNNzSG1DfeXY" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="QQJb0VMYMqQPz5PSVDnnbF" Name="De" Kind="OutputPin" />
+                      <Pin Id="UmWzLE6EMgRP2w9UrxBPF2" Name="En" Kind="OutputPin" />
+                      <Pin Id="DzmFJBNV8roMohdZoRXURx" Name="Language" Kind="OutputPin" />
+                      <Pin Id="A3lql7PYeTmOgnONdNQO1G" Name="Session ID" Kind="OutputPin" />
+                      <Pin Id="GU9OaHEJaeBM3g45nam6HL" Name="Timestamp" Kind="OutputPin" />
+                      <Pin Id="VG1LfaODMV6Lt2P7bsa9Q6" Name="Question" Kind="OutputPin" />
+                      <Pin Id="LJ8oXziARKWLaD95jpw20G" Name="Keywords" Kind="OutputPin" />
+                      <Pin Id="HC53MxuMYMlPWs1yLUzkIs" Name="Categories" Kind="OutputPin" />
+                    </Node>
+                    <Pin Id="MI15Ry2p8TkP2YG0eNcHaW" Name="Input" Kind="InputPin" />
+                    <Pin Id="Vvd2uZQgkmnQazPfRiKEpN" Name="De" Kind="OutputPin" />
+                    <Pin Id="HRPYQ2p6W5kPj6mD1tBCr9" Name="En" Kind="OutputPin" />
+                    <Pin Id="NLgbe2Fvx7kNtWJjtO8XHw" Name="Language" Kind="OutputPin" />
+                    <Pin Id="CM3VZzRHQT0OISaZqZ7W8z" Name="Session ID" Kind="OutputPin" />
+                    <Pin Id="P8Re1ZDecKPQLbEh9aM3qd" Name="Timestamp" Kind="OutputPin" />
+                    <Pin Id="TBlfyKv2cDjP27f7rxQHhM" Name="Question" Kind="OutputPin" />
+                    <Pin Id="IJK5TnvmYX3MOCCKYxvM0B" Name="Keywords" Kind="OutputPin" />
+                    <Pin Id="DP3OpOH4EpVPxsnmfzfO7F" Name="Categories" Kind="OutputPin" />
+                  </Patch>
+                </Node>
               </Canvas>
               <ProcessDefinition Id="Jhfo4tKlZUtPAyh0C4qvSO" IsHidden="true">
                 <Fragment Id="UhaNylgi7pXNU3eKf6ZunL" Patch="IwHhCykieDoQXMNhiRpkSw" Enabled="true" />
                 <Fragment Id="J5scTCNNE3FMknpSGsVuE8" Patch="DP1iRsFkB7CQBybwkXUr1p" />
+                <Fragment Id="QeaqQXXhMS5O0MBpSI7O71" Patch="Cy3VqEgcpUkLX3Cuhpdyl6" />
               </ProcessDefinition>
             </Patch>
           </Node>
