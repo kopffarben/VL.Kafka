@@ -1322,29 +1322,6 @@
           </Node>
           <Pad Id="HZ24ceTikmlMtcnh4MfZg1" Comment="Count" Bounds="-274,3443,75,18" ShowValueBox="true" isIOBox="true" />
           <Pad Id="JBfrDMb9qt1NhrIzpsf7Qv" Comment="On Data" Bounds="-310,3133,35,35" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="-574,1987,74,19" Id="GhSOJrcKH09QOtTRLQtiZN">
-            <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
-            </p:NodeReference>
-            <Pin Id="JDCt8UCwEfVNa6fxO6xEyF" Name="Async Notifications" Kind="InputPin" />
-            <Pin Id="TCi0JMWwmhTMbU6RpT8WeD" Name="Reset" Kind="InputPin" />
-            <Pin Id="RdeIMs83rphObijvfFEvkW" Name="Value" Kind="OutputPin" />
-            <Pin Id="TJLNbDJDfKNLdx4OqwBv0w" Name="On Data" Kind="OutputPin" />
-          </Node>
-          <Pad Id="B00uft5XEBEOueeldibQLj" Comment="On Data" Bounds="-509,2045,35,36" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="-626,2044,67,19" Id="NLWEmx5kfxXNRaPAWffR5a">
-            <p:NodeReference LastCategoryFullName="Primitive.ValueTuple (3 Items)" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="ValueTuple (3 Items)" />
-              <Choice Kind="OperationCallFlag" Name="ValueTuple (Split)" />
-            </p:NodeReference>
-            <Pin Id="RWNakLbPLqVNjmLMtilbpm" Name="Input" Kind="StateInputPin" />
-            <Pin Id="FEprxcgAYLBOBGPEPkubNb" Name="Item 1" Kind="OutputPin" />
-            <Pin Id="KPMkSMKFYSQMheEb2dXBTv" Name="Item 2" Kind="OutputPin" />
-            <Pin Id="VyMufcS3wcWMQXBhCV58lZ" Name="Item 3" Kind="OutputPin" />
-          </Node>
-          <Pad Id="P2LQHTzWxPAMADMhZbDqMg" Comment="Item 1" Bounds="-667,2135,135,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="-382,2051,728,999" Id="TqrZfQ5YaHXNpbXGLev61d">
             <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -1520,6 +1497,7 @@
                 <ControlPoint Id="CAwPd13Hoy1MOG9ZaBG8CG" Bounds="-201,2853" Alignment="Top" />
                 <ControlPoint Id="KZthebbWjpwMEhbTdhQjse" Bounds="-201,2935" Alignment="Bottom" />
               </Node>
+              <Pad Id="UH1EqkvZZf4PVPZ9FgJgL5" Comment="Item 1" Bounds="65,2810,135,15" ShowValueBox="true" isIOBox="true" />
             </Patch>
           </Node>
         </Canvas>
@@ -1663,10 +1641,6 @@
         <Link Id="IM3P4ohvHMoOchSKmL2BX7" Ids="OkWkfAQj9n9MhbZavLM7zq,JBfrDMb9qt1NhrIzpsf7Qv" />
         <Link Id="N7Z3nauo29NOrCujLCbZAF" Ids="JBfrDMb9qt1NhrIzpsf7Qv,N5PhdmltkcALp94D0wa4zV" />
         <Link Id="Ay1v7fmx5ZeN3cZwLiNToj" Ids="G0bRNgtjqZVLD5g4PWN5wR,OUQo7zUNML4LsES3ZOHVYu" />
-        <Link Id="MxkQ0aTBgHwOauy73HIlF1" Ids="D95JJwHfnWaLwuftJGECRE,JDCt8UCwEfVNa6fxO6xEyF" />
-        <Link Id="TEmBeQAvdBTOGMxnLfXfzx" Ids="TJLNbDJDfKNLdx4OqwBv0w,B00uft5XEBEOueeldibQLj" />
-        <Link Id="Ke7uucAmQdyMElsMXiWwW5" Ids="RdeIMs83rphObijvfFEvkW,RWNakLbPLqVNjmLMtilbpm" />
-        <Link Id="THSPoaSfHDOOnrS6talxuV" Ids="FEprxcgAYLBOBGPEPkubNb,P2LQHTzWxPAMADMhZbDqMg" />
         <Link Id="HyMd0CFCJTMMyXkOv3Pv2K" Ids="B7NCp9agP04LsrJnZpXHGx,T8pgC2M7kQuNwgALslwMNS" IsHidden="true" />
         <Link Id="AYx6IaD2Uj3NdrFxUrjVdH" Ids="N4CSSfmC43mOkgWUecaOsR,Cf9SIBEglfMOjlVEKklXab" IsHidden="true" />
         <Link Id="KroeEMFCGi6OfSVwQs4wfA" Ids="IIIvh2GlhWwPVsbhWfkVQy,AqDZOz6nIZQP5l09vQoSP0" />
@@ -1706,6 +1680,7 @@
         <Link Id="JlPtZ7KAGlyQVl6UqeNDWa" Ids="D95JJwHfnWaLwuftJGECRE,KwACzaD0LIZOgw2Dnf07pI" />
         <Link Id="IKKEudVnYtKPZba9CB030I" Ids="IM3CkIHDNoHMZkhEQWgHAl,GbPpQFhMPWqNZn8bVMqbAL" />
         <Link Id="HuKDWeJeb1jQQ3FcJrDtZZ" Ids="E4IECv0X6NQNqp8PrF4QVg,CdAhHDMoiN3PLAFXbPCtBU" />
+        <Link Id="OHUeshxNIK6QH8qqDlJBSM" Ids="N8aeAwkg5puMwJm4muxBXP,UH1EqkvZZf4PVPZ9FgJgL5" />
       </Patch>
     </Node>
   </Patch>
