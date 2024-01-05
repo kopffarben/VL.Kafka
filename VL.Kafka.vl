@@ -8301,14 +8301,14 @@
     ************************ Create ************************
 
 -->
-                <Node Name="Create" Bounds="610,335,100,50" Id="TaGodbcQwrCQU2KuqdBHuU">
+                <Node Name="Create" Bounds="595,306,115,80" Id="TaGodbcQwrCQU2KuqdBHuU">
                   <p:NodeReference>
                     <Choice Kind="OperationDefinition" Name="Operation" />
                     <CategoryReference Kind="Category" Name="Primitive" />
                   </p:NodeReference>
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="NiuYLEhkNQHMpcAOc9bvOX">
-                    <Node Bounds="610,335,10,10" AutoConnect="true" Id="S5dMFchmRq8LcrXuHAjgnu">
+                    <Node Bounds="610,335,50,26" AutoConnect="true" Id="S5dMFchmRq8LcrXuHAjgnu">
                       <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="Create" />
                         <FullNameCategoryReference ID="StreamRecords.lang" />
@@ -8327,14 +8327,14 @@
     ************************ ToString ************************
 
 -->
-                <Node Name="ToString" Bounds="599,492,100,50" Id="LJ1LNFbds4gLWjcf5gWCst">
+                <Node Name="ToString" Bounds="586,464,112,80" Id="LJ1LNFbds4gLWjcf5gWCst">
                   <p:NodeReference>
                     <Choice Kind="OperationDefinition" Name="Operation" />
                     <CategoryReference Kind="Category" Name="Primitive" />
                   </p:NodeReference>
                   <p:HideCategory p:Type="Boolean">false</p:HideCategory>
                   <Patch Id="BkDdALIusSINMLl34d96I8">
-                    <Node Bounds="599,492,10,10" AutoConnect="true" Id="J9xQ5bwjLJtLw4Zmzc3Y6q">
+                    <Node Bounds="599,492,55,26" AutoConnect="true" Id="J9xQ5bwjLJtLw4Zmzc3Y6q">
                       <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
                         <Choice Kind="OperationNode" Name="ToString" />
                         <FullNameCategoryReference ID="StreamRecords.lang" />
@@ -8346,10 +8346,48 @@
                     <Pin Id="L76tHD5luVxPv47nqolQs1" Name="Result" Kind="OutputPin" />
                   </Patch>
                 </Node>
+                <!--
+
+    ************************ Split ************************
+
+-->
+                <Node Name="Split" Bounds="885,382,149,101" Id="OBaQfSf3X6gMNR16zFRibH">
+                  <p:NodeReference>
+                    <Choice Kind="OperationDefinition" Name="Operation" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                  </p:NodeReference>
+                  <p:HideCategory p:Type="Boolean">false</p:HideCategory>
+                  <Patch Id="VBzOpGBagAMMpO5PqJ5Yhd">
+                    <Node Bounds="897,434,50,26" AutoConnect="true" Id="DKvTC6rnFtZMfrMbTzkB4J">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
+                        <Choice Kind="OperationNode" Name="de" />
+                        <FullNameCategoryReference ID="StreamRecords.lang" />
+                      </p:NodeReference>
+                      <Pin Id="Rqvofa8M4vfQIH8GfQHVIa" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="Qv8iHHyRuVAOjRtDd4KYg0" Name="De" Kind="OutputPin" />
+                    </Node>
+                    <Node Bounds="972,437,50,26" AutoConnect="true" Id="Fz7oziZEjTqN5J7zLnCAoi">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
+                        <Choice Kind="OperationNode" Name="en" />
+                        <FullNameCategoryReference ID="StreamRecords.lang" />
+                      </p:NodeReference>
+                      <Pin Id="AWHjfQO5rqaOXOzmz3pa2B" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="VPbDiSZqLtvLBIxkQoUWB1" Name="En" Kind="OutputPin" />
+                    </Node>
+                    <ControlPoint Id="RPtE10ZYDPILcawJbOoOkk" Bounds="902,400" />
+                    <Link Id="BzdWM3TEM1UQFJjKQXoL28" Ids="RPtE10ZYDPILcawJbOoOkk,Rqvofa8M4vfQIH8GfQHVIa" />
+                    <Link Id="FbIBaiKVAvwOMDzZH1axov" Ids="R1yZn7Iy0XQPCVY1oPreUV,RPtE10ZYDPILcawJbOoOkk" IsHidden="true" />
+                    <Link Id="UkFDL5kUbVAQJNb16GPlLj" Ids="RPtE10ZYDPILcawJbOoOkk,AWHjfQO5rqaOXOzmz3pa2B" />
+                    <Pin Id="R1yZn7Iy0XQPCVY1oPreUV" Name="Input" Kind="InputPin" Bounds="903,399" />
+                    <Pin Id="PPjRH9moSVtNw4F9lgbwtz" Name="De" Kind="OutputPin" />
+                    <Pin Id="RWkQAZoaaaHNgHMlx1AIxH" Name="En" Kind="OutputPin" />
+                  </Patch>
+                </Node>
               </Canvas>
               <ProcessDefinition Id="TEF8ZwzMqOuMAXTq4tyBl8" IsHidden="true">
                 <Fragment Id="HVSsCPU01NSLIWQ4ISrIHA" Patch="TaGodbcQwrCQU2KuqdBHuU" Enabled="true" />
                 <Fragment Id="CSv8Q9KcaLVOvw3lMRlGWP" Patch="LJ1LNFbds4gLWjcf5gWCst" />
+                <Fragment Id="CHDL4CGzlLAPQ5SkRZ1G5N" Patch="OBaQfSf3X6gMNR16zFRibH" />
               </ProcessDefinition>
             </Patch>
           </Node>
