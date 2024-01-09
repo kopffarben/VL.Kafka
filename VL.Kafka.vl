@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JFSIEoA6nKTPyUeClmhYXN" LanguageVersion="2023.5.2" Version="0.128">
-  <NugetDependency Id="HcG4aHap73TLFRp1bdHe57" Location="VL.CoreLib" Version="2023.5.2" />
+<Document xmlns:p="property" Id="JFSIEoA6nKTPyUeClmhYXN" LanguageVersion="2022.5.0-0582-g69e6cbc026" Version="0.128">
+  <NugetDependency Id="HcG4aHap73TLFRp1bdHe57" Location="VL.CoreLib" Version="2022.5.0-0582-g69e6cbc026" />
   <Patch Id="UAp4tq0MGaGMB3VmrjGtXc">
     <Canvas Id="C9OBY6Qbnd8L5cjbdJLo0n" DefaultCategory="Kafka" CanvasType="FullCategory">
       <Canvas Id="MXEOXoPzjGuOV4ELR6uWyI" Name="XML" Position="727,233" DefaultCategory="Kafka.XML" CanvasType="FullCategory">
@@ -8346,10 +8346,60 @@
                     <Pin Id="L76tHD5luVxPv47nqolQs1" Name="Result" Kind="OutputPin" />
                   </Patch>
                 </Node>
+                <!--
+
+    ************************ de ************************
+
+-->
+                <Node Name="de" Bounds="795,429,100,50" Id="FtthOxSjfovLLqnN9T8SZi">
+                  <p:NodeReference>
+                    <Choice Kind="OperationDefinition" Name="Operation" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                  </p:NodeReference>
+                  <p:HideCategory p:Type="Boolean">false</p:HideCategory>
+                  <Patch Id="UikLjmJ6oFvQMMGfKNLr92">
+                    <Node Bounds="795,429,10,10" AutoConnect="true" Id="PcFtGlSfaNvL0ekG1hoTVZ">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
+                        <Choice Kind="OperationNode" Name="de" />
+                        <FullNameCategoryReference ID="StreamRecords.lang" />
+                      </p:NodeReference>
+                      <Pin Id="C97DWpc6ZprPhpM6RHjrkr" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="KmCp3Zh4sl0NDCqF9oC4hh" Name="De" Kind="OutputPin" />
+                    </Node>
+                    <Pin Id="NP9Nkh2QH1ROCqRy3tQ79Q" Name="Input" Kind="InputPin" />
+                    <Pin Id="FLXWp8YUF8KM1UyyZg9C6x" Name="De" Kind="OutputPin" />
+                  </Patch>
+                </Node>
+                <!--
+
+    ************************ en ************************
+
+-->
+                <Node Name="en" Bounds="934,424,100,50" Id="Bp9POxIjjWmPGZvUWuY3nl">
+                  <p:NodeReference>
+                    <Choice Kind="OperationDefinition" Name="Operation" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                  </p:NodeReference>
+                  <p:HideCategory p:Type="Boolean">false</p:HideCategory>
+                  <Patch Id="PpMC1VUKnx3Pj5nf8TNknK">
+                    <Node Bounds="934,424,10,10" AutoConnect="true" Id="FClbMWjOwIbLyJXizyXvNI">
+                      <p:NodeReference LastCategoryFullName="StreamRecords.lang" LastDependency="PushRecords.dll">
+                        <Choice Kind="OperationNode" Name="en" />
+                        <FullNameCategoryReference ID="StreamRecords.lang" />
+                      </p:NodeReference>
+                      <Pin Id="HueknLyD5D7QV1PeYs8rDC" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="UKrGJVGjJ2nMCyKwPIqdNO" Name="En" Kind="OutputPin" />
+                    </Node>
+                    <Pin Id="UuGHbT65zsVPDGDLwn0n7e" Name="Input" Kind="InputPin" />
+                    <Pin Id="PuxXKRm3kNDMkxCPOMllsX" Name="En" Kind="OutputPin" />
+                  </Patch>
+                </Node>
               </Canvas>
               <ProcessDefinition Id="TEF8ZwzMqOuMAXTq4tyBl8" IsHidden="true">
                 <Fragment Id="HVSsCPU01NSLIWQ4ISrIHA" Patch="TaGodbcQwrCQU2KuqdBHuU" Enabled="true" />
                 <Fragment Id="CSv8Q9KcaLVOvw3lMRlGWP" Patch="LJ1LNFbds4gLWjcf5gWCst" />
+                <Fragment Id="LEjsJ6YTlDXQCyC1Nr6MSN" Patch="FtthOxSjfovLLqnN9T8SZi" />
+                <Fragment Id="Fcg2etyqTV6OhZTAd3tNhC" Patch="Bp9POxIjjWmPGZvUWuY3nl" />
               </ProcessDefinition>
             </Patch>
           </Node>
@@ -12420,7 +12470,7 @@
   </Patch>
   <NugetDependency Id="HdMc9Cx9V9NLDpQ5l4joZV" Location="Newtonsoft.Json" Version="13.0.2" />
   <PlatformDependency Id="TMZkSCKhAvGL8lvMEezv1r" Location="./lib/Release/netstandard2.0/Confluent.Kafka.dll" />
-  <NugetDependency Id="OcbmRF9kQXrQKqrRvs3JpK" Location="Confluent.Kafka" Version="1.9.3" />
+  <NugetDependency Id="OcbmRF9kQXrQKqrRvs3JpK" Location="Confluent.Kafka" Version="2.0.2" />
   <PlatformDependency Id="LX3mNvkl81OP7GXy1fe4CZ" Location="System.Text.Encoding" />
   <PlatformDependency Id="D5JQ6v08GVXOJFtf3guvsj" Location="../../vvvv/vvvv_gamma_2022.5.0-0574-ga3c26ef93e/System.Reactive.dll" />
   <PlatformDependency Id="FRr1MFnidS8O6sldAIvgmq" Location="../../patches/lib/Release/net6.0/RuntimeHelper.dll" />
